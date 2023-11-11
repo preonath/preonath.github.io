@@ -1,0 +1,12 @@
+---
+title: "Nasal Swab Dissociation Livestream"
+description: "Wellcome Nasal Swab Dissociation Livestream"
+date: "2022-08-08"
+categories: [Workshop]
+---
+
+<!-- ![](featured.png) -->
+
+- Isolate single cells from frozen nasopharyngeal swab, Single cell capture, Whole transcriptomic amplification, Library preparation, Loading on
+NextSeq 2000 and Computational Analysis by Jaclyn Long from Ordovas‑Montanes Lab, Boston Childrens Hospital
+- Collaboration with MIT, Boston Childrens Hospitaland Bill and Melinda Gates Foundation

@@ -1,0 +1,50 @@
+[
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/teaching/Bioinformatics for Biotechnology Research/index.html",
+      "/teaching/Training on Advanced Next Generation Sequencing/index.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/conference/BSM23_DasM.html",
+      "/publications/conference/BSM23_ShahidMSB.html",
+      "/publications/conference/BSM23_AkterS.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/Breast_Cancer/03_Breast Cancer.html",
+      "/projects/Choronic_Kidney/01_Choronic Kidney.html",
+      "/projects/nipah-virus/index.html",
+      "/projects/Calories_Burnt/02_Calories Burnt Prediction.html",
+      "/projects/ESOL/01_ESOL.html",
+      "/projects/Hepatitis/02_Hepatitis.html",
+      "/projects/Heart_Disease/05_Heart Diseases.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/multi-omics-data-integration/index.html",
+      "/blog/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": []
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/undergraduate-research-importance-benefits-and-challenges/index.html",
+      "/talks/state-the-art-of-microbial-genome-analysi/index.html",
+      "/talks/NIB-WorkShop/index.html",
+      "/talks/Nasal Swab Dissociation Livestream/index.html",
+      "/talks/Sanger Institute/index.html"
+    ]
+  }
+]

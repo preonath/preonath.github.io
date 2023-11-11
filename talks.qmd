@@ -1,0 +1,15 @@
+---
+pagetitle: "Talks | Jubayer Hossain"
+listing:
+  contents: talks
+  sort: "title"
+  type: default
+  grid-item-border: true 
+  categories: true
+  sort-ui: true 
+  filter-ui: true  
+page-layout: full
+title-block-banner: false
+comments: false
+---
+

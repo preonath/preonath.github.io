@@ -1,0 +1,22 @@
+---
+title: "Training on Advanced Next Generation Sequencing "
+categories: [TEACHiNG ASSiSTANT]
+image: "logo.png"
+---
+
+
+## TEACHiNG ASSiSTANT
+Bioinformatics BootCamp is an intensive and comprehensive training program designed to equip participants with the essential skills and knowledge in bioinformatics. This bootcamp offers a hands-on learning experience, covering a wide range of topics such as sequence analysis, genomics, proteomics, and data analysis using popular bioinformatics tools and software. Led by experienced instructors, participants will gain practical expertise, enabling them to effectively analyze biological data and make meaningful discoveries in the field of bioinformatics.
+
+## Learning Objectives
+
+- **Topics Covered in the Training**: Linux OS, NGS Data Analysis(Quality checking,   Quality filter, Genome Assembly, Annotation Using Pathogenwatch,  Building Consensus using CZID, Sample Sheet Preparation for NextSeq2000
+- Bacterial Genomics Antimicrobial Resistance, Topics Covered in the Training: Linux OS, Bash Scripting Genome Assembly, Genome Mapping, Genome Annotation, Genome Submission, MLST Prediction at Total 2 Batches
+- AI in Public Health, This workshop support from the Bill and Melinda Gates foundation, through the ’Democratizing Public Health Modeling Using AI‑based Tools’; Topics Covered in the Training: Data cleaning and preprocessing, Dengue prediction in Puerto Rico using LSTM and ARIMA, Predicting Pneumonia in X‑rays using CNN
+
+
+```{=html}
+<a href="https://omicscenter.github.io/BioinformaticsBootCamp/" class="btn btn-primary rounded-pill me-2">Program Website</a>
+
+<a href="" class="btn btn-primary rounded-pill">Apply to the Program</a>
+```

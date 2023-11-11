@@ -1,0 +1,12 @@
+---
+title: "Sanger Institute"
+description: "Wellcome Sanger Institute"
+date: "2022-08-08"
+categories: [Training]
+---
+
+<!-- ![](featured.png) -->
+
+- Next generation sequencing (NGS) and analysis of bacterial genomes,NGS data quality control, assembly, reference mapping, in silico isolate
+characterisation, developing a portable bioinformatics pipeline, and downstream analyses such as phylogenetic inference
+- Recipient of the scholarship, Wellcome Sanger Institute ‑ Pathogen Genomics (GPS and JUNO projects), Bill and Melinda Gates Foundation

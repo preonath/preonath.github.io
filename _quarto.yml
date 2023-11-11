@@ -1,0 +1,108 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "*.Rmd"
+    - "*.md"
+    - "!README.md"
+    - "!LICENSE.md"
+    - "!myresources/"
+    - "!renv/"
+    - "!certificate*"
+    - "projects"
+  resources:
+    - "files/"
+  preview:
+    port: 4321
+    browser: true
+    watch-inputs: false
+execute:
+  # Re-render only when source changes
+  freeze: auto
+description-meta: "Personal Website for Preonath Chondrow Dev (Bioinformatician,  Data Analyst)"
+engine: knitr
+
+
+website:
+  page-navigation: true
+  open-graph: true
+  twitter-card: true
+  title: ""
+  favicon: /files/profiles/icon.png
+
+  page-footer:
+    background: "#3182bd"
+    border: false
+    left: "&copy; Copyright 2023, Preonath Chondrow Dev"
+    right:
+      - icon: twitter
+        aria-label: twitter
+        href: https://twitter.com/PreonathShuvo
+        rel: me
+      - icon: github
+        aria-label: github
+        href: https://github.com/hossainlab
+        rel: me
+      - icon: youtube
+        aria-label: youtube
+        href: https://www.youtube.com/@hossainlab
+        rel: me
+      - icon: linkedin
+        aria-label: linkedin
+        href: https://www.linkedin.com/in/preonath-shuvo-26aa1416b/
+  navbar:
+      pinned: true
+      background: "#3182bd"
+      # logo: /files/logo.png
+      left:
+        - text: "Home"
+          file: index.qmd
+        - text: "About"
+          file: about.qmd
+        # - text: "Blog"
+        #   file: blog.qmd
+        - text: "Research"
+          file: research.qmd
+        - text: "Publications"
+          file: publications.qmd
+        - text: "Projects"
+          href: projects.qmd
+        # - text: "Dashboards"
+        #   href: dashboards.qmd
+        - text: "Traning"
+          href: talks.qmd
+        - text: "Teaching"
+          file: teaching.qmd
+        - text: "What I Use"
+          file: use.qmd
+        - text: "CV"
+          file: cv/index.qmd
+      right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:preonath2838@gmail.com"
+      - icon: twitter
+        aria-label: twitter
+        href: https://twitter.com/PreonathShuvo
+        rel: me
+      - icon: github
+        aria-label: github
+        href: https://github.com/preonath
+        rel: me
+      - icon: linkedin
+        aria-label: linkedin
+        href: https://www.linkedin.com/in/preonath-shuvo-26aa1416b/
+
+format:
+  html:
+    theme:
+       - journal
+    page-layout: full
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: github
