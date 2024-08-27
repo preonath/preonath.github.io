@@ -1,7 +1,7 @@
 ---
 pagetitle: "Home | Preonath Chondrow Dev"
 title: "Preonath Chondrow Dev"
-subtitle: "Bioinformatician"
+subtitle: "Research Officer and Bioinformatician"
 page-layout: full
 image: files/profiles/preonath.jpg
 about:
