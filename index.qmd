@@ -60,7 +60,7 @@ As a **bioinformatician**, I combine my knowledge in **biochemistry, molecular b
 
 **Analytics Softwares:** SPSS, STATA, Microsoft Excel
 
-**Academic Writing Tools:** Microsoft Word, LaTeX
+**Academic Writing Tools:** Microsoft Word, LaTeX, R Markdown Quarto
 
 **Bioinformatics:** 
 BioPython, Bioconductor, BioPandas, Microarray analysis, RNASeq 
