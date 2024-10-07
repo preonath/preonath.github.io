@@ -65,126 +65,80 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- HTML Structure -->
-<div id="image-slider" class="slider">
-<div class="slide">
-<img src="image1.jpeg" alt="Slide 1">
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+  <!-- Image with Subtle Teal Gradient -->
+  <div style="background: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('teaching_ngs.jpeg'); background-size: cover; background-position: center; width: 100%; height: 100vh;">
+    
+    <!-- Text Overlay on the Background Image -->
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+      <h1 style="font-size: 3em; font-weight: bold; text-align: center;">Bacterial Genomics & Antimicrobial Resistance Workshop</h1>
+      <p style="font-size: 1.5em; text-align: center;">A Comprehensive 5-Day Workshop on Bacterial Genomics and Antimicrobial Resistance</p>
+    </div>
+  </div>
+
 </div>
-<div class="slide">
-<img src="image2.jpeg" alt="Slide 2">
-</div>
-<div class="slide">
-<img src="image3.jpeg" alt="Slide 3">
-</div>
-<div class="slide">
-<img src="image4.jpeg" alt="Slide 4">
-</div>
-<div class="slide">
-<img src="image5.jpeg" alt="Slide 5">
-</div>
-</div>
-<!-- Text Overlay on the Image Slider -->
-<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
-<h1 style="font-size: 3em; font-weight: bold; text-align: center;">
-Bacterial Genomics &amp; Antimicrobial Resistance Workshop
-</h1>
-<p style="font-size: 1.5em; text-align: center;">
-A Comprehensive 5-Day Workshop on Bacterial Genomics and Antimicrobial Resistance
-</p>
-</div>
-<!-- Program Details Below the Image Slider -->
+
+<!-- Structured Program Details Below the Image -->
 <div id="program-details" style="padding: 20px; background-color: #f9f9f9;">
-<h2 style="text-align: center; font-weight: bold;" class="anchored">
-Program Outline &amp; Learning Objectives
-</h2>
-<ul style="list-style-type: none; padding: 0;">
-<li>
-<strong>Introduction:</strong> to bacterial genomics and bioinformatics
-</li>
-<li>
-<strong>Bacterial Genome Analysis:</strong> From sequence data to genomes
-</li>
-<li>
-<strong>Antimicrobial Resistance:</strong> Factors, genes, and pathways
-</li>
-<li>
-<strong>Comparative Genomics:</strong> and phylogenetics
-</li>
-<li>
-<strong>Applications:</strong> of bacterial genomics in research and clinical settings
-</li>
-</ul>
-<h3 style="text-align: center; font-weight: bold;" class="anchored">
-Workshop Duration &amp; Location
-</h3>
-<p style="text-align: center;">
-Duration: 5 days <br> Location: CHRF-HQ, Shyamoli, Dhaka, Bangladesh
-</p>
-<h3 style="text-align: center; font-weight: bold;" class="anchored">
-Apply Now
-</h3>
-<p style="text-align: center;">
-<a href="https://chrfbd.org/pages/building-scientists-for-bangladesh/program/13c4f00f-6201-42df-885c-dca0e2fb948b" class="btn btn-primary rounded-pill me-2">Program Website</a>
-</p>
+  <h2 style="text-align: center; font-weight: bold;">Program Outline & Learning Objectives</h2>
+  <ul style="list-style-type: none; padding: 0;">
+    <li><strong>Introduction:</strong> to bacterial genomics and bioinformatics</li>
+    <li><strong>Bacterial Genome Analysis:</strong> From sequence data to genomes</li>
+    <li><strong>Antimicrobial Resistance:</strong> Factors, genes, and pathways</li>
+    <li><strong>Comparative Genomics:</strong> and phylogenetics</li>
+    <li><strong>Applications:</strong> of bacterial genomics in research and clinical settings</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Workshop Duration & Location</h3>
+  <p style="text-align: center;">Duration: 5 days <br> Location: CHRF-HQ, Shyamoli, Dhaka, Bangladesh</p>
+
+  <h3 style="text-align: center; font-weight: bold;">Apply Now</h3>
+  <p style="text-align: center;">
+    <a href="https://chrfbd.org/pages/building-scientists-for-bangladesh/program/13c4f00f-6201-42df-885c-dca0e2fb948b" class="btn btn-primary rounded-pill me-2">Program Website</a>
+  </p>
 </div>
-<!-- CSS -->
+`);
+</script>
 <style>
-  /* Slider container */
-  .slider {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  /* Each slide */
-  .slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 1.5s ease-in-out;
-  }
-
-  /* First slide should be visible initially */
-  .slide:first-child {
-    opacity: 1;
-  }
-
-  /* Text overlay for slider */
-  h1, p {
-    position: relative;
-    color: white;
-    z-index: 2;
-  }
-
-  /* Program details styling */
   #program-details {
     font-family: Arial, sans-serif;
     color: #333;
     line-height: 1.6;
   }
-</style>
-<!-- JavaScript for sliding effect -->
-<script>
-  let slideIndex = 0;
-  const slides = document.querySelectorAll('.slide');
-
-  // Function to change slide every 3 seconds
-  function showSlides() {
-    slides.forEach((slide, index) => {
-      slide.style.opacity = '0';  // hide all slides
-    });
-    slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1; }
-    slides[slideIndex - 1].style.opacity = '1';  // show current slide
-    setTimeout(showSlides, 3000);  // Change image every 3 seconds
+  
+  h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
-
-  document.addEventListener("DOMContentLoaded", function() {
-    showSlides();  // Initialize the slider
-  });
-</script>
+  
+  ul {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  a.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+  }
+  
+  a.btn:hover {
+    background-color: #0056b3;
+  }
+</style>
 
 </main>
 <!-- /main column -->
