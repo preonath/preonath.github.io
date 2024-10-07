@@ -1,6 +1,6 @@
 ---
 title: "Bacterial Genomics & Antimicrobial Resistance Workshop"
-categories: [Teaching Assistant]
+
 image: "teaching_ngs.jpeg"
 format:
   html:
@@ -8,7 +8,7 @@ format:
       in_header: style.css
       before_body: cover.html
 ---
-
+## Teaching Assistant
 <script type="text/javascript">
 document.write(`
 <!-- Background Image with Gradient Overlay -->

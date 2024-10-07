@@ -1,19 +1,131 @@
 ---
-title: "AI in Public Health"
+title: "AI in Public Health Workshop"
+
 image: "ai_teaching.jpeg"
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
 ---
-
-
 ## Teaching Assistant
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
 
-Bioinformatics BootCamp is an intensive and comprehensive training program designed to equip participants with the essential skills and knowledge in bioinformatics. This bootcamp offers a hands-on learning experience, covering a wide range of topics such as sequence analysis, genomics, proteomics, and data analysis using popular bioinformatics tools and software. Led by experienced instructors, participants will gain practical expertise, enabling them to effectively analyze biological data and make meaningful discoveries in the field of bioinformatics.
+  <!-- Image with Subtle Teal Gradient -->
+  <div style="background: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('ai_teaching.jpeg'); background-size: cover; background-position: center; width: 100%; height: 100vh;">
+    
+    <!-- Text Overlay on the Background Image (Positioned lower within the image) -->
+    <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
+      <h1 style="font-size: 3em; font-weight: bold; text-align: center;">AI in Public Health Workshop</h1>
+      <p style="font-size: 1.5em; text-align: center; max-width: 800px; margin: 0 auto;">This four-day workshop will provide participants with a practical understanding of how Artificial Intelligence (AI) can be applied to enhance public health activities. Through hands-on activities, case studies, and discussions, participants will learn how to use AI tools to improve disease surveillance, diagnosis, treatment, and overall healthcare delivery. The workshop will run from [dates here].</p>
+    </div>
+  </div>
 
-## Learning Objectives
+</div>
 
-- AI in Public Health, This workshop support from the Bill and Melinda Gates foundation, through the ’Democratizing Public Health Modeling Using AI‑based Tools’; Topics Covered in the Training: Data cleaning and preprocessing, Dengue prediction in Puerto Rico using LSTM and ARIMA, Predicting Pneumonia in X‑rays using CNN
+<!-- Structured Program Details Below the Image -->
+<div id="program-details" style="padding: 20px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; font-weight: bold;">Program Outline & Learning Objectives</h2>
+  <ul style="list-style-type: none; padding: 0;">
+    <li><strong>Understand:</strong> the basic terminology and concepts of AI</li>
+    <li><strong>Evaluate:</strong> potential benefits and challenges of implementing AI in public health</li>
+    <li><strong>Analyze:</strong> real-world case studies of AI applications in disease surveillance</li>
+    <li><strong>Use:</strong> AI tools (ChatGPT, BARD) to speed up public health data analysis</li>
+    <li><strong>Assess:</strong> ethical, legal, and societal implications of AI integration in public health</li>
+  </ul>
 
+  <h3 style="text-align: center; font-weight: bold;">Workshop Format and Activities</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>Interactive lectures and presentations</li>
+    <li>Hands-on exercises and practical demonstrations</li>
+    <li>Group discussions and case studies</li>
+    <li>Guest speakers from the field of AI and public health</li>
+    <li>Take-home assignments</li>
+  </ul>
 
-```{=html}
-<a href="https://omicscenter.github.io/BioinformaticsBootCamp/" class="btn btn-primary rounded-pill me-2">Program Website</a>
+  <h3 style="text-align: center; font-weight: bold;">Workshop Instructors</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>Yogesh Hooda, PhD (Scientist & Lead of Biochemistry, CHRF)</li>
+    <li>Senjuti Saha, PhD (Director & Senior Scientist, CHRF)</li>
+  </ul>
 
-```
+  <h3 style="text-align: center; font-weight: bold;">Workshop Guest Speakers</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>Sudipta Saha (PhD Candidate, Harvard University, USA)</li>
+    <li>Mark Sun, PhD (Principal Research Scientist, Versant Stealth Startup, Canada)</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Prerequisites</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>Basic knowledge of public health concepts and introductory statistics</li>
+    <li>Intermediate programming skills in Python/R</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Target Audience</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>Public health professionals</li>
+    <li>Researchers and academics in public health and AI</li>
+    <li>Students interested in the intersection of AI and public health</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Workshop Schedule</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li><strong>Day 1:</strong> Introduction to AI (AI concepts, terminology, applications, and hands-on generating AI code)</li>
+    <li><strong>Day 2:</strong> AI Applications in Public Health Modeling (Typhoid incidence calculation in Bangladesh, modeling vaccine impact)</li>
+    <li><strong>Day 3:</strong> AI in Disease Surveillance (Data sources, data quality, outbreak detection using AI)</li>
+    <li><strong>Day 4:</strong> Implementing AI in Public Health and Future Trends (AI in medical image analysis, addressing bias, ethical discussions)</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Workshop Duration & Location</h3>
+  <p style="text-align: center;">Duration: 4 days <br> Location: CHRF-HQ, Shyamoli, Dhaka, Bangladesh</p>
+
+  <h3 style="text-align: center; font-weight: bold;">Scholarship and Certification</h3>
+  <p style="text-align: center;">This workshop is part of the “Democratizing Public Health Modeling Using AI-based Tools” grant by the Bill and Melinda Gates Foundation. Selected candidates will receive scholarships to cover the course fee. All participants will receive a certificate upon successful completion.</p>
+
+  <h3 style="text-align: center; font-weight: bold;">Apply Now</h3>
+  <p style="text-align: center;">
+    <a href="https://chrfbd.org/pages/building-scientists-for-bangladesh/program/13c4f00f-6201-42df-885c-dca0e2fb948b" class="btn btn-primary rounded-pill me-2">Program Website</a>
+  </p>
+</div>
+`);
+</script>
+
+<style>
+  #program-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  a.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+  }
+  
+  a.btn:hover {
+    background-color: #0056b3;
+  }
+</style>
