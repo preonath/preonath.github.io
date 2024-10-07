@@ -17,9 +17,8 @@ about:
     - icon: twitter
       href: https://twitter.com/PreonathShuvo
     - icon: envelope 
-      href: mailto:preonath2838@gmail.com 
+      href: mailto:preonath2838@gmail.com
 ---
-
 
 :::  panel-tabset
 
@@ -52,26 +51,30 @@ As a **bioinformatician**, I combine my knowledge in **biochemistry, molecular b
 
 # **Skills**
 
-**Programming Languages:** C, Python, Bash, R, Java, Nextflow
+- **Languages:** Bash, Python, C, R, Nextflow, Java  
+- **Data Structure and Algorithms**  
+- **Database Management Systems:** SQL, Redis, SQLite3  
+- **Machine Learning and Deep Learning:**  
+  Proficient in frameworks and techniques: Numpy, Pandas, Matplotlib, Seaborn, Keras, SciKit‑Learn, TensorFlow, PyTorch, Neural Networks (NN), Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), Transformers, Transfer Learning, Reinforcement Learning, Autoencoders  
+- **Tools:** Git, Jupyter Notebook, Visual Studio, R Studio, PyCharm, Visual Studio Code, Terra, Posit  
 
-**Database Management System: ** SQL, MySQL, SQLite3, Redis
+## **Bioinformatics:**  
+- Proficient in **Docker** for pipeline building  
+- **Microarray and Bulk RNA sequencing Analysis:** using DESeq2, stats, ggplot, corrplot, pheatmap, EDASeq, gProfileR  
+- **Genome Quality Checking and Assembly:**  
+  - **Illumina:** BCL2fastq, fastQC, MultiQC, Quast, Trimmomatic, fastp, Unicycler, Spades, Megahit  
+  - **Nanopore:** fast52fasta, Pilon, Flye  
+- **Genome Annotation:** Kraken2, Prokka, PGAp, Kleborate, Seroba, AMRFinderPlus, Abricat, SRST, MLST, Snippy, Mafft, fasta2phylip, Raxml‑ng, Poppunk, PlasmidFinder, ResFinder  
+- **Molecular Dynamics Simulation:** using GROMACS  
+- **Metagenomics Analysis:** using qiime2 and CZID  
+- **Nextstrain:** Built and maintained from Bangladesh for SARS‑CoV‑2  
+- **Single Cell RNA sequencing Analysis:** using Scanpy and Seurat - Data pre‑processing, Clustering and Cell annotation, Integration and Batch correction, Cell‑cell communication, BCR background and 10x analysis, Trajectory inference, Differential abundance, Multiomic scATAC  
 
-**Data Science:** Numpy, Pandas, Malplotlib, Seaborn, Keras, SciKit-Learn, PyTorch, TensorFlow
+## **Wet Lab:**  
+- **Single Cell RNA sequencing Analysis:** using HoneyComb, 10x Genomics, Parse Biosciences, Library preparation, Sequencing on Illumina and Nanopore  
+- **Molecular Techniques:** Conventional and Real‑time PCR, DNA & RNA extraction, Agarose & Polyacrylamide Gel Electrophoresis and Imaging, Blotting techniques, Molecular cloning, ELISA & ICT  
+- **Microbiological Techniques:** Culture, Biochemical tests  
 
-**Analytics Softwares:** SPSS, STATA, Microsoft Excel
-
-**Academic Writing Tools:** Microsoft Word, LaTeX, R Markdown Quarto
-
-**Bioinformatics:** 
-BioPython, Bioconductor, BioPandas, Microarray analysis, RNASeq 
-  <ul style="margin-left: 20px;">
-    <li><strong>NGS:</strong> Converting(BCL2fastq), Quality checking(fastQC, MultiQC, Quast), Quality control(Trimmomatic), Assembly(Unicycler, Spades, Megahit, Pilon, Flye), Assembly viewer (Bandage)</li>
-    <li><strong>Annotation:</strong> AMRFinderPlus, Abricate, SRST, MLST, Snippy, Mafft, fasta2phylip, Raxml-ng, Poppunk, PlasmidFinder, ResFinder, Blast, Pharokka, Virustaxo, Kraken2, Prokka, Seroba, bwa, bowtie2, samtools, bamtools, bcftools, snp-sites, BLAST, snippy, FastTree, Gubbins, popPUNK, Abricate, Any2fasta, ARIBA, SeroBA, SRST2, mlst, IGV, CZID, Nextstrain</li>
-    <li><strong>Single Cell RNA sequencing Analysis:</strong> Scanpy, Seurat</li>
-  </ul>
-
-
-**Miscellaneous Skills:** UNIX, Version Control(Git), Web Scraping
 
 
 # Education

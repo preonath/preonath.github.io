@@ -20,9 +20,8 @@ project:
 execute:
   # Re-render only when source changes
   freeze: auto
-description-meta: "Personal Website for Preonath Chondrow Dev (Bioinformatician,  Data Analyst)"
+description-meta: "Personal Website for Preonath Chondrow Dev (Bioinformatician, Data Analyst)"
 engine: knitr
-
 
 website:
   page-navigation: true
@@ -42,7 +41,7 @@ website:
         rel: me
       - icon: github
         aria-label: github
-        href: https://github.com/hossainlab
+        href: https://github.com/preonath
         rel: me
       - icon: youtube
         aria-label: youtube
@@ -51,53 +50,37 @@ website:
       - icon: linkedin
         aria-label: linkedin
         href: https://www.linkedin.com/in/preonath-shuvo-26aa1416b/
+
   navbar:
-      pinned: true
-      background: "#3182bd"
-      # logo: /files/logo.png
-      left:
-        - text: "Home"
-          file: index.qmd
-        - text: "About"
-          file: about.qmd
-        # - text: "Blog"
-        #   file: blog.qmd
-        - text: "Research"
-          file: research.qmd
-        - text: "Publications"
-          file: publications.qmd
-        - text: "Projects"
-          href: projects.qmd
-        # - text: "Dashboards"
-        #   href: dashboards.qmd
-        - text: "Traning"
-          href: talks.qmd
-        - text: "Teaching"
-          file: teaching.qmd
-        - text: "What I Use"
-          file: use.qmd
-        - text: "CV"
-          file: cv/index.qmd
-      right:
-      - icon: envelope
-        aria-label: email
-        href: "mailto:preonath2838@gmail.com"
-      - icon: twitter
-        aria-label: twitter
-        href: https://twitter.com/PreonathShuvo
-        rel: me
-      - icon: github
-        aria-label: github
-        href: https://github.com/preonath
-        rel: me
-      - icon: linkedin
-        aria-label: linkedin
-        href: https://www.linkedin.com/in/preonath-shuvo-26aa1416b/
+    pinned: true
+    background: "#3182bd"
+    # logo: /files/logo.png
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "About"
+        file: about.qmd
+      - text: "Research"
+        file: research.qmd
+      - text: "Publications"
+        file: publications.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Training"
+        href: talks.qmd
+      - text: "Teaching"
+        file: teaching.qmd
+      - text: "What I Use"
+        file: use.qmd
+      - text: "CV"
+        file: cv/index.qmd
+    # Removed the icons from the navbar right section to avoid duplication
+    right: []  # Make this empty to prevent icons from appearing on the right side of the navbar
 
 format:
   html:
     theme:
-       - journal
+      - journal
     page-layout: full
     toc: false
     code-link: true
@@ -106,3 +89,4 @@ format:
     reference-location: margin
     footnotes-hover: true
     highlight-style: github
+
