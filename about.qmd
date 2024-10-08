@@ -1,10 +1,23 @@
 ---
-pagetitle: "About | Preonath Chondrow Dev"
-title: "About me"
+pagetitle: "Home | Preonath Chondrow Dev"
+title: "Preonath Chondrow Dev"
+subtitle: "Research Officer and Bioinformatician"
 page-layout: full
-title-block-banner: false
-comments: false
-callout-icon: false
+image: files/profiles/preonath.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rounded
+  image-width: 10cm
+  links:
+    - icon: linkedin
+      href: https://www.linkedin.com/in/preonath-shuvo-26aa1416b/
+    - icon: github
+      href: https://github.com/preonath
+    - icon: twitter
+      href: https://twitter.com/PreonathShuvo
+    - icon: envelope 
+      href: mailto:preonath2838@gmail.com
 ---
 
 :::  panel-tabset

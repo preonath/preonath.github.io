@@ -56,8 +56,6 @@ website:
     background: "#3182bd"
     # logo: /files/logo.png
     left:
-      - text: "Home"
-        file: index.qmd
       - text: "About"
         file: about.qmd
       - text: "Research"
