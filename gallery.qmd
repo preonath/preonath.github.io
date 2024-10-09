@@ -1,5 +1,5 @@
 ---
-pagetitle: "Visualization Gallery | Jubayer Hossain"
+pagetitle: "Visualization Gallery | Preonath"
 filters:
    - lightbox
 lightbox: auto

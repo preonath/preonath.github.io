@@ -1,5 +1,5 @@
 ---
-pagetitle: "What I Use | Jubayer Hossain"
+pagetitle: "What I Use | Preonath"
 title: "What I Use"
 page-layout: full
 title-block-banner: false

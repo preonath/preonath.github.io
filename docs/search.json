@@ -1117,7 +1117,7 @@
     "href": "blog.html",
     "title": "",
     "section": "",
-    "text": "Multi-omics Data Integration for Cancer Research\n\n\n\n\n\n\n\nMulti-omics Data Integration\n\n\nCancer Research\n\n\nMachine Learning\n\n\nOmics Data Analysis\n\n\n\n\nExplore the power of multi-omics data integration in cancer research. Learn from real-world case studies and groundbreaking discoveries. Find out more about this cutting-edge approach.\n\n\n\n\n\n\nSep 2, 2023\n\n\nMd. Jubayer Hossain\n\n\n\n\n\n\n  \n\n\n\n\nUnlocking the Power of Data: Join the Journey on My Blog!\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nMd. Jubayer Hossain\n\n\n\n\n\n\nNo matching items"
+    "text": "Multi-omics Data Integration for Cancer Research\n\n\n\n\n\n\nMulti-omics Data Integration\n\n\nCancer Research\n\n\nMachine Learning\n\n\nOmics Data Analysis\n\n\n\nExplore the power of multi-omics data integration in cancer research. Learn from real-world case studies and groundbreaking discoveries. Find out more about this cutting-edge approach.\n\n\n\n\n\nSep 2, 2023\n\n\nMd. Preonath\n\n\n\n\n\n\n\n\n\n\n\n\nUnlocking the Power of Data: Join the Journey on My Blog!\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nMd. Preonath\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#research-experience",
@@ -2245,5 +2245,75 @@
     "title": "Bioinformatics Division, National Institute of Biotechnology (NIB)",
     "section": "Topics Covered in the Training",
     "text": "Topics Covered in the Training\n\nLinux OS: Practical usage for bioinformatics workflows.\nNGS Data Analysis: Utilizing Python and Biopython for processing sequencing data.\nBash Scripting: Automation techniques for managing large bioinformatics projects.\n\nProgram Website\nApply to the Program"
+  },
+  {
+    "objectID": "index.html#research-experience",
+    "href": "index.html#research-experience",
+    "title": "Preonath Chondrow Dev",
+    "section": "Research Experience",
+    "text": "Research Experience\nNational Gene Bank, National Institute of Biotechnology | Dhaka, Bangladesh | (5 Sept 2021 ‑ 30 June 2022)\n\nThesis Project: Development of a disease detection tool from metagenomic sequence data utilizing k‑mer frequency based algorithms: A gut microbiome study\nRevealing the Disease complexity and Population Structure of Human Gut Microbiota from Diverse Cohort of Bangladesh Population\nDeep learning model based tools development, metagenomic analysis, vaccine trial in the mouse model\nRNA seq data analysis and molecular dynamic simulation\nWet Lab: Sample preparation, and DNA extraction‑related activities\n\nChild Health Research Foundation  | Dhaka, Bangladesh | (01 Aug 2022 ‑ Present)\n\nDevelop and apply bioinformatics tools to process, analyze, and interpret high throughput datasets, including bacterial genome sequencing, viral genome sequencing, and unbiased metagenomic sequencing\nApply biological and statistical knowledge to draw rigorous, actionable conclusions from complex data sets. Discuss findings with colleagues and supervisors\nCollaborate with groups across the institution to support research projects\nParticipate in the preparation of written reports and oral presentations summarizing data analysis results, including a detailed description of bioinformatics methods, analysis of results, and synthesis of conclusions from summary tables.\nTake the initiative to acquire new bioinformatics, statistical, or programming skills as needed.\n\n\nCenter for Health Innovation, Research, Action, and Learning ‑ Bangladesh | Dhaka, Bangladesh | (Nov 2023 ‑ Present)\n\nDesign and develop bioinformatics courses for undergraduates and professionals\nDesign and implement bioinformatics solutions for biologists\nLead the omics team to design and implement multi‑omics projects"
+  },
+  {
+    "objectID": "index.html#teaching-experience",
+    "href": "index.html#teaching-experience",
+    "title": "Preonath Chondrow Dev",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\nINSTRUCTOR | [Bioinformatics Division, National Institute of Biotechnology (NIB)] | Dhaka, Bangladesh | (2021)\n\nDelivered training on Bioinformatics for Biotechnology Research\nTopics covered included Linux OS, NGS Data Analysis, and Python.\n\nTEACHiNG ASSiSTANT | [Child Health Research Foundation (CHRF)] | Dhaka, Bangladesh | (2021)\n\nAdvanced Next Generation Sequencing, Topics Covered in the Training: Linux OS, NGS Data Analysis: Quality checking, Quality filter, Genome Assembly, Annotation Using Pathogenwatch, Building Consensus using CZID, Sample Sheet Preparation for NextSeq2000; Total 25 Batches\nBacterial Genomics Antimicrobial Resistance, Topics Covered in the Training: Linux OS, Bash Scripting Genome Assembly, Genome Mapping, Genome Annotation, Genome Submission, MLST Prediction at Total 2 Batches\nAI in Public Health, This workshop support from the Bill and Melinda Gates foundation, through the ’Democratizing Public Health Modeling Using AI‑based Tools’; Topics Covered in the Training: Data cleaning and preprocessing, Dengue prediction in Puerto Rico using LSTM and ARIMA, Predicting Pneumonia in X‑rays using CNN"
+  },
+  {
+    "objectID": "index.html#volunteering",
+    "href": "index.html#volunteering",
+    "title": "Preonath Chondrow Dev",
+    "section": "Volunteering",
+    "text": "Volunteering\nACADEMiC TEAM MEMBER | [Bangladesh Mathematical Olympiad] | Dhaka, Bangladesh | (2021)\nEngaged in evaluating examination papers and overseeing exam hall activities to ensure a smooth conduct of the Olympiad\nACADEMiC TEAM MEMBER | [Bangladesh Physics Olympiad] | Dhaka, Bangladesh | (2021)\nPlayed a crucial role in monitoring examination procedures and providing assistance to participants throughout the event.\nACADEMiC TEAM MEMBER | [Bangladesh Physics Olympiad] | Dhaka, Bangladesh | (2021)\nTasked with the assessment of solutions and maintaining order among candidates during the Olympiad competitions\nENZYME | [Bangladesh Biology Olympiad ] | Dhaka, Bangladesh | (2021)\nAssisted in the evaluation process and managed the exam hall logistics to facilitate a fair and efficient Olympiad\nMENTOR | [Bioinformatics School ] | Dhaka, Bangladesh | (2021)\nSolve the different kinds of bioinformatics related problem of the group members"
+  },
+  {
+    "objectID": "training.html",
+    "href": "training.html",
+    "title": "",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAdvance Bioinformatics Training\n\n\n\n\n\n\nTraining\n\n\n\nCHIRAL Bangladesh\n\n\n\n\n\nAug 8, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Bioinformatics Training\n\n\n\n\n\n\nTraining\n\n\n\nWellcome Sanger Institute\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndustrial Training (Academic)\n\n\n\n\n\n\nTraining\n\n\n\nIndustrial Training\n\n\n\n\n\nJul 28, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nNIB Advanced Bioinformatics Workshop\n\n\n\n\n\n\nTraining\n\n\n\nNIB Advanced Bioinformatics\n\n\n\n\n\nAug 8, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nNasal Swab Dissociation Livestream\n\n\n\n\n\n\nWorkshop\n\n\n\nWellcome Nasal Swab Dissociation Livestream\n\n\n\n\n\nAug 8, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "training/undergraduate-research-importance-benefits-and-challenges/index.html",
+    "href": "training/undergraduate-research-importance-benefits-and-challenges/index.html",
+    "title": "Advance Bioinformatics Training",
+    "section": "",
+    "text": "The Undergraduate Research Training Program(URTP) provides intermediate-level biomedical research training for undergraduates in a supportive environment with supplement educational activities. Furthermore, this course is designed to enhance the undergraduate research experience by focusing on critical communication skills for success in research and broadly transferable professional skills. Students will become part of a community of scholars in health sciences. The course is suitable for students beginning the first semester of undergraduate studies and completing their second or"
+  },
+  {
+    "objectID": "training/Sanger Institute/index.html",
+    "href": "training/Sanger Institute/index.html",
+    "title": "Sanger Institute",
+    "section": "",
+    "text": "Next generation sequencing (NGS) and analysis of bacterial genomes,NGS data quality control, assembly, reference mapping, in silico isolate characterisation, developing a portable bioinformatics pipeline, and downstream analyses such as phylogenetic inference\nRecipient of the scholarship, Wellcome Sanger Institute ‑ Pathogen Genomics (GPS and JUNO projects), Bill and Melinda Gates Foundation"
+  },
+  {
+    "objectID": "training/NIB-WorkShop/index.html",
+    "href": "training/NIB-WorkShop/index.html",
+    "title": "NIB Advanced Bioinformatics Workshop",
+    "section": "",
+    "text": "Introduction to Bioinformatics, Exploring Nucleic Acid Databases and Data mining, Proteomics: Biochemical Properties, Structure and Interac‑ tions of Proteins, Sanger Sequence data analysis: Quality Assurance and Information Mining From DNA Sequence Data, Sequence Data submis‑ sion to public databases, DNA Amplification and Cloning, Comparative Genomics:Species or Gene identification and sequence determination, Evolutionary Relationship Determination\nInstructor: Dr. Abul Bashar Mir Md. Khademul Islam, Dept. of Genetic Engineering and Biotechnology University of Dhaka\nCenter for Next Generation Sequencing and Analytics by Ministry of Science and Technology, Bangladesh"
+  },
+  {
+    "objectID": "training/Nasal Swab Dissociation Livestream/index.html",
+    "href": "training/Nasal Swab Dissociation Livestream/index.html",
+    "title": "Nasal Swab Dissociation Livestream",
+    "section": "",
+    "text": "Isolate single cells from frozen nasopharyngeal swab, Single cell capture, Whole transcriptomic amplification, Library preparation, Loading on NextSeq 2000 and Computational Analysis by Jaclyn Long from Ordovas‑Montanes Lab, Boston Childrens Hospital\nCollaboration with MIT, Boston Childrens Hospitaland Bill and Melinda Gates Foundation"
+  },
+  {
+    "objectID": "training/state-the-art-of-microbial-genome-analysi/index.html",
+    "href": "training/state-the-art-of-microbial-genome-analysi/index.html",
+    "title": "Industrial Training (Academic)",
+    "section": "",
+    "text": "Genomics is the study of whole genomes of organisms, and incorporates elements from ge- netics. Genomics uses a combination of recombinant DNA, DNA sequencing methods, and bioinformatics to sequence, assemble, and analyse the structure and function of genomes. Genomics have become an inter-disciplinary(Computer Science, Statistics, Biology) sci- ence. The genomic data analysis steps typically include data collection, quality check and cleaning, processing, modeling, visualization and reporting.\n\nNational Forensic DNA Profiling Laboratory (NFDPL) - Dhaka\nBangladesh Council of Scientific and Industrial Research(BCSIR) - Dhaka\nDelta Pharma Ltd. Kishoreganj, Bangladesh"
+  },
+  {
+    "objectID": "training/Advanced_Bioinformatics_Training_Sanger_Institute/index.html",
+    "href": "training/Advanced_Bioinformatics_Training_Sanger_Institute/index.html",
+    "title": "Advanced Bioinformatics Training",
+    "section": "",
+    "text": "Next generation sequencing (NGS) and analysis of bacterial genomes,NGS data quality control, assembly, reference mapping, in silico isolate characterisation, developing a portable bioinformatics pipeline, and downstream analyses such as phylogenetic inference\nRecipient of the scholarship, Wellcome Sanger Institute ‑ Pathogen Genomics (GPS and JUNO projects), Bill and Melinda Gates Foundation"
   }
 ]

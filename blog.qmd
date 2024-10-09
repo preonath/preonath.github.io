@@ -1,5 +1,5 @@
 ---
-pagetitle: "Blog | Jubayer Hossain"
+pagetitle: "Blog | Preonath"
 description: |
   This part is the same as the Quarto default blog template. 
 listing:

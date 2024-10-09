@@ -47,5 +47,15 @@
       "/talks/Nasal Swab Dissociation Livestream/index.html",
       "/talks/Sanger Institute/index.html"
     ]
+  },
+  {
+    "listing": "/training.html",
+    "items": [
+      "/training/undergraduate-research-importance-benefits-and-challenges/index.html",
+      "/training/Advanced_Bioinformatics_Training_Sanger_Institute/index.html",
+      "/training/state-the-art-of-microbial-genome-analysi/index.html",
+      "/training/NIB-WorkShop/index.html",
+      "/training/Nasal Swab Dissociation Livestream/index.html"
+    ]
   }
 ]

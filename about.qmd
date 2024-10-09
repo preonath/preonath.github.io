@@ -1,5 +1,5 @@
 ---
-pagetitle: "Home | Preonath Chondrow Dev"
+pagetitle: "Preonath Chondrow Dev"
 title: "Preonath Chondrow Dev"
 subtitle: "Research Officer and Bioinformatician"
 page-layout: full

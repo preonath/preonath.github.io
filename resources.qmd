@@ -1,5 +1,5 @@
 ---
-pagetitle: "Resources | Md. Jubayer Hossain"
+pagetitle: "Resources | Preonath"
 title: "Resources"
 toc: true
 toc-location: right 

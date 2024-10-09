@@ -1,5 +1,5 @@
 ---
-pagetitle: "Projects | Jubayer Hossain"
+pagetitle: "Projects | Preonath"
 listing:
   contents: projects
   sort: "title"

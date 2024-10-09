@@ -1,0 +1,143 @@
+---
+title: "Advanced Bioinformatics Training"
+description: "Wellcome Sanger Institute"
+#date: "2022-08-08"
+categories: [Training]
+image: "Workshop_India.jpeg" # Background image
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+## Training Overview
+
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+  <!-- Slideshow Background with the new background image -->
+  <div class="slideshow-container">
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('Workshop_India.jpeg'); background-size: cover; background-position: center;"></div>
+  </div>
+
+  <!-- Text Overlay on the Background Image -->
+  <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
+    <h1 style="font-size: 3em; font-weight: bold; text-align: center;">Advanced Bioinformatics Training</h1>
+    <p style="font-size: 1.5em; text-align: center; max-width: 800px; margin: 0 auto;">
+      This advanced bioinformatics course was developed for the GPS and JUNO projects. The GPS project, i.e., the Global Pneumococcal Sequencing project is a worldwide genomic surveillance network of Streptococcus pneumoniae which provides evidence for pneumococcal disease control. The JUNO project is a global genomic surveillance of Streptococcus agalactiae, which is a major cause of neonatal invasive disease worldwide.
+    </p>
+  </div>
+</div>
+
+<!-- Structured Program Details Below the Image -->
+<div id="program-details" style="padding: 20px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; font-weight: bold;">Training Details</h2>
+  <p style="text-align: center; font-size: 1.2em; max-width: 800px; margin: 0 auto;">
+    This course is aimed at researchers who are part of these global surveillance networks and have an interest in learning how to carry out next-generation sequencing (NGS) and analysis of bacterial genomes, specifically <em>Streptococcus pneumoniae</em> and/or <em>Streptococcus agalactiae</em>. It concentrates on the application of cutting-edge genomic techniques that are currently being implemented.
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Funding</h3>
+  <p style="text-align: center; font-size: 1.2em; max-width: 800px; margin: 0 auto;">
+    This course was funded by The Gates Foundation through the GPS and JUNO projects and delivered as in-person and virtual workshops in partnership with six institutions across four continents to over 100 participants.
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Key Learning Objectives</h3>
+  <ul style="list-style-type: none; padding: 0; font-size: 1.2em; max-width: 800px; margin: 0 auto;">
+    <li><strong>Next-generation sequencing (NGS):</strong> Focused on bacterial genomes (Streptococcus pneumoniae and/or Streptococcus agalactiae)</li>
+    <li><strong>NGS data quality control</strong> for assembly and reference mapping</li>
+    <li><strong>In silico isolate characterization:</strong> Analysis and variant calling</li>
+    <li><strong>Bioinformatics pipeline development:</strong> Portable pipelines for sequencing analysis</li>
+    <li><strong>Downstream analyses:</strong> Phylogenetic inference and related techniques</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Training Format</h3>
+  <p style="text-align: center; font-size: 1.2em; max-width: 800px; margin: 0 auto;">
+    This course was delivered both as in-person and virtual workshops, with hands-on exercises, interactive lectures, and case studies focused on genomic surveillance and data interpretation.
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Location and Schedule</h3>
+  <p style="text-align: center; font-size: 1.2em;">
+    Delivered globally, including workshops in India, South Africa, Colombia, and the UK, with both virtual and in-person components.
+  </p>
+</div>
+`);
+</script>
+
+<style>
+  #program-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  ul {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0;
+  }
+
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin: 0 auto;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Each slide */
+  .mySlides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  /* Make the first slide visible */
+  .mySlides:first-child {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.mySlides');
+  
+  function showSlides() {
+    slides.forEach((slide) => {
+      slide.style.opacity = '0';  // Hide all slides
+    });
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }  // Loop back to first slide
+    slides[slideIndex - 1].style.opacity = '1';  // Show the current slide
+    setTimeout(showSlides, 3000);  // Change image every 3 seconds
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    showSlides();  // Initialize the slideshow
+  });
+</script>

@@ -1,7 +1,7 @@
 ---
-pagetitle: "Talks | Jubayer Hossain"
+pagetitle: "Training | Preonath"
 listing:
-  contents: talks
+  contents: training
   sort: "title"
   type: default
   grid-item-border: true 

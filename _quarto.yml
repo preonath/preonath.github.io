@@ -45,7 +45,7 @@ website:
         rel: me
       - icon: youtube
         aria-label: youtube
-        href: https://www.youtube.com/@hossainlab
+        href: https://www.youtube.com/@preonath
         rel: me
       - icon: linkedin
         aria-label: linkedin
@@ -64,8 +64,8 @@ website:
         file: publications.qmd
       - text: "Projects"
         href: projects.qmd
-      - text: "Training"
-        href: talks.qmd
+      - text: "Training "
+        href: training.qmd
       - text: "Teaching"
         file: teaching.qmd
       - text: "What I Use"
