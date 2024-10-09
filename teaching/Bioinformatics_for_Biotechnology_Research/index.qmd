@@ -1,6 +1,6 @@
 ---
 title: "Bioinformatics Division, National Institute of Biotechnology (NIB)"
-image: "nib_traning.jpg"
+image: "nib_traning_1.jpg"
 format:
   html:
     includes:
@@ -8,6 +8,7 @@ format:
       before_body: cover.html
 ---
 ## Teaching Assistant
+
 <script type="text/javascript">
 document.write(`
 <!-- Background Image with Gradient Overlay and Slideshow -->
@@ -15,10 +16,10 @@ document.write(`
 
   <!-- Slideshow Background -->
   <div class="slideshow-container">
-    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('/teaching/Bioinformatics_for_Biotechnology_Research/nib_traning.jpg'); background-size: cover; background-position: center;"></div>
-    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('/teaching/Bioinformatics_for_Biotechnology_Research/nib_traning_1.jpg'); background-size: cover; background-position: center;"></div>
-    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('/teaching/Bioinformatics_for_Biotechnology_Research/nib_traning_2.jpg'); background-size: cover; background-position: center;"></div>
-    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('/teaching/Bioinformatics_for_Biotechnology_Research/nib_traning_3.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Bioinformatics_for_Biotechnology_Research/nib_traning_1.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Bioinformatics_for_Biotechnology_Research/nib_traning_2.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Bioinformatics_for_Biotechnology_Research/nib_traning_3.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Bioinformatics_for_Biotechnology_Research/nib_traning_4.jpg'); background-size: cover; background-position: center;"></div>
   </div>
 
   <!-- Text Overlay on the Background Image (Positioned lower within the image) -->

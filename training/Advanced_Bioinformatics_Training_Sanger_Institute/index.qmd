@@ -1,8 +1,6 @@
 ---
 title: "Advanced Bioinformatics Training"
 description: "Wellcome Sanger Institute"
-#date: "2022-08-08"
-categories: [Training]
 image: "Workshop_India.jpeg" # Background image
 format:
   html:
@@ -17,10 +15,13 @@ document.write(`
 <!-- Background Image with Gradient Overlay and Slideshow -->
 <div id="intro-section" style="position: relative; text-align: center; color: white;">
 
-  <!-- Slideshow Background with the new background image -->
-  <div class="slideshow-container">
-    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('Workshop_India.jpeg'); background-size: cover; background-position: center;"></div>
-  </div>
+  <!-- Slideshow Background with the images -->
+<div class="slideshow-container">
+  <!-- Use relative paths for the images -->
+  <div class="mySlides fade" style="background-image: url('Workshop_India.jpeg'); background-size: cover; background-position: center;"></div>
+  <div class="mySlides fade" style="background-image: url('files/gps_logo.jpeg'); background-size: cover; background-position: center;"></div>
+</div>
+
 
   <!-- Text Overlay on the Background Image -->
   <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
