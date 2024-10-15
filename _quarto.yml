@@ -62,8 +62,8 @@ website:
         file: research.qmd
       - text: "Publications"
         file: publications.qmd
-      - text: "Projects"
-        href: projects.qmd
+      - text: "Conference"
+        href: conference.qmd
       - text: "Training "
         href: training.qmd
       - text: "Teaching"
