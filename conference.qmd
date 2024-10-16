@@ -1,5 +1,5 @@
 ---
-pagetitle: "Poster Presentation | Preonath"
+pagetitle: "Conferences | Preonath"
 listing:
   contents: conferences 
   sort: "title"

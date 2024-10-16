@@ -63,8 +63,8 @@
     "listing": "/conference.html",
     "items": [
       "/conferences/single_cell_atlas/index.html",
-      "/conferences/Paratyphi_A/index.html",
-      "/conferences/Paratyphi_B/index.html"
+      "/conferences/Paratyphi_B/index.html",
+      "/conferences/Paratyphi_A/index.html"
     ]
   }
 ]

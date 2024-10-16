@@ -129,7 +129,7 @@ document.write(`
     12th - 18th February, 2023<br>
     Kempegowda Institute of Medical Sciences<br>
     Bengaluru, India
-</p>
+
 
 <p style="text-align: center;">
     <a href="https://training.bactgen.sanger.ac.uk/#/" class="btn btn-primary rounded-pill me-2">Program Website</a>
