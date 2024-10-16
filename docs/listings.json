@@ -58,5 +58,13 @@
       "/training/Nasal Swab Dissociation Livestream/index.html",
       "/training/Serocalculator_Workshop/index.html"
     ]
+  },
+  {
+    "listing": "/conference.html",
+    "items": [
+      "/conferences/single_cell_atlas/index.html",
+      "/conferences/Paratyphi_A/index.html",
+      "/conferences/Paratyphi_B/index.html"
+    ]
   }
 ]
