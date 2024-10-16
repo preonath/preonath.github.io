@@ -1,7 +1,7 @@
 ---
 title: "SeroCalculator Workshop"
 description: "University of California, Davis; Sabin Vaccine Institute"
-image: "SCW_0.jpeg" # Background image
+image: "SCW.jpeg" # Background image
 format:
   html:
     includes:

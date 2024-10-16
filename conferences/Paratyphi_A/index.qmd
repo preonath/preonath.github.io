@@ -1,7 +1,7 @@
 ---
 title: "Paratype v1.1: Recent Updates to the Genotyping Tool for Paratyphoid Fever Surveillance"
 description: "13th International Conference on Typhoid and Other Invasive Salmonelloses"
-image: "cat_1.png"
+image: "cat.jpeg"
 format:
   html:
     includes:

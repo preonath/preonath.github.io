@@ -1,7 +1,7 @@
 ---
 title: "Building a single‑cell atlas of the nasopharyngeal mucosa to investigate SARS‑CoV‑2 infection"
 description: "2024 HCA Single‑Cell Omics in‑person Computational and Experimental Design Workshop"
-image: "HCA_1.jpeg"
+image: "HCA.jpeg"
 format:
   html:
     includes:
@@ -57,8 +57,9 @@ document.write(`
   <ul style="list-style-type: none; padding: 0;">
     <li>Preonath Chondrow Dev*, Apurba Rajib Malaker, Deb Purna Keya, Yogesh Hooda*, Senjuti Saha*</li>
   </ul>
-<h3 style="text-align: center; font-weight: bold;">Acknowledgements</h3>
-<ul style="list-style-type: none; padding: 0;">Senjuti Saha & team - Child Health Research Foundation, José Ordovás-Montañes & team - Harvard Stem Cell Institute, Alex Shalek & team - MIT, Bruce Horwitz & team - Boston Children's Hospital<br></p>
+
+  <h3 style="text-align: center; font-weight: bold; margin-bottom: 10px;">Acknowledgements</h3> <!-- Reduced margin here -->
+  <ul style="list-style-type: none; padding: 0;">Senjuti Saha & team - Child Health Research Foundation, José Ordovás-Montañes & team - Harvard Stem Cell Institute, Alex Shalek & team - MIT, Bruce Horwitz & team - Boston Children's Hospital<br></p>
   
   <img src="../../files/img/conferences/single_cell_atlas/chrf.png" alt="CHRF Partner" style="max-width: 100px; margin: 10px;">
   <img src="../../files/img/conferences/single_cell_atlas/josh_ordovas.png" alt="Josh Ordovas Partner" style="max-width: 150px; margin: 10px;">
@@ -68,10 +69,12 @@ document.write(`
   <img src="../../files/img/conferences/single_cell_atlas/bmgf.png" alt="Bill & Melinda Gates Foundation" style="max-width: 150px; margin: 10px;">
   <img src="../../files/img/conferences/single_cell_atlas/czi.png" alt="Chan Zuckerberg Initiative" style="max-width: 150px; margin: 10px;">
   <img src="../../files/img/conferences/single_cell_atlas/who.png" alt="WHO Partner" style="max-width: 150px; margin: 10px;">
-</div>
-<h3 style="text-align: center; font-weight: bold;">Location and Schedule</h3>
+
+<!-- Adjust margin for the following section to reduce space -->
+<h3 style="text-align: center; font-weight: bold; margin-top: 20px;">Location and Schedule</h3>
 <p style="text-align: center; font-size: 1em;">
-    Mahidol University, Bangkok, Thailand<br>
+    Mahidol University,
+    Bangkok, Thailand<br>
     24th - 28th June, 2024<br>
 </p>
 
@@ -86,8 +89,8 @@ document.write(`
   #program-details {
     font-family: Arial, sans-serif;
     color: #333;
-    line-height: 1;
-    padding: 10px;
+    line-height: 1.6;
+    padding: 20px;
     background-color: #f9f9f9;
     max-width: 1200px; /* Reduced width */
     margin: 0 auto; /* Center the content */

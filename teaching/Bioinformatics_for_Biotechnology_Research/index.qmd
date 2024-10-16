@@ -1,6 +1,6 @@
 ---
 title: "Bioinformatics Division, National Institute of Biotechnology (NIB)"
-image: "nib_traning_1.jpg"
+image: "nib_traning.jpg"
 format:
   html:
     includes:
