@@ -20,6 +20,31 @@ about:
       href: mailto:preonath2838@gmail.com
 ---
 
+<!-- <style> -->
+<!--   /* Full Screen Background Image with Overlay */ -->
+<!--  body { -->
+<!--     background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 0, 128, 0.5)),  -->
+<!--                       url("files/backgrounds/full_screen_background.jpg"); /* Adjust this path as needed */ -->
+<!--     background-size: cover; -->
+<!--     background-position: center; -->
+<!--     background-attachment: fixed; -->
+<!--     background-repeat: no-repeat; -->
+<!-- } -->
+
+<!--   /* Ensure all content maintains normal layout */ -->
+<!--   #hero-heading { -->
+<!--     padding: 30px; -->
+<!--     background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for content readability */ -->
+<!--     border-radius: 10px; -->
+<!--     max-width: 1000px; -->
+<!--     margin: auto; -->
+<!--     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); -->
+<!--   } -->
+
+<!--   h1, h2, h3, p, li { -->
+<!--     color: #333; /* Text color for readability */ -->
+<!--   } -->
+<!-- </style> -->
 :::  panel-tabset
 
 # Bio
@@ -87,7 +112,6 @@ and supervisors
 bioinformatics methods, analysis of results, and synthesis of conclusions from summary tables.
 - Take the initiative to acquire new bioinformatics, statistical, or programming skills as needed.
 
-<!-- **Research Intern** \| Health Systems and Population Health Studies Division |  [International Centre for Diarrhoeal Disease Research, Bangladesh)](https://www.icddrb.org/) \|  Dhaka, Bangladesh \| (February 2022 - June 2022) -->
 **Center for Health Innovation, Research, Action, and Learning ‑ Bangladesh** | Dhaka, Bangladesh \| (Nov 2023 ‑ Present)
 
 - Design and develop bioinformatics courses for undergraduates and professionals
@@ -145,7 +169,7 @@ Solve the different kinds of bioinformatics related problem of the group members
 **Data Analysis:** Numpy, Pandas, Matplotlib, Seaborn, Keras, SciKit‑Learn, TensorFlow;
 
 **Bioinformatics:** Microarray analysis,
-RNA sequencing Analysis using R and Bash, Single Cell RNA sequencing Analysis using scanpy and seura
+RNA sequencing Analysis using R and Bash, Single Cell RNA sequencing Analysis using scanpy and Seurat
 
 **Wet Lab:** Agarose & Polyacrylamide Gel Electrophoresis and Imaging, Blotting techniques, DNA & RNA extraction, Molecu‑
 lar cloning & Restriction enzymes, Conventional and Real‑time PCR, ELISA & ICT, Vaccine trial & microsurgery on
@@ -173,4 +197,3 @@ BioPython, Bioconductor, BioPandas, Microarray analysis, RNASeq
 
 
 :::
-

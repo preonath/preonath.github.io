@@ -1,7 +1,7 @@
 ---
 title: "Building a single‑cell atlas of the nasopharyngeal mucosa to investigate SARS‑CoV‑2 infection"
 description: "2024 HCA Single‑Cell Omics in‑person Computational and Experimental Design Workshop"
-image: "HCA.jpeg"
+image: "hca.jpeg"
 format:
   html:
     includes:
