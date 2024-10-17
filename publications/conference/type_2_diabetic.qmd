@@ -25,7 +25,7 @@ Patients with type-2 diabetes mellitus (T2DM) are known to suffer from hyperlipi
 ### Classification of taxonomic ranks of viruses using VirusTaxo
 
 
-![](/files/img/publication/type_2_diabetic/1.png "Multi-class hierarchical classification model. Example of a hierarchical structure of virus taxonomic ranks. Classifier(s) are added at each level of taxonomic ranks. To build the VirusTaxo models, k-mers are extracted from the genomes of each class. Unique k-mers are then indexed and stored in a database to find the k-mer overlap with the query sequence. To measure the confidence of prediction, VirusTaxo provides a ranking of genus prediction using softmax probability and entropy scores")
+![](/files/img/publication/type_2_diabetic/1.png "(A) The score of HbA1c between controlled and uncontrolled diabetic patients, which is significant using student t-test, p<0.0001. (B) Appearance of diabetes mellitus in several age groups.")
 <br>
 
 ### Accuracy of VirusTaxo for order, family, and genus level classification in the pilot dataset.

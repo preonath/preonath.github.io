@@ -1,0 +1,86 @@
+---
+title: "Bacterial Genomics & Antimicrobial Resistance Workshop"
+description: "Teaching Assistant"
+image: "teaching_ngs.jpeg"
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+## Teaching Assistant
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+  <!-- Image with Subtle Teal Gradient -->
+  <div style="background: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('teaching_ngs.jpeg'); background-size: cover; background-position: center; width: 100%; height: 100vh;">
+    
+    <!-- Text Overlay on the Background Image -->
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+      <h1 style="font-size: 3em; font-weight: bold; text-align: center;">Bacterial Genomics & Antimicrobial Resistance Workshop</h1>
+      <p style="font-size: 1.5em; text-align: center;">This five-day workshop will provide participants with a comprehensive overview of bacterial genomics and its applications in antimicrobial resistance research. Through lectures and hands-on sessions, participants will learn how to analyze bacterial genomes for antimicrobial resistance and virulence factors, conduct comparative genomic analysis, and apply bacterial genomics to investigate clinical and scientific problems. The workshop will commence on 30th June and run till 4th July 2024. The application deadline is 22nd June 2024.</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- Structured Program Details Below the Image -->
+<div id="program-details" style="padding: 20px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; font-weight: bold;">Program Outline & Learning Objectives</h2>
+  <ul style="list-style-type: none; padding: 0;">
+    <li><strong>Introduction:</strong> to bacterial genomics and bioinformatics</li>
+    <li><strong>Bacterial Genome Analysis:</strong> From sequence data to genomes</li>
+    <li><strong>Antimicrobial Resistance:</strong> Factors, genes, and pathways</li>
+    <li><strong>Comparative Genomics:</strong> and phylogenetics</li>
+    <li><strong>Applications:</strong> of bacterial genomics in research and clinical settings</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Workshop Duration & Location</h3>
+  <p style="text-align: center;">Duration: 5 days <br> Location: CHRF-HQ, Shyamoli, Dhaka, Bangladesh</p>
+
+  <h3 style="text-align: center; font-weight: bold;">Apply Now</h3>
+  <p style="text-align: center;">
+    <a href="https://chrfbd.org/pages/building-scientists-for-bangladesh/program/13c4f00f-6201-42df-885c-dca0e2fb948b" class="btn btn-primary rounded-pill me-2">Program Website</a>
+  </p>
+</div>
+`);
+</script>
+
+<style>
+  #program-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  a.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+  }
+  
+  a.btn:hover {
+    background-color: #0056b3;
+  }
+</style>
