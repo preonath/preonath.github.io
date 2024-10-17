@@ -1,0 +1,142 @@
+---
+title: "Industrial Training (Academic)"
+description: "Bangladesh Council of Scientific and Industrial Research (BCSIR), National Forensic DNA Profiling Laboratory ( NFDPL), Delta Pharma Ltd."
+image: "IdT.jpg" 
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+
+## Training Overview
+
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+  <!-- Slideshow Background with the images -->
+  <div class="slideshow-container">
+    <!-- Use relative paths for the images with gradient overlay -->
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/Industrial_training/IdT_1.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/Industrial_training//IdT_2.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/Industrial_training//IdT_3.jpg'); background-size: cover; background-position: center;"></div>
+  </div>
+
+  <!-- Text Overlay on the Background Image -->
+  <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
+    <h1 style="font-size: 3em; font-weight: bold; text-align: center;">Industrial Training (Academic)</h1>
+    <p style="font-size: 1.5em; text-align: center; max-width: 1000px; margin: 0 auto;">
+      Updatingggggggggg
+    </p>
+  </div>
+</div>
+
+<!-- ![](featured.jpg) -->
+
+ <h3 style="text-align: center; font-weight: bold;">Day 1: Delta Pharma Ltd. Kishoreganj, Bangladesh</h3>
+  <div style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Learning_1<br>
+    Learning_2<br>
+    Learning_3<br>
+  </div>
+  
+ <h3 style="text-align: center; font-weight: bold;">Day 2: Bangladesh Council of Scientific and Industrial Research(BCSIR)</h3>
+  <div style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Learning_1<br>
+    Learning_2<br>
+    Learning_3<br>
+  </div>
+  
+ <h3 style="text-align: center; font-weight: bold;">Day 3: National Forensic DNA Profiling Laboratory (NFDPL)</h3>
+  <div style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Learning_1<br>
+    Learning_2<br>
+    Learning_3<br>
+  </div>  
+
+
+
+<p style="text-align: center;">
+    <a href="https://training.bactgen.sanger.ac.uk/#/" class="btn btn-primary rounded-pill me-2">Program Website</a>
+</p>
+
+</div>
+`);
+</script>
+
+<style>
+  #program-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px; /* Reduced width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  div {
+    font-size: 1em;
+    margin: 0 auto;
+    max-width: 1000px; /* Adjusted width */
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin: 0 auto;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Each slide */
+  .mySlides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  /* Make the first slide visible */
+  .mySlides:first-child {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.mySlides');
+  
+  function showSlides() {
+    slides.forEach((slide) => {
+      slide.style.opacity = '0';  // Hide all slides
+    });
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }  // Loop back to first slide
+    slides[slideIndex - 1].style.opacity = '1';  // Show the current slide
+    setTimeout(showSlides, 3000);  // Change image every 3 seconds
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    showSlides();  // Initialize the slideshow
+  });
+</script>
+

@@ -1,0 +1,42 @@
+---
+title: "Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh"
+type: "Manuscript Announcement"
+author: "Shuborno Islam, Rathindranath Kabiraj, Himadree Sarkar, Preonath Chondrow Dev, Afroza Akter Tanni, Deb Purna Keya, Apurba R Malaker, Arif Mohammad Tanmoy, Prof. Samir K Saha, Dr. Yogesh Hooda, Dr. Senjuti Saha (Corresponding Author)"
+year: "2024"
+publication: "ASM Journals"
+manuscript_number: "MRA00447-24R2"
+revision_number: "2"
+submission_date: "2024-10-16 09:36:53"
+current_stage: "Initial QC"
+journal_section: "Genome Sequences"
+corresponding_author: "Dr. Senjuti Saha (Child Health Research Foundation)"
+doi: "N/A"
+funding_sources: "Bill and Melinda Gates Foundation (GF) Valid : Senjuti Saha INV-003717"
+conflict_of_interest: "No"
+preprint_server: "No"
+biorxiv_preprint: "No"
+keywords: "Salmonella, bacteriophages, typhoid, genomics"
+categories:
+  - Bacteriophages
+  - Genomics
+  - Typhoid Research
+---
+
+## Abstract
+This report presents the near-complete genome sequences of 14 bacteriophages that infect Salmonella Typhi, identified through environmental surveillance in Bangladesh between August 2021 and June 2022. The bacteriophages, belonging to the genus Kayfunavirus, Macdonaldcampvirus, and Teseptimavirus, share evolutionary ties with previously documented Typhi bacteriophages.
+
+**Key Findings:**
+- The bacteriophages show significant potential for furthering our understanding of Salmonella Typhi pathogenesis.
+- Highlighted the importance of environmental surveillance in tracking bacterial and viral interactions.
+- Provided potential targets for future therapeutic interventions.
+
+## Figures
+- **Figure 1**: Genome Maps of Identified Bacteriophages.
+
+## Supporting Information
+- **Author Cover Letter**: Provides additional context on the study's impact and novelty.
+- **Revision Response**: Addresses the feedback from initial submission rounds.
+- **Data Citation Compliance**: Ensures all datasets used are properly cited according to ASM's policies.
+
+## Data Availability
+All relevant data are within the paper and its Supporting Information files.

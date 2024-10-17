@@ -1,0 +1,30 @@
+---
+title: "Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach"
+type: "Journal Article"
+author: "J.P. Debnath, K. Hossen, M.S. Khandaker, S.B. Sayed, Preonath Chondrow Dev*, S. Sarker*, T. Hossain*"
+year: "2024"
+publication: "Scientific Reports"
+submission_date: "2024-09-20"
+submission_id: "d89818e8-d058-4458-be49-a7df9916d775"
+corresponding_author: "Preonath Chondrow Dev"
+contact_email: "email@example.com"
+journal:
+  name: "Scientific Reports"
+  publisher: "Nature Publishing Group"
+  link: "https://www.nature.com/srep/"
+categories:
+  - Virology
+  - Bioinformatics
+  - Machine Learning
+  - Public Health
+doi: ""
+materials: ""
+toc: false
+---
+
+## Abstract
+Provide a brief summary of the research focus, methodology, key findings, and implications. This should encapsulate the essence of the transcriptomic network analysis and the machine learning approach used to identify potential biomarkers for Mpox virus infection.
+
+**Keywords**: Mpox Virus, Biomarkers, Transcriptomics, Network Analysis, Machine Learning
+
+## Results:

@@ -655,7 +655,7 @@
     "href": "teaching.html",
     "title": "",
     "section": "",
-    "text": "AI in Public Health Workshop\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBacterial Genomics & Antimicrobial Resistance Workshop\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics Division, National Institute of Biotechnology (NIB)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "AI in Public Health Workshop\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBacterial Genomics & Antimicrobial Resistance Workshop\n\n\n\n\n\nTeaching Assistant\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics Division, National Institute of Biotechnology (NIB)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/state-the-art-of-microbial-genome-analysi/index.html",
@@ -1019,7 +1019,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    Exploration of Streptococcus core genome to reveal druggable targets and novel thera peutics against S. pneumoniae\n    Mahmud, Z.Chowdhury, Bhattacharjee,Ahammad,Uzzal,M.Hossain,J.Abdullah,Chondrow,P.Dev.\n    36th BSM Annual Conference, Bangladesh Society of Microbiologists\n    (2023)\n    \n      Details\n    \n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    Prevalence of hyperlipidemia in controlled and uncontrolled type‑2 diabetic patients\n    Abul,H. Mohammad., Rahman,N.Farhan., Islam,N.Arafat., Hassan,M., Chondrow,P.Dev\n    36th BSM Annual Conference, Bangladesh Society of Microbiologists\n    (2023)\n    \n      Details\n    \n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    R.VirusTaxo:Taxonomic classification of virusesfrom the genome sequence using k‑mer enrichment.\n    Saha, R.Raju,A.nahid, M. J., Towhid, S. T., Sammo, M. A. S.Chondrow,P.Dev.\n    36th BSM Annual Conference, Bangladesh Society of Microbiologists\n    (2022 Jun 17)\n    \n      Details\n    \n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n  \n    Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh\n    Shuborno Islam, Rathindranath Kabiraj, Himadree Sarkar, Preonath Chondrow Dev, Afroza Akter Tanni, Deb Purna Keya, Apurba R Malaker, Arif Mohammad Tanmoy, Prof. Samir K Saha, Dr. Yogesh Hooda, Dr. Senjuti Saha (Corresponding Author)\n    ASM Journals\n    (2024)\n    \n      Details\n    \n    \n    \n      DOI\n    \n    \n    \n    \n  \n\n  \n    Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach\n    J.P. Debnath, K. Hossen, M.S. Khandaker, S.B. Sayed, Preonath Chondrow Dev*, S. Sarker*, T. Hossain*\n    Scientific Reports\n    (2024)\n    \n      Details\n    \n    \n    \n    \n  \n\n  \n    Exploration of Streptococcus core genome to reveal druggable targets and novel therapeutics against S. pneumoniae\n    Zeshan Mahmud Chowdhury, Arittra Bhattacharjee, Ishtiaque Ahammad, Mohammad Uzzal Hossain, Abdullah All Jaber, Anisur Rahman, Preonath Chondrow Dev, Md. Salimullah, Chaman Ara Keya\n    PLOS ONE\n    (2022)\n    \n      Details\n    \n    \n    \n      DOI\n    \n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    Prevalence of hyperlipidemia in controlled and uncontrolled type‑2 diabetic patients\n    Mohammad Abul Hasnat, Farhan Rahman Niloy, Arafat Islam Ashik, Mahedi Hasan, Preonath Chondrow Dev, Sharmin Sultana Panna, Md. Waseque Mia, Zafrul Hasan\n    Journal of Advanced Biotechnology and Experimental Therapeutics\n    (2022)\n    \n      Details\n    \n    \n    \n      DOI\n    \n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n  \n    VirusTaxo: Taxonomic classification of viruses from the genome sequence using k‑mer enrichment\n    Rajan Saha Raju, Abdullah Al Nahid, Preonath Chondrow Dev, Rashedul Islam\n    Genomics\n    (2022)\n    \n      Details\n    \n    \n    \n      DOI\n    \n    \n    \n    \n    \n       Materials\n    \n    \n  \n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/monkeypox-outbreak-insights/index.html",
@@ -1269,16 +1269,16 @@
   {
     "objectID": "publications/conference/BSM23_AkterS.html",
     "href": "publications/conference/BSM23_AkterS.html",
-    "title": "R.VirusTaxo:Taxonomic classification of virusesfrom the genome sequence using k‑mer enrichment.",
+    "title": "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k‑mer enrichment",
     "section": "",
-    "text": "Classification of viruses into their taxonomic ranks (e.g., order, family, and genus) provides a framework to organize an abundant population of viruses. Next-generation metagenomic sequencing technologies lead to a rapid increase in generating sequencing data of viruses which require bioinformatics tools to analyze the taxonomy. Many metagenomic taxonomy classifiers have been developed to study microbiomes, but it is particularly challenging to assign the taxonomy of diverse virus sequences and there is a growing need for dedicated methods to be developed that are optimized to classify virus sequences into their taxa. For taxonomic classification of viruses from metagenomic sequences, we developed VirusTaxo using diverse (e.g., 402 DNA and 280 RNA) genera of viruses. VirusTaxo has an average accuracy of 93% at genus level prediction in DNA and RNA viruses. VirusTaxo outperformed existing taxonomic classifiers of viruses where it assigned taxonomy of a larger fraction of metagenomic contigs compared to other methods. Benchmarking of VirusTaxo on a collection of SARS-CoV-2 sequencing libraries and metavirome datasets suggests that VirusTaxo can characterize virus taxonomy from highly diverse contigs and provide a reliable decision on the taxonomy of viruses.\nKeywords VirusTaxonomyHierarchical classificationk-merGenome"
+    "text": "Classification of viruses into their taxonomic ranks (e.g., order, family, genus) provides a framework to organize an abundant population of viruses. Next-generation metagenomic sequencing technologies lead to a rapid increase in generating sequencing data of viruses which require bioinformatics tools to analyze the taxonomy. Many metagenomic taxonomy classifiers have been developed to study microbiomes, but it is particularly challenging to assign the taxonomy of diverse virus sequences and there is a growing need for dedicated methods to be developed that are optimized to classify virus sequences into their taxa. VirusTaxo, developed using diverse (e.g., 402 DNA and 280 RNA) genera of viruses, has an average accuracy of 93% at genus level prediction in DNA and RNA viruses. VirusTaxo outperformed existing taxonomic classifiers by assigning taxonomy to a larger fraction of metagenomic contigs compared to other methods. Benchmarking of VirusTaxo on a collection of SARS-CoV-2 sequencing libraries and metavirome datasets suggests that VirusTaxo can characterize virus taxonomy from highly diverse contigs and provide a reliable decision on the taxonomy of viruses.\nKeywords: Virus Taxonomy, Hierarchical Classification, k-mer, Genome"
   },
   {
     "objectID": "publications/conference/BSM23_AkterS.html#abstract",
     "href": "publications/conference/BSM23_AkterS.html#abstract",
-    "title": "R.VirusTaxo:Taxonomic classification of virusesfrom the genome sequence using k‑mer enrichment.",
+    "title": "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k‑mer enrichment",
     "section": "",
-    "text": "Classification of viruses into their taxonomic ranks (e.g., order, family, and genus) provides a framework to organize an abundant population of viruses. Next-generation metagenomic sequencing technologies lead to a rapid increase in generating sequencing data of viruses which require bioinformatics tools to analyze the taxonomy. Many metagenomic taxonomy classifiers have been developed to study microbiomes, but it is particularly challenging to assign the taxonomy of diverse virus sequences and there is a growing need for dedicated methods to be developed that are optimized to classify virus sequences into their taxa. For taxonomic classification of viruses from metagenomic sequences, we developed VirusTaxo using diverse (e.g., 402 DNA and 280 RNA) genera of viruses. VirusTaxo has an average accuracy of 93% at genus level prediction in DNA and RNA viruses. VirusTaxo outperformed existing taxonomic classifiers of viruses where it assigned taxonomy of a larger fraction of metagenomic contigs compared to other methods. Benchmarking of VirusTaxo on a collection of SARS-CoV-2 sequencing libraries and metavirome datasets suggests that VirusTaxo can characterize virus taxonomy from highly diverse contigs and provide a reliable decision on the taxonomy of viruses.\nKeywords VirusTaxonomyHierarchical classificationk-merGenome"
+    "text": "Classification of viruses into their taxonomic ranks (e.g., order, family, genus) provides a framework to organize an abundant population of viruses. Next-generation metagenomic sequencing technologies lead to a rapid increase in generating sequencing data of viruses which require bioinformatics tools to analyze the taxonomy. Many metagenomic taxonomy classifiers have been developed to study microbiomes, but it is particularly challenging to assign the taxonomy of diverse virus sequences and there is a growing need for dedicated methods to be developed that are optimized to classify virus sequences into their taxa. VirusTaxo, developed using diverse (e.g., 402 DNA and 280 RNA) genera of viruses, has an average accuracy of 93% at genus level prediction in DNA and RNA viruses. VirusTaxo outperformed existing taxonomic classifiers by assigning taxonomy to a larger fraction of metagenomic contigs compared to other methods. Benchmarking of VirusTaxo on a collection of SARS-CoV-2 sequencing libraries and metavirome datasets suggests that VirusTaxo can characterize virus taxonomy from highly diverse contigs and provide a reliable decision on the taxonomy of viruses.\nKeywords: Virus Taxonomy, Hierarchical Classification, k-mer, Genome"
   },
   {
     "objectID": "publications/conference/BSM23_ShahidMSB.html",
@@ -2272,7 +2272,7 @@
     "href": "training.html",
     "title": "",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAdvance Bioinformatics Training\n\n\n\n\n\n\nTraining\n\n\n\nCHIRAL Bangladesh\n\n\n\n\n\nAug 8, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Bioinformatics Training\n\n\n\n\n\nWellcome Sanger Institute\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndustrial Training (Academic)\n\n\n\n\n\n\nTraining\n\n\n\nIndustrial Training\n\n\n\n\n\nJul 28, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nNIB Advanced Bioinformatics Workshop\n\n\n\n\n\n\nTraining\n\n\n\nNIB Advanced Bioinformatics\n\n\n\n\n\nAug 8, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nNasal Swab Cell Isolation for scRNA-seq Livestream\n\n\n\n\n\nOrdovas-Montanes Lab, Boston Children’s Hospital\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeroCalculator Workshop\n\n\n\n\n\nUniversity of California, Davis; Sabin Vaccine Institute\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAdvanced Bioinformatics Training\n\n\n\n\n\nWellcome Sanger Institute\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Next Generation Sequencing and Analysis\n\n\n\n\n\nMinistry of Science and Technology, Bangladesh\n\n\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nIndustrial Training (Academic)\n\n\n\n\n\nBangladesh Council of Scientific and Industrial Research (BCSIR), National Forensic DNA Profiling Laboratory ( NFDPL), Delta Pharma Ltd.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNasal Swab Cell Isolation for scRNA-seq Livestream\n\n\n\n\n\nOrdovas-Montanes Lab, Boston Children’s Hospital\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeroCalculator Workshop\n\n\n\n\n\nUniversity of California, Davis; Sabin Vaccine Institute\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "training/undergraduate-research-importance-benefits-and-challenges/index.html",
@@ -2321,7 +2321,7 @@
     "href": "conference.html",
     "title": "",
     "section": "",
-    "text": "Building a single‑cell atlas of the nasopharyngeal mucosa to investigate SARS‑CoV‑2 infection\n\n\n\n\n\n2024 HCA Single‑Cell Omics in‑person Computational and Experimental Design Workshop\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGenomic Epidemiology of Salmonella Paratyphi B Isolates from Bangladesh\n\n\n\n\n\n13th International Conference on Typhoid and Other Invasive Salmonelloses\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParatype v1.1: Recent Updates to the Genotyping Tool for Paratyphoid Fever Surveillance\n\n\n\n\n\n13th International Conference on Typhoid and Other Invasive Salmonelloses\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Building a single‑cell atlas of the nasopharyngeal mucosa to investigate SARS‑CoV‑2 infection\n\n\n\n\n\n2024 HCA Single‑Cell Omics in‑person Computational and Experimental Design Workshop\n\n\n\n\n\nJun 24, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nGenomic Epidemiology of Salmonella Paratyphi B Isolates from Bangladesh\n\n\n\n\n\n13th International Conference on Typhoid and Other Invasive Salmonelloses\n\n\n\n\n\nDec 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nParatype v1.1: Recent Updates to the Genotyping Tool for Paratyphoid Fever Surveillance\n\n\n\n\n\n13th International Conference on Typhoid and Other Invasive Salmonelloses\n\n\n\n\n\nDec 5, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "conferences/single_cell_atlas/index.html#nasopharyngeal-mucosa-to-investigate-sarscov2-infection",
@@ -2329,5 +2329,166 @@
     "title": "Building a single‑cell atlas of the nasopharyngeal mucosa to investigate SARS‑CoV‑2 infection",
     "section": "Nasopharyngeal Mucosa to Investigate SARS‑CoV‑2 Infection",
     "text": "Nasopharyngeal Mucosa to Investigate SARS‑CoV‑2 Infection"
+  },
+  {
+    "objectID": "training/Industrial_training/index.html",
+    "href": "training/Industrial_training/index.html",
+    "title": "Industrial Training (Academic)",
+    "section": "",
+    "text": "Genomics is the study of whole genomes of organisms, and incorporates elements from ge- netics. Genomics uses a combination of recombinant DNA, DNA sequencing methods, and bioinformatics to sequence, assemble, and analyse the structure and function of genomes. Genomics have become an inter-disciplinary(Computer Science, Statistics, Biology) sci- ence. The genomic data analysis steps typically include data collection, quality check and cleaning, processing, modeling, visualization and reporting.\n\nNational Forensic DNA Profiling Laboratory (NFDPL) - Dhaka\nBangladesh Council of Scientific and Industrial Research(BCSIR) - Dhaka\nDelta Pharma Ltd. Kishoreganj, Bangladesh"
+  },
+  {
+    "objectID": "training/NIB WorkShop/index.html",
+    "href": "training/NIB WorkShop/index.html",
+    "title": "Advanced Next Generation Sequencing and Analysis",
+    "section": "",
+    "text": "Revealing_the_Disease_Complexity_and_Population_Structure_of_Human_Gut_Microbiota_from_a_Diverse_Cohort_of_the_Bangladeshi_Population - Introduction to Bioinformatics, Exploring Nucleic Acid Databases and Data mining, Proteomics: Biochemical Properties, Structure and Interac‑ tions of Proteins, Sanger Sequence data analysis: Quality Assurance and Information Mining From DNA Sequence Data, Sequence Data submis‑ sion to public databases, DNA Amplification and Cloning, Comparative Genomics:Species or Gene identification and sequence determination, Evolutionary Relationship Determination - Instructor: Dr. Abul Bashar Mir Md. Khademul Islam, Dept. of Genetic Engineering and Biotechnology University of Dhaka - Center for Next Generation Sequencing and Analytics by Ministry of Science and Technology, Bangladesh"
+  },
+  {
+    "objectID": "publications/conference/virustaxo.html",
+    "href": "publications/conference/virustaxo.html",
+    "title": "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k‑mer enrichment",
+    "section": "",
+    "text": "Classification of viruses into their taxonomic ranks (e.g., order, family, genus) provides a framework to organize an abundant population of viruses. Next-generation metagenomic sequencing technologies lead to a rapid increase in generating sequencing data of viruses which require bioinformatics tools to analyze the taxonomy. Many metagenomic taxonomy classifiers have been developed to study microbiomes, but it is particularly challenging to assign the taxonomy of diverse virus sequences and there is a growing need for dedicated methods to be developed that are optimized to classify virus sequences into their taxa. VirusTaxo, developed using diverse (e.g., 402 DNA and 280 RNA) genera of viruses, has an average accuracy of 93% at genus level prediction in DNA and RNA viruses. VirusTaxo outperformed existing taxonomic classifiers by assigning taxonomy to a larger fraction of metagenomic contigs compared to other methods. Benchmarking of VirusTaxo on a collection of SARS-CoV-2 sequencing libraries and metavirome datasets suggests that VirusTaxo can characterize virus taxonomy from highly diverse contigs and provide a reliable decision on the taxonomy of viruses.\nKeywords: Virus Taxonomy, Hierarchical Classification, k-mer, Genome"
+  },
+  {
+    "objectID": "publications/conference/virustaxo.html#abstract",
+    "href": "publications/conference/virustaxo.html#abstract",
+    "title": "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k‑mer enrichment",
+    "section": "",
+    "text": "Classification of viruses into their taxonomic ranks (e.g., order, family, genus) provides a framework to organize an abundant population of viruses. Next-generation metagenomic sequencing technologies lead to a rapid increase in generating sequencing data of viruses which require bioinformatics tools to analyze the taxonomy. Many metagenomic taxonomy classifiers have been developed to study microbiomes, but it is particularly challenging to assign the taxonomy of diverse virus sequences and there is a growing need for dedicated methods to be developed that are optimized to classify virus sequences into their taxa. VirusTaxo, developed using diverse (e.g., 402 DNA and 280 RNA) genera of viruses, has an average accuracy of 93% at genus level prediction in DNA and RNA viruses. VirusTaxo outperformed existing taxonomic classifiers by assigning taxonomy to a larger fraction of metagenomic contigs compared to other methods. Benchmarking of VirusTaxo on a collection of SARS-CoV-2 sequencing libraries and metavirome datasets suggests that VirusTaxo can characterize virus taxonomy from highly diverse contigs and provide a reliable decision on the taxonomy of viruses.\nKeywords: Virus Taxonomy, Hierarchical Classification, k-mer, Genome"
+  },
+  {
+    "objectID": "publications/conference/type_2_diabetic.html",
+    "href": "publications/conference/type_2_diabetic.html",
+    "title": "Prevalence of hyperlipidemia in controlled and uncontrolled type‑2 diabetic patients",
+    "section": "",
+    "text": "Patients with type-2 diabetes mellitus (T2DM) are known to suffer from hyperlipidemia. How hyperlipidemia is associated with controlled and uncontrolled T2DM patients in Bangladesh remained to be addressed. In this cross-sectional study, 211 participants were enrolled who have been suffering from T2DM for more than 4 years from the northeastern part of Bangladesh. Controlled and uncontrolled patients were defined with their plasma glycated hemoglobin (HbA1c) levels. Among them, 39% and 61% were in the diabetic-controlled and uncontrolled groups, respectively. Indeed, the diabetic uncontrolled group showed a higher frequency of hypercholesterolemia, hypertriglyceridemia, hyper LDL-cholesterolemia, and hypo HDL-cholesterolemia compared to the diabetic controlled group. Lipid profiling analysis revealed significantly elevated (p&lt;0.0001) levels of cholesterol, triglyceride, and low-density lipoprotein (LDL) in uncontrolled than the controlled group, while high-density lipoprotein (HDL) was significantly (p&lt;0.0001) lower in uncontrolled diabetic patients. Interestingly, significantly (p&lt;0.05) higher dyslipidemia was also observed in individuals with a controlled diabetic population, who have been suffering from T2DM for more than 7 years. Therefore, these results highlight that not only the diabetic uncontrolled but also the controlled group patients have a high risk of developing hyperlipidemia after a certain period of diabetes.\nKeywords: Uncontrolled, Duration, Controlled, Hyperlipidemia, Diabetes"
+  },
+  {
+    "objectID": "publications/conference/type_2_diabetic.html#abstract",
+    "href": "publications/conference/type_2_diabetic.html#abstract",
+    "title": "Prevalence of hyperlipidemia in controlled and uncontrolled type‑2 diabetic patients",
+    "section": "",
+    "text": "Patients with type-2 diabetes mellitus (T2DM) are known to suffer from hyperlipidemia. How hyperlipidemia is associated with controlled and uncontrolled T2DM patients in Bangladesh remained to be addressed. In this cross-sectional study, 211 participants were enrolled who have been suffering from T2DM for more than 4 years from the northeastern part of Bangladesh. Controlled and uncontrolled patients were defined with their plasma glycated hemoglobin (HbA1c) levels. Among them, 39% and 61% were in the diabetic-controlled and uncontrolled groups, respectively. Indeed, the diabetic uncontrolled group showed a higher frequency of hypercholesterolemia, hypertriglyceridemia, hyper LDL-cholesterolemia, and hypo HDL-cholesterolemia compared to the diabetic controlled group. Lipid profiling analysis revealed significantly elevated (p&lt;0.0001) levels of cholesterol, triglyceride, and low-density lipoprotein (LDL) in uncontrolled than the controlled group, while high-density lipoprotein (HDL) was significantly (p&lt;0.0001) lower in uncontrolled diabetic patients. Interestingly, significantly (p&lt;0.05) higher dyslipidemia was also observed in individuals with a controlled diabetic population, who have been suffering from T2DM for more than 7 years. Therefore, these results highlight that not only the diabetic uncontrolled but also the controlled group patients have a high risk of developing hyperlipidemia after a certain period of diabetes.\nKeywords: Uncontrolled, Duration, Controlled, Hyperlipidemia, Diabetes"
+  },
+  {
+    "objectID": "publications/conference/core_genome.html",
+    "href": "publications/conference/core_genome.html",
+    "title": "Exploration of Streptococcus core genome to reveal druggable targets and novel therapeutics against S. pneumoniae",
+    "section": "",
+    "text": "Streptococcus pneumoniae (S. pneumoniae), the major etiological agent of community-acquired pneumonia (CAP), contributes significantly to the global burden of infectious diseases which is getting resistant day by day. Nearly 30% of the S. pneumoniae genomes encode hypothetical proteins (HPs), and better understandings of these HPs in virulence and pathogenicity plausibly decipher new treatments. Some of the HPs are present across many Streptococcus species, and systematic assessment of these unexplored HPs will disclose prospective drug targets. In this study, through a stringent bioinformatics analysis of the core genome and proteome of S. pneumoniae PCS8235, we identified and analyzed 28 HPs that are common in many Streptococcus species and might have a potential role in the virulence or pathogenesis of the bacteria. Functional annotations of the proteins were conducted based on the physicochemical properties, subcellular localization, virulence prediction, protein-protein interactions, and identification of essential genes, to find potentially druggable proteins among 28 HPs. The majority of the HPs are involved in bacterial transcription and translation. Besides, some of them were homologs of enzymes, binding proteins, transporters, and regulators. Protein-protein interactions revealed HP PCS8235_RS05845 made the highest interactions with other HPs and also has TRP structural motif along with virulent and pathogenic properties indicating it has critical cellular functions and might go under unconventional protein secretions. The second highest interacting protein, HP PCS8235_RS02595, interacts with the Regulator of Chromosomal Segregation (RocS) which participates in chromosome segregation and nucleoid protection in S. pneumoniae. In this interacting network, 54% of protein members have virulent properties, and 40% contain pathogenic properties. Among them, most of these proteins circulate in the cytoplasmic area and have hydrophilic properties. Finally, molecular docking and dynamics simulation demonstrated that the antimalarial drug Artenimol can act as a drug repurposing candidate against HP PCS8235_RS04650 of S. pneumoniae. Hence, the present study could aid in developing drugs against S. pneumoniae.\nKeywords: Uncontrolled, Duration, Controlled, Hyperlipidemia, Diabetes"
+  },
+  {
+    "objectID": "publications/conference/core_genome.html#abstract",
+    "href": "publications/conference/core_genome.html#abstract",
+    "title": "Exploration of Streptococcus core genome to reveal druggable targets and novel therapeutics against S. pneumoniae",
+    "section": "",
+    "text": "Streptococcus pneumoniae (S. pneumoniae), the major etiological agent of community-acquired pneumonia (CAP), contributes significantly to the global burden of infectious diseases which is getting resistant day by day. Nearly 30% of the S. pneumoniae genomes encode hypothetical proteins (HPs), and better understandings of these HPs in virulence and pathogenicity plausibly decipher new treatments. Some of the HPs are present across many Streptococcus species, and systematic assessment of these unexplored HPs will disclose prospective drug targets. In this study, through a stringent bioinformatics analysis of the core genome and proteome of S. pneumoniae PCS8235, we identified and analyzed 28 HPs that are common in many Streptococcus species and might have a potential role in the virulence or pathogenesis of the bacteria. Functional annotations of the proteins were conducted based on the physicochemical properties, subcellular localization, virulence prediction, protein-protein interactions, and identification of essential genes, to find potentially druggable proteins among 28 HPs. The majority of the HPs are involved in bacterial transcription and translation. Besides, some of them were homologs of enzymes, binding proteins, transporters, and regulators. Protein-protein interactions revealed HP PCS8235_RS05845 made the highest interactions with other HPs and also has TRP structural motif along with virulent and pathogenic properties indicating it has critical cellular functions and might go under unconventional protein secretions. The second highest interacting protein, HP PCS8235_RS02595, interacts with the Regulator of Chromosomal Segregation (RocS) which participates in chromosome segregation and nucleoid protection in S. pneumoniae. In this interacting network, 54% of protein members have virulent properties, and 40% contain pathogenic properties. Among them, most of these proteins circulate in the cytoplasmic area and have hydrophilic properties. Finally, molecular docking and dynamics simulation demonstrated that the antimalarial drug Artenimol can act as a drug repurposing candidate against HP PCS8235_RS04650 of S. pneumoniae. Hence, the present study could aid in developing drugs against S. pneumoniae.\nKeywords: Uncontrolled, Duration, Controlled, Hyperlipidemia, Diabetes"
+  },
+  {
+    "objectID": "publications/conference/phage.html",
+    "href": "publications/conference/phage.html",
+    "title": "Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh",
+    "section": "",
+    "text": "This report presents the near-complete genome sequences of 14 bacteriophages that infect Salmonella Typhi, identified through environmental surveillance in Bangladesh between August 2021 and June 2022. The bacteriophages, belonging to the genus Kayfunavirus, Macdonaldcampvirus, and Teseptimavirus, share evolutionary ties with previously documented Typhi bacteriophages.\nKey Findings: - The bacteriophages show significant potential for furthering our understanding of Salmonella Typhi pathogenesis. - Highlighted the importance of environmental surveillance in tracking bacterial and viral interactions. - Provided potential targets for future therapeutic interventions."
+  },
+  {
+    "objectID": "publications/conference/phage.html#abstract",
+    "href": "publications/conference/phage.html#abstract",
+    "title": "Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh",
+    "section": "",
+    "text": "This report presents the near-complete genome sequences of 14 bacteriophages that infect Salmonella Typhi, identified through environmental surveillance in Bangladesh between August 2021 and June 2022. The bacteriophages, belonging to the genus Kayfunavirus, Macdonaldcampvirus, and Teseptimavirus, share evolutionary ties with previously documented Typhi bacteriophages.\nKey Findings: - The bacteriophages show significant potential for furthering our understanding of Salmonella Typhi pathogenesis. - Highlighted the importance of environmental surveillance in tracking bacterial and viral interactions. - Provided potential targets for future therapeutic interventions."
+  },
+  {
+    "objectID": "publications/conference/phage.html#figures",
+    "href": "publications/conference/phage.html#figures",
+    "title": "Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh",
+    "section": "Figures",
+    "text": "Figures\n\nFigure 1: Genome Maps of Identified Bacteriophages."
+  },
+  {
+    "objectID": "publications/conference/phage.html#supporting-information",
+    "href": "publications/conference/phage.html#supporting-information",
+    "title": "Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh",
+    "section": "Supporting Information",
+    "text": "Supporting Information\n\nAuthor Cover Letter: Provides additional context on the study’s impact and novelty.\nRevision Response: Addresses the feedback from initial submission rounds.\nData Citation Compliance: Ensures all datasets used are properly cited according to ASM’s policies."
+  },
+  {
+    "objectID": "publications/conference/phage.html#data-availability",
+    "href": "publications/conference/phage.html#data-availability",
+    "title": "Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh",
+    "section": "Data Availability",
+    "text": "Data Availability\nAll relevant data are within the paper and its Supporting Information files."
+  },
+  {
+    "objectID": "publications/conference/monkeypox.html",
+    "href": "publications/conference/monkeypox.html",
+    "title": "Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach",
+    "section": "",
+    "text": "Provide a brief summary of the research focus, methodology, key findings, and implications. This should encapsulate the essence of the transcriptomic network analysis and the machine learning approach used to identify potential biomarkers for Mpox virus infection.\nKeywords: Mpox Virus, Biomarkers, Transcriptomics, Network Analysis, Machine Learning"
+  },
+  {
+    "objectID": "publications/conference/monkeypox.html#abstract",
+    "href": "publications/conference/monkeypox.html#abstract",
+    "title": "Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach",
+    "section": "",
+    "text": "Provide a brief summary of the research focus, methodology, key findings, and implications. This should encapsulate the essence of the transcriptomic network analysis and the machine learning approach used to identify potential biomarkers for Mpox virus infection.\nKeywords: Mpox Virus, Biomarkers, Transcriptomics, Network Analysis, Machine Learning"
+  },
+  {
+    "objectID": "publications/conference/monkeypox.html#introduction",
+    "href": "publications/conference/monkeypox.html#introduction",
+    "title": "Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach",
+    "section": "Introduction",
+    "text": "Introduction\nDetail the background and the importance of identifying biomarkers for Mpox virus. Discuss previous research in the area and how this paper aims to advance our understanding."
+  },
+  {
+    "objectID": "publications/conference/monkeypox.html#methodology",
+    "href": "publications/conference/monkeypox.html#methodology",
+    "title": "Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach",
+    "section": "Methodology",
+    "text": "Methodology\nDescribe the methods used in the study, including data sources, network analysis techniques, machine learning models, and validation approaches."
+  },
+  {
+    "objectID": "publications/conference/monkeypox.html#results",
+    "href": "publications/conference/monkeypox.html#results",
+    "title": "Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach",
+    "section": "Results:",
+    "text": "Results:"
+  },
+  {
+    "objectID": "publications/conference/monkeypox.html#discussion",
+    "href": "publications/conference/monkeypox.html#discussion",
+    "title": "Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach",
+    "section": "Discussion",
+    "text": "Discussion\nAnalyze the findings, compare with existing literature, discuss the limitations of the study, and suggest areas for future research."
+  },
+  {
+    "objectID": "publications/conference/monkeypox.html#conclusion",
+    "href": "publications/conference/monkeypox.html#conclusion",
+    "title": "Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach",
+    "section": "Conclusion",
+    "text": "Conclusion\nConclude with the implications of the findings for clinical practice or public health response to Mpox virus."
+  },
+  {
+    "objectID": "publications/conference/monkeypox.html#data-availability",
+    "href": "publications/conference/monkeypox.html#data-availability",
+    "title": "Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach",
+    "section": "Data Availability",
+    "text": "Data Availability\nState where the data supporting this research can be accessed if it is available to the public."
+  },
+  {
+    "objectID": "publications/conference/monkeypox.html#conflict-of-interest",
+    "href": "publications/conference/monkeypox.html#conflict-of-interest",
+    "title": "Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach",
+    "section": "Conflict of Interest",
+    "text": "Conflict of Interest\nSpecify if any exists or state “No conflict of interest” if none.\nAdditional Notes: This document serves to prepare for potential conference presentations or further publications discussing the extended impacts of the research."
+  },
+  {
+    "objectID": "publications/conference/virustaxo.html#results",
+    "href": "publications/conference/virustaxo.html#results",
+    "title": "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k‑mer enrichment",
+    "section": "Results:",
+    "text": "Results:\n\nClassification of taxonomic ranks of viruses using VirusTaxo\n \n\n\nAccuracy of VirusTaxo for order, family, and genus level classification in the pilot dataset.\n \n\n\nBenchmarking of VirusTaxo for SARS-CoV-2 genomes"
   }
 ]

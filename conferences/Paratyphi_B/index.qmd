@@ -2,6 +2,7 @@
 title: "Genomic Epidemiology of Salmonella Paratyphi B Isolates from Bangladesh"
 description: "13th International Conference on Typhoid and Other Invasive Salmonelloses"
 image: "cat.jpeg"
+date: "2023-12-05"
 format:
   html:
     includes:
