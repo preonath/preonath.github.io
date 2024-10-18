@@ -56,7 +56,7 @@ document.write(`
   agriculture, and other life sciences disciplines. The workshop focuses on providing hands-on experience and in-depth bioinformatics training to ensure participants 
   gain a strong foundation in single-cell methodologies.</p>
 
-  <h2>Learning Outcomes</h2>
+  <h3>Learning Outcomes</h3>
   <ul style="list-style-type: none; padding: 0; text-align: central; max-width: 800px; margin: 0 auto;">
     <li><strong>Module 1:</strong> Preprocessing of raw scRNA-seq data using various methods (10X Genomics, CEL-seq2, etc.).</li>
     <li><strong>Module 2:</strong> Quality control, exploratory analysis, normalization, clustering, and differential expression analysis.</li>
@@ -66,7 +66,7 @@ document.write(`
     <li><strong>Module 6:</strong> Trajectory inference and pseudotemporal ordering using Monocle3.</li>
   </ul>
 
-  <h2>Funding and Collaborators</h2>
+  <h3>Funding and Collaborators</h3>
   <ul style="list-style-type: none; padding: 0; text-align: central; max-width: 800px; margin: 0 auto;">
     <li>Shalek Lab - MIT, Harvard Stem Cell Institute, and Mahidol University.</li>
     <li>Supported by the Human Cell Atlas and Wellcome Connecting Science.</li>
@@ -100,7 +100,7 @@ document.write(`
 
 <!-- Workshop Dates and Location Section (moved to the bottom) -->
 <h3 style="text-align: center; font-weight: bold;">Location and Schedule</h3>
-<p style="text-align: center; font-size: 1.2em;">
+<p style="text-align: center; font-size: 1em;">
   <p>Mahidol University, Bangkok, Thailand</p>
   <p>24th - 28th June, 2024</p>
 
@@ -159,7 +159,7 @@ document.write(`
   }
 
   ul {
-    font-size: 1.2em; /* Set font size for outer list */
+    font-size: 1em; /* Set font size for outer list */
     text-align: center; /* Corrected from central to center */
     list-style-type: none; /* Remove bullet points */
     padding: 0;
@@ -182,7 +182,7 @@ document.write(`
 
   .btn {
     padding: 10px 20px;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-top: 20px;
     display: inline-block;
     text-decoration: none;
