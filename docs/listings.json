@@ -3,7 +3,7 @@
     "listing": "/teaching.html",
     "items": [
       "/teaching/AI_in_Public_Health/index.html",
-      "/teaching/Advanced_Next_Generation_Sequencing/index.html",
+      "/teaching/Bacterial_Genomics_&_Antimicrobial_Resistance_Workshop/index.html",
       "/teaching/Bioinformatics_for_Biotechnology_Research/index.html"
     ]
   },
@@ -55,6 +55,7 @@
     "items": [
       "/training/Advanced_Bioinformatics_Training_Sanger_Institute/index.html",
       "/training/NIB WorkShop/index.html",
+      "/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/index.html",
       "/training/Industrial_training/index.html",
       "/training/Nasal Swab Dissociation Livestream/index.html",
       "/training/Serocalculator_Workshop/index.html"
