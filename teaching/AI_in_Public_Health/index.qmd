@@ -25,11 +25,16 @@ document.write(`
     <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/AI_in_Public_Health/ai_in_public_health_8.jpeg'); background-size: cover; background-position: center;"></div>
   </div>
 
-  <!-- Text Overlay on the Background Image -->
-  <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
-    <h1 style="font-size: 3em; font-weight: bold; text-align: center;">AI in Public Health Workshop</h1>
-    <p style="font-size: 1.5em; text-align: center; max-width: 800px; margin: 0 auto;">This four-day workshop will provide participants with a practical understanding of how Artificial Intelligence (AI) can be applied to enhance public health activities. Through hands-on activities, case studies, and discussions, participants will learn how to use AI tools to improve disease surveillance, diagnosis, treatment, and overall healthcare delivery. The workshop will run from [dates here].</p>
-  </div>
+
+
+<!-- Text Overlay on the Background Image -->
+<div style="position: absolute; top: 85%; left: 50%; transform: translate(-50%, -50%); text-align: center; width: 100%;">
+    <h1 style="font-size: 2.5em; font-weight: bold; color: white; margin-bottom: 20px;">AI in Public Health Workshop</h1>
+    <p style="font-size: 1.2em; max-width: 1000px; margin: 0 auto; line-height: 1.8; text-align: justify; color: white; padding: 0 20px;">
+    This four-day workshop will provide participants with a practical understanding of how Artificial Intelligence (AI) can be applied to enhance public health activities. Through hands-on activities, case studies, and discussions, participants will learn how to use AI tools to improve disease surveillance, diagnosis, treatment, and overall healthcare delivery. The workshop will run from [dates here].
+    </p>
+</div>
+
 </div>
 
   <!-- Structured Program Details Below the Image -->
