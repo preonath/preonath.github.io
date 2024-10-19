@@ -1,14 +1,14 @@
 ---
 title: "Bioinformatics Division, National Institute of Biotechnology (NIB)"
 image: "nib_traning.jpg"
+description: "Teaching Assistant"
+
 format:
   html:
     includes:
       in_header: style.css
       before_body: cover.html
 ---
-## Teaching Assistant
-
 <script type="text/javascript">
 document.write(`
 <!-- Background Image with Gradient Overlay and Slideshow -->
@@ -22,26 +22,18 @@ document.write(`
     <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Bioinformatics_for_Biotechnology_Research/nib_traning_4.jpg'); background-size: cover; background-position: center;"></div>
   </div>
 
-  <!-- Text Overlay on the Background Image (Positioned lower within the image) -->
-  <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
-    <h1 style="font-size: 3em; font-weight: bold; text-align: center;">Bioinformatics Division, NIB</h1>
-    <p style="font-size: 1.5em; text-align: center; max-width: 800px; margin: 0 auto;">This training program at the National Institute of Biotechnology (NIB) offers bioinformatics-focused learning, covering essential skills such as Linux OS, Bash scripting, and Biopython for NGS data analysis. The program runs from September 5-9, 2021.</p>
-  </div>
-</div>
+  <!-- Structured Program Details Below the Image -->
+  <div id="program-details" style="padding-left: 0px; margin-left: 0px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; font-size: 2em; font-weight: bold;">Program Outline & Learning Objectives</h2>
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li style="text-align: justify; margin: 0 20px;"><strong></strong> This program will help participants understand the basics of Linux OS and its applications in bioinformatics workflows, learn Bash scripting for automating NGS workflows, use Biopython and R programming for NGS data analysis and processing, perform Next Generation Sequencing (NGS) data analysis techniques, and apply bioinformatics tools for sequence alignment and variant calling.</li>
+    </ul>
 
-<!-- Structured Program Details Below the Image -->
-<div id="program-details" style="padding: 20px; background-color: #f9f9f9;">
-  <h2 style="text-align: center; font-weight: bold;">Program Outline & Learning Objectives</h2>
-  <ul style="list-style-type: none; padding: 0;">
-    <li><strong>Understand:</strong> The basics of Linux OS and its applications in bioinformatics workflows</li>
-    <li><strong>Learn:</strong> Bash scripting for automation of NGS workflows</li>
-    <li><strong>Use:</strong> Biopython for NGS data analysis and processing</li>
-    <li><strong>Perform:</strong> Next Generation Sequencing (NGS) data analysis techniques</li>
-    <li><strong>Apply:</strong> Bioinformatics tools for sequence alignment and variant calling</li>
-  </ul>
 
-  <h3 style="text-align: center; font-weight: bold;">Training Format and Activities</h3>
-  <ul style="list-style-type: none; padding: 0;">
+
+
+  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Training Format and Activities</h3>
+  <ul style="list-style-type: none; padding-left: 0;">
     <li>Interactive lectures and presentations</li>
     <li>Hands-on exercises for Linux OS and scripting</li>
     <li>Practical demonstrations using Biopython</li>
@@ -49,71 +41,70 @@ document.write(`
     <li>Assignments for participants</li>
   </ul>
 
-  <h3 style="text-align: center; font-weight: bold;">Instructors</h3>
-  <ul style="list-style-type: none; padding: 0;">
-    <li>Instructor: Bioinformatics Division, National Institute of Biotechnology (NIB)</li>
+  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Instructors</h3>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li>Bioinformatics Division, National Institute of Biotechnology (NIB)</li>
   </ul>
 
-  <h3 style="text-align: center; font-weight: bold;">Program Prerequisites</h3>
-  <ul style="list-style-type: none; padding: 0;">
-    <li>Basic knowledge of bioinformatics and computational biology</li>
-    <li>Familiarity with Python programming and command-line tools</li>
+
+  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Program Schedule</h3>
+  <ul style="list-style-type: none; padding-left: 80px; margin-left: 80px;">
+      <li style="text-align: left;">Day 1: Introduction to Linux OS and its role in bioinformatics</li>
+      <li style="text-align: left;">Day 2: Bash scripting for automation and task management</li>
+      <li style="text-align: left;">Day 3: Python and Biopython for NGS data analysis</li>
+      <li style="text-align: left;">Day 4: NGS workflows and data interpretation</li>
+      <li style="text-align: left;">Day 5: Final project and hands-on NGS data analysis</li>
   </ul>
 
-  <h3 style="text-align: center; font-weight: bold;">Program Schedule</h3>
-  <ul style="list-style-type: none; padding: 0;">
-    <li><strong>Day 1:</strong> Introduction to Linux OS and its role in bioinformatics</li>
-    <li><strong>Day 2:</strong> Bash scripting for automation and task management</li>
-    <li><strong>Day 3:</strong> Python and Biopython for NGS data analysis</li>
-    <li><strong>Day 4:</strong> NGS workflows and data interpretation</li>
-    <li><strong>Day 5:</strong> Final project and hands-on NGS data analysis</li>
-  </ul>
 
-  <h3 style="text-align: center; font-weight: bold;">Program Duration & Location</h3>
-  <p style="text-align: center;">Duration: 5 days <br> Location: National Institute of Biotechnology (NIB), Dhaka, Bangladesh</p>
+  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Duration & Location</h3>
+  <p style="text-align: center;">Duration: 5 days <br> National Institute of Biotechnology (NIB), Dhaka, Bangladesh</p>
 
-  <h3 style="text-align: center; font-weight: bold;">Apply Now</h3>
   <p style="text-align: center;">
-    <a href="https://nib.gov.bd" class="btn btn-primary rounded-pill me-2">Program Website</a>
+    <a href="https://nib.gov.bd" class="btn btn-primary rounded-pill me-2" style="padding: 15px 30px; font-size: .8em;">Program Details</a>
   </p>
 </div>
 `);
 </script>
 
+<!-- Add additional details if required -->
 <style>
   #program-details {
     font-family: Arial, sans-serif;
     color: #333;
     line-height: 1.6;
+    padding-center: 80px; 
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.2em;
   }
   
   h2, h3 {
     margin-top: 20px;
     margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
   }
-  
+  li {
+    padding: 10px;
+  }
   ul {
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0 auto;
     max-width: 800px;
   }
   
-  li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+  div {
+    font-size: 1em;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
   }
-  
-  a.btn {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 25px;
-    font-size: 1.2em;
-  }
-  
-  a.btn:hover {
-    background-color: #0056b3;
+
+  p {
+    font-size: 1em;
+    margin: 0 auto;
   }
 
   /* Slideshow container */
@@ -123,6 +114,7 @@ document.write(`
     width: 100%;
     overflow: hidden;
   }
+
 
   /* Each slide */
   .mySlides {
@@ -135,7 +127,6 @@ document.write(`
     transition: opacity 1.5s ease-in-out;
   }
 
-  /* Make the first slide visible */
   .mySlides:first-child {
     opacity: 1;
   }

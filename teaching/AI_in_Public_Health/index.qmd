@@ -1,13 +1,13 @@
 ---
 title: "AI in Public Health Workshop"
 image: "ai_teaching.jpeg"
+description: "Teaching Assistant"
 format:
   html:
     includes:
       in_header: style.css
       before_body: cover.html
 ---
-## Teaching Assistant
 <script type="text/javascript">
 document.write(`
 <!-- Background Image with Gradient Overlay and Slideshow -->
@@ -32,16 +32,14 @@ document.write(`
   </div>
 </div>
 
-<!-- Structured Program Details Below the Image -->
-<div id="program-details" style="padding: 20px; background-color: #f9f9f9;">
-  <h2 style="text-align: center; font-weight: bold;">Program Outline & Learning Objectives</h2>
-  <ul style="list-style-type: none; padding: 0;">
-    <li><strong>Understand:</strong> the basic terminology and concepts of AI</li>
-    <li><strong>Evaluate:</strong> potential benefits and challenges of implementing AI in public health</li>
-    <li><strong>Analyze:</strong> real-world case studies of AI applications in disease surveillance</li>
-    <li><strong>Use:</strong> AI tools (ChatGPT, BARD) to speed up public health data analysis</li>
-    <li><strong>Assess:</strong> ethical, legal, and societal implications of AI integration in public health</li>
-  </ul>
+  <!-- Structured Program Details Below the Image -->
+  <div id="program-details" style="padding: 20px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; font-weight: bold;">Program Outline & Learning Objectives</h2>
+    <p style="text-align: justify; margin: 0 20px;">
+      Participants will <strong>understand</strong> the basic terminology and concepts of AI. They will also <strong>evaluate</strong> the potential benefits and challenges of implementing AI in public health, while <strong>analyzing</strong> real-world case studies of AI applications in disease surveillance. Additionally, they will <strong>use</strong> AI tools such as ChatGPT and BARD to speed up public health data analysis. Finally, participants will <strong>assess</strong> the ethical, legal, and societal implications of AI integration in public health.
+    </p>
+
+
 
   <h3 style="text-align: center; font-weight: bold;">Workshop Format and Activities</h3>
   <ul style="list-style-type: none; padding: 0;">
@@ -64,76 +62,62 @@ document.write(`
     <li>Mark Sun, PhD (Principal Research Scientist, Versant Stealth Startup, Canada)</li>
   </ul>
 
-  <h3 style="text-align: center; font-weight: bold;">Prerequisites</h3>
-  <ul style="list-style-type: none; padding: 0;">
-    <li>Basic knowledge of public health concepts and introductory statistics</li>
-    <li>Intermediate programming skills in Python/R</li>
-  </ul>
 
-  <h3 style="text-align: center; font-weight: bold;">Target Audience</h3>
-  <ul style="list-style-type: none; padding: 0;">
-    <li>Public health professionals</li>
-    <li>Researchers and academics in public health and AI</li>
-    <li>Students interested in the intersection of AI and public health</li>
-  </ul>
-
-  <h3 style="text-align: center; font-weight: bold;">Workshop Schedule</h3>
-  <ul style="list-style-type: none; padding: 0;">
-    <li><strong>Day 1:</strong> Introduction to AI (AI concepts, terminology, applications, and hands-on generating AI code)</li>
-    <li><strong>Day 2:</strong> AI Applications in Public Health Modeling (Typhoid incidence calculation in Bangladesh, modeling vaccine impact)</li>
-    <li><strong>Day 3:</strong> AI in Disease Surveillance (Data sources, data quality, outbreak detection using AI)</li>
-    <li><strong>Day 4:</strong> Implementing AI in Public Health and Future Trends (AI in medical image analysis, addressing bias, ethical discussions)</li>
+  <h3 style="text-align: center; font-size: 1.2em; font-weight: bold;">Workshop Schedule</h3>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li>Day 1: Introduction to AI (AI concepts, terminology, applications, and hands-on generating AI code)</li>
+    <li>Day 2: AI Applications in Public Health Modeling (Typhoid incidence calculation in Bangladesh, modeling vaccine impact)</li>
+    <li>Day 3: AI in Disease Surveillance (Data sources, data quality, outbreak detection using AI)</li>
+    <li>Day 4: Implementing AI in Public Health and Future Trends (AI in medical image analysis, addressing bias, ethical discussions)</li>
   </ul>
 
   <h3 style="text-align: center; font-weight: bold;">Workshop Duration & Location</h3>
   <p style="text-align: center;">Duration: 4 days <br> Location: CHRF-HQ, Shyamoli, Dhaka, Bangladesh</p>
 
-  <h3 style="text-align: center; font-weight: bold;">Scholarship and Certification</h3>
-  <p style="text-align: center;">This workshop is part of the “Democratizing Public Health Modeling Using AI-based Tools” grant by the Bill and Melinda Gates Foundation. Selected candidates will receive scholarships to cover the course fee. All participants will receive a certificate upon successful completion.</p>
+  <h3 style="text-align: center; font-weight: bold;">Supported By</h3>
+  <img src="../../files/img//training/Nasal_Swab_Cell_Isolation_scRNA_Sequencing_and_Analysis/bill_foundation.png" lt="MBill " style="max-width: 200px; margin: 10px;">
+  <p style="text-align: center;">This workshop is part of the “Democratizing Public Health Modeling Using AI-based Tools” grant by the Bill and Melinda Gates Foundation. </p>
 
   <h3 style="text-align: center; font-weight: bold;">Apply Now</h3>
   <p style="text-align: center;">
-    <a href="https://chrfbd.org/pages/building-scientists-for-bangladesh/program/13c4f00f-6201-42df-885c-dca0e2fb948b" class="btn btn-primary rounded-pill me-2">Program Website</a>
+    <a href="https://chrfbd.org/blogs/4f86dc07-664d-4182-a349-218b0c4249e5" class="btn btn-primary rounded-pill me-2">Program Website</a>
   </p>
 </div>
 `);
 </script>
 
+<!-- Add additional details if required -->
 <style>
   #program-details {
     font-family: Arial, sans-serif;
     color: #333;
     line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.2em;
   }
   
   h2, h3 {
     margin-top: 20px;
     margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
   }
-  
-  ul {
-    font-size: 1.2em;
+
+  div {
+    font-size: 1em;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
+    text-align: center;
   }
-  
-  li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+
+  p {
+    font-size: 1em;
+    margin: 0 auto;
   }
-  
-  a.btn {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 25px;
-    font-size: 1.2em;
-  }
-  
-  a.btn:hover {
-    background-color: #0056b3;
-  }
+
 
   /* Slideshow container */
   .slideshow-container {
@@ -154,7 +138,6 @@ document.write(`
     transition: opacity 1.5s ease-in-out;
   }
 
-  /* Make the first slide visible */
   .mySlides:first-child {
     opacity: 1;
   }
