@@ -1,0 +1,15 @@
+---
+pagetitle: "Training | Preonath"
+listing:
+  contents: training
+  sort: "title"
+  type: default
+  grid-item-border: true 
+  categories: true
+  sort-ui: true 
+  filter-ui: true  
+page-layout: full
+title-block-banner: false
+comments: false
+---
+

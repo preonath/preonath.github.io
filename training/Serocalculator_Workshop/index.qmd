@@ -1,0 +1,210 @@
+---
+title: "SeroCalculator Workshop"
+description: "University of California, Davis; Sabin Vaccine Institute"
+image: "SCW.jpeg" # Background image
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+## Workshop Overview
+
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+  <!-- Slideshow Background with images, text, and heading -->
+  <div class="slideshow-container">
+    
+    <!-- Slide 1 -->
+    <div class="mySlides fade">
+      <div style="background-image: url('../../files/img/training/Serocalculator_Workshop/SCW_0.jpeg'); background-size: cover; background-position: center; height: 100vh;">
+        <div style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center; color: white;">
+          <h1 style="font-size: 3em; font-weight: bold;">SeroCalculator Workshop</h1>
+          <p style="font-size: 1.5em; max-width: 800px;">
+            This hands-on workshop covered innovative methods to estimate typhoid incidence using cross-sectional serosurveys with the R package "serocalculator." 
+            We explored statistical models that estimate incidence from serological data.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="mySlides fade">
+      <div style="background-image: url('../../files/img/training/Serocalculator_Workshop/SCW_1.jpeg'); background-size: cover; background-position: center; height: 100vh;">
+        <div style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center; color: white;">
+          <h1 style="font-size: 3em; font-weight: bold;">SeroCalculator Workshop</h1>
+          <p style="font-size: 1.5em; max-width: 800px;">
+            The incidence of typhoid fever in many regions remains unknown due to a lack of blood culture surveillance. The workshop focused on using the "serocalculator" R package, which estimates typhoid incidence from serosurveys. This one-day workshop was held on December 8, 2023, during the International Conference on Typhoid in Kigali, Rwanda.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="mySlides fade">
+      <div style="background-image: url('../../files/img/training/Serocalculator_Workshop/SCW_2.jpeg'); background-size: cover; background-position: center; height: 100vh;">
+        <div style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center; color: white;">
+          <h1 style="font-size: 3em; font-weight: bold;">SeroCalculator Workshop</h1>
+          <p style="font-size: 1.5em; max-width: 800px;">
+            The workshop provided a detailed tour of the SeroCalculator package, demonstrating how to calculate seroincidence from serological data and run simulations based on the package's built-in functions.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video slide -->
+    <div class="mySlides fade">
+      <div style="text-align: center; background-color: black; height: 100vh;">
+        <video width="800" controls style="margin-top: 150px;">
+          <source src="../../files/img/training/Serocalculator_Workshop/birthday_of_ali.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Structured Program Details Below the Slideshow -->
+<div id="program-details" style="padding: 20px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; font-weight: bold;">Workshop Details</h2>
+  <p style="text-align: center; font-size: 1.2em; max-width: 800px; margin: 0 auto;">
+    The incidence of typhoid fever in many regions remains unknown due to a lack of blood culture surveillance. The workshop focused on using the "serocalculator" R package, which estimates typhoid incidence from serosurveys. This one-day workshop was held on December 8, 2023, during the International Conference on Typhoid in Kigali, Rwanda.
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Topics Covered</h3>
+  <div style="text-align: center; font-size: 1em; max-width: 800px; margin: 0 auto;">
+      <strong>Welcome and Introduction to Seroepidemiology</strong><br>
+      <em>Tool: R, SeroCalculator package</em> – Introduction to epidemiological methods using serosurveys for estimating infection burden.
+      <br><br>
+
+      <strong>Immunological Background</strong><br>
+      <em>Tool: Serocalculator</em> – Understanding serologic markers, immune responses, and their implications in infection incidence calculation.
+      <br><br>
+
+      <strong>Introduction to Serologic Markers for Typhoid Diagnostics</strong><br>
+      <em>Tool: SeroCalculator package</em> – Using markers to track antibody levels and calculate seroincidence in populations.
+      <br><br>
+
+      <strong>Statistical Background: Theory and Simulation</strong><br>
+      <em>Tools: R, Simulation functions, Serocalculator</em> – Running simulations based on antibody response data to validate statistical models.
+      <br><br>
+
+      <strong>Data Reliability and Reproducibility in Analysis</strong><br>
+      <em>Tools: R, Data validation functions</em> – Ensuring the integrity and reproducibility of serological data used for calculating incidence.
+      <br><br>
+
+      <strong>Package Demo 1: Set up and Enteric Fever Vignette</strong><br>
+      <em>Tools: R, Serocalculator</em> – Practical demonstration of setting up and running the SeroCalculator package for enteric fever data analysis.
+      <br><br>
+
+      <strong>Package Demo 2: Simulation Vignette</strong><br>
+      <em>Tools: R, Serocalculator, Simulation functions</em> – Simulating infection scenarios to test and interpret seroincidence calculations using real-world examples.
+      <br><br>
+
+      <strong>Overview of Seroepidemiology</strong><br>
+      <em>Tools: R, Serocalculator</em> – Comprehensive understanding of epidemiological patterns and infection rates derived from antibody data.
+      <br><br>
+
+      <strong>Trouble-shooting and Posting Issues on GitHub</strong><br>
+      <em>Tools: GitHub, R</em> – Guidance on debugging and reporting issues with SeroCalculator on GitHub.
+      <br><br>
+
+      <strong>Optional Practical Session - Running in Your Own RStudio Environment</strong><br>
+      <em>Tools: RStudio, Serocalculator</em> – Hands-on session for participants to practice using the SeroCalculator package in their RStudio setup.
+  </div>
+
+  <h3 style="text-align: center; font-weight: bold;">Funding and Partners</h3>
+  <div style="text-align: center;">
+    <img src="../../files/img/training/Serocalculator_Workshop/uc_davis.png" alt="University of California Davis" style="max-width: 100px; margin-bottom: 15px;">
+    <img src="../../files/img/training/Serocalculator_Workshop/footer-tyvac_final.png" alt="Sabin Vaccine Institute" style="max-width: 200px; margin-bottom: 20px;">
+    <img src="../../files/img/training/Serocalculator_Workshop/cat-footer-logo-final.png" alt="University of California Davis" style="max-width: 200px; margin-bottom: 20px;">
+  </div>
+
+  <h3 style="text-align: center; font-weight: bold;">Location and Schedule</h3>
+  <p style="text-align: center; font-size: 1em;">
+    December 8, 2023<br>
+    Four Points Hotel, Kigali, Rwanda
+  </p>
+
+  <p style="text-align: center;">
+    <a href="https://www.coalitionagainsttyphoid.org/serocalculator-workshop/" class="btn btn-primary rounded-pill me-2">Program Website</a>
+  </p>
+</div>
+`);
+</script>
+
+<style>
+program-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 21cm; /* Constrained width resembling A4 */
+    margin: 0 auto;
+  }
+  h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  div {
+    font-size: 1em;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin: 0 auto;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Each slide */
+  .mySlides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  /* Make the first slide visible */
+  .mySlides:first-child {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.mySlides');
+  
+  function showSlides() {
+    slides.forEach((slide) => {
+      slide.style.opacity = '0';  // Hide all slides
+    });
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }  // Loop back to first slide
+    slides[slideIndex - 1].style.opacity = '1';  // Show the current slide
+    setTimeout(showSlides, 3000);  // Change image every 3 seconds
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    showSlides();  // Initialize the slideshow
+  });
+</script>

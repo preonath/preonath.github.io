@@ -1,0 +1,20 @@
+---
+title: "Advanced Next Generation Sequencing and Analysis"
+description: "Ministry of Science and Technology, Bangladesh"
+date: "2024-10-15"
+image: "AdNGS_3.jpeg" 
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+
+<!-- ![](featured.png) -->
+Revealing_the_Disease_Complexity_and_Population_Structure_of_Human_Gut_Microbiota_from_a_Diverse_Cohort_of_the_Bangladeshi_Population
+- **Introduction to Bioinformatics**, Exploring Nucleic Acid Databases and Data mining, Proteomics: Biochemical Properties, Structure and Interac‑
+tions of Proteins, Sanger Sequence data analysis: Quality Assurance and Information Mining From DNA Sequence Data, Sequence Data submis‑
+sion to public databases, DNA Amplification and Cloning, Comparative Genomics:Species or Gene identification and sequence determination,
+Evolutionary Relationship Determination
+- **Instructor**: Dr. Abul Bashar Mir Md. Khademul Islam, Dept. of Genetic Engineering and Biotechnology University of Dhaka
+- Center for Next Generation Sequencing and Analytics by Ministry of Science and Technology, Bangladesh

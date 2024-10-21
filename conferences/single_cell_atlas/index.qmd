@@ -1,0 +1,161 @@
+---
+title: "Building a single‑cell atlas of the nasopharyngeal mucosa to investigate SARS‑CoV‑2 infection"
+description: "2024 HCA Single‑Cell Omics in‑person Computational and Experimental Design Workshop"
+date: "2024-06-24"
+image: "hca.jpeg"
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+  <!-- Slideshow Background -->
+  <div class="slideshow-container">
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_1.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_2.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_3.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_4.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_5.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_6.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_7.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_8.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_9.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_10.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/single_cell_atlas/HCA_11.jpeg'); background-size: cover; background-position: center;"></div>
+  </div>
+
+  <!-- Text Overlay on the Background Image -->
+  <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
+    <h1 style="font-size: 3em; font-weight: bold; text-align: center;">Building a comprehensive single-cell atlas of the nasopharyngeal mucosa to study SARS‑CoV‑2 infection.</h1>
+    <p style="font-size: 1.5em; text-align: center; max-width: 800px; margin: 0 auto;">This research aims to build a single-cell atlas of the nasopharyngeal mucosa by integrating datasets from various studies to investigate SARS‑CoV‑2 infection. The dataset includes over 245,000 cells from 328 patients and uses data from studies such as Yoshida et al. (Nature 2022), Ziegler et al. (Cell 2021), and Ren et al. (Cell 2021).</p>
+  </div>
+</div>
+
+<!-- Structured Program Details Below the Image -->
+  <h3 style="text-align: center; font-weight: bold;">Steps in Building the Atlas</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>1. Dataset selection: Tissues related to the respiratory system, focusing on the nasopharynx.</li>
+    <li>2. Integration of datasets from studies (Yoshida, Ziegler, Ren), using Harmony to combine over 245,000 cells.</li>
+    <li>3. Clustering analysis of integrated dataset to define distinct cell types in the nasopharyngeal tissue.</li>
+    <li>4. Cell-type clusters identified with the integrated dataset and visualization of immune cell subtypes.</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Next Steps</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>Assess expression of SARS‑CoV‑2 in the nasopharynx.</li>
+    <li>Reannotate cell types to identify novel or other subtypes.</li>
+    <li>Analyze the dataset with demographic details like age, SARS-CoV-2 status, and more.</li>
+    <li>Compare findings from the Bangladesh cohort with the global integrated dataset.</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Team</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>Preonath Chondrow Dev*, Apurba Rajib Malaker, Deb Purna Keya, Yogesh Hooda*, Senjuti Saha*</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold; margin-bottom: 10px;">Acknowledgements</h3> <!-- Reduced margin here -->
+  <ul style="list-style-type: none; padding: 0;">Senjuti Saha & team - Child Health Research Foundation, José Ordovás-Montañes & team - Harvard Stem Cell Institute, Alex Shalek & team - MIT, Bruce Horwitz & team - Boston Children's Hospital<br></p>
+  
+  <img src="../../files/img/conferences/single_cell_atlas/chrf.png" alt="CHRF Partner" style="max-width: 100px; margin: 10px;">
+  <img src="../../files/img/conferences/single_cell_atlas/josh_ordovas.png" alt="Josh Ordovas Partner" style="max-width: 150px; margin: 10px;">
+  <img src="../../files/img/conferences/single_cell_atlas/shalek_lab.png" alt="Shalek Lab Partner" style="max-width: 150px; margin: 10px;">
+  <img src="../../files/img/conferences/single_cell_atlas/bch.png" alt="Boston Children's Hospital" style="max-width: 150px; margin: 10px;">
+   <img src="../../files/img/conferences/single_cell_atlas/harvard.png" alt="Harvard Medical School Division of Medical Sciences" style="max-width: 150px; margin: 10px;">
+  <img src="../../files/img/conferences/single_cell_atlas/bmgf.png" alt="Bill & Melinda Gates Foundation" style="max-width: 150px; margin: 10px;">
+  <img src="../../files/img/conferences/single_cell_atlas/czi.png" alt="Chan Zuckerberg Initiative" style="max-width: 150px; margin: 10px;">
+  <img src="../../files/img/conferences/single_cell_atlas/who.png" alt="WHO Partner" style="max-width: 150px; margin: 10px;">
+
+<!-- Adjust margin for the following section to reduce space -->
+<h3 style="text-align: center; font-weight: bold; margin-top: 20px;">Location and Schedule</h3>
+<p style="text-align: center; font-size: 1em;">
+    Mahidol University,
+    Bangkok, Thailand<br>
+    24th - 28th June, 2024<br>
+</p>
+
+<p style="text-align: center;">
+    <a href="https://www.humancellatlas.org/news/hca-single-cell-omics-workshop-thailand-24-28-june-2024/" class="btn btn-primary rounded-pill me-2">Program Website</a>
+</p>
+
+`);
+</script>
+
+<style>
+  #program-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px; /* Reduced width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  div {
+    font-size: 1em;
+    margin: 0 auto;
+    max-width: 1000px; /* Adjusted width */
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin: 0 auto;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Each slide */
+  .mySlides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  /* Make the first slide visible */
+  .mySlides:first-child {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.mySlides');
+  
+  function showSlides() {
+    slides.forEach((slide) => {
+      slide.style.opacity = '0';  // Hide all slides
+    });
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }  // Loop back to first slide
+    slides[slideIndex - 1].style.opacity = '1';  // Show the current slide
+    setTimeout(showSlides, 3000);  // Change image every 3 seconds
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    showSlides();  // Initialize the slideshow
+  });
+</script>

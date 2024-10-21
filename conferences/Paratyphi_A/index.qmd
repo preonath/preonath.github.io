@@ -1,0 +1,168 @@
+---
+title: "Paratype v1.1: Recent Updates to the Genotyping Tool for Paratyphoid Fever Surveillance"
+description: "13th International Conference on Typhoid and Other Invasive Salmonelloses"
+image: "cat.jpeg"
+date: "2023-12-05"
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+  <!-- Slideshow Background -->
+  <div class="slideshow-container">
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_1.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_2.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_3.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/A.png'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_4.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_5.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_6.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_7.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_8.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_9.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_10.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_11.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_12.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_13.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_14.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_15.jpeg'); background-size: cover; background-position: center;"></div>
+
+  </div>
+
+
+  <!-- Text Overlay on the Background Image -->
+  <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
+    <h1 style="font-size: 3em; font-weight: bold; text-align: center;">Paratype v1.1: Recent Updates to the Genotyping Tool for Paratyphoid Fever Surveillance</h1>
+    <p style="font-size: 1.5em; text-align: center; max-width: 800px; margin: 0 auto;">Our recent updates to Paratype, the genotyping tool for paratyphoid fever surveillance, include the identification of novel genotypes, the release of v1.1, and improvements in batch mode processing.</p>
+  </div>
+</div>
+
+<!-- Structured Program Details Below the Image -->
+  <h3 style="text-align: center; font-weight: bold;">Background</h3>
+  <p style="text-align: center;">Paratyphoid fever is caused by Salmonella Paratyphi A and is a neglected tropical disease affecting millions globally, especially in low- and middle-income countries. Our tool, Paratype, assists in epidemiological studies of paratyphoid fever.</p>
+
+  <h3 style="text-align: center; font-weight: bold;">Method</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>1. Phylogenetic analysis using RAxML to detect potentially novel genotypes from newly published genomes.</li>
+    <li>2. Enhancements in Paratype to allow batch processing for large datasets (Figure 1).</li>
+    <li>3. Updated Paratype v1.1 and scripts uploaded to GitHub for public use.</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Results</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>Analyses of 479 new genomes using Paratype v1.1 from different countries (India, Bangladesh, Cambodia, etc.).</li>
+    <li>Six novel genotypes were identified: 2.3.4, 2.4.5, 2.4.6, 2.4.7, 2.4.8, and 2.4.9 (Figure 2).</li>
+    <li>Paratype v1.1 was released on GitHub with updated allele information.</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Conclusion</h3>
+  <p style="text-align: center;">Paratype v1.1 will assist in future genomic studies on Salmonella Paratyphi A, and its installation from Bioconda will allow greater accessibility. Genomes from paratyphoid-endemic regions like sub-Saharan Africa will help improve the genotyping scheme and support targeted treatment strategies.</p>
+
+  <h3 style="text-align: center; font-weight: bold;">Acknowledgements</h3>
+  <p style="text-align: center;">Preonath C Dev, Arif M Tanmoy, Anisur Rahman, Samir K Saha, Yogesh Hooda, Senjuti Saha - Child Health Research Foundation (CHRF)</p>
+  
+  <div style="text-align: center;">
+    <img src="../../files/img/conferences/Paratyphi_A_B/A.png" alt="A strain analysis" style="max-width: 150px; margin: 10px;">
+    <img src="../../files/img/conferences/Paratyphi_A_B/B.png" alt="B strain analysis" style="max-width: 150px; margin: 10px;">
+  </div>
+
+  <h3 style="text-align: center; font-weight: bold;">References</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>Tanmoy AM, et al. Genome-wide analysis provides deeper understanding of the population structure of Salmonella Paratyphi B. Microbial Genomics, 2023.</li>
+    <li>Rahman S, et al. Phylogenetic tree of global Salmonella Paratyphi A isolates. PLoS Negl Trop Dis, 2023.</li>
+    <li>Jacob J, et al. Paratype v1.1 released for public use. GitHub, 2023.</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Location and Schedule</h3>
+  <p style="text-align: center; font-size: 1em;">
+    Child Health Research Foundation (CHRF), Dhaka, Bangladesh<br>
+    May 25th, 2023<br>
+  </p>
+
+  <p style="text-align: center;">
+    <a href="https://github.com/chrf-bd/Paratype" class="btn btn-primary rounded-pill me-2">GitHub Repository</a>
+  </p>
+
+`);
+</script>
+
+<style>
+  #program-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px; /* Reduced width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  div {
+    font-size: 1em;
+    margin: 0 auto;
+    max-width: 1000px; /* Adjusted width */
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin: 0 auto;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Each slide */
+  .mySlides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  /* Make the first slide visible */
+  .mySlides:first-child {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.mySlides');
+  
+  function showSlides() {
+    slides.forEach((slide) => {
+      slide.style.opacity = '0';  // Hide all slides
+    });
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }  // Loop back to first slide
+    slides[slideIndex - 1].style.opacity = '1';  // Show the current slide
+    setTimeout(showSlides, 3000);  // Change image every 3 seconds
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    showSlides();  // Initialize the slideshow
+  });
+</script>

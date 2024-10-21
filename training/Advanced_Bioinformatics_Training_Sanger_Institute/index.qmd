@@ -1,0 +1,225 @@
+---
+title: "Advanced Bioinformatics Training"
+description: "Wellcome Sanger Institute"
+image: "Workshop_India.jpeg" 
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+  <!-- Slideshow Background with the images -->
+  <div class="slideshow-container">
+    <!-- Use relative paths for the images with gradient overlay -->
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/training/Advanced_Bioinformatics_Training_Sanger/ABTS_1.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/training/Advanced_Bioinformatics_Training_Sanger/ABTS_2.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/training/Advanced_Bioinformatics_Training_Sanger/ABTS_3.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/training/Advanced_Bioinformatics_Training_Sanger/ABTS_4.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/training/Advanced_Bioinformatics_Training_Sanger/ABTS_5.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/training/Advanced_Bioinformatics_Training_Sanger/ABTS_6.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/training/Advanced_Bioinformatics_Training_Sanger/ABTS_7.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/training/Advanced_Bioinformatics_Training_Sanger/ABTS_8.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/training/Advanced_Bioinformatics_Training_Sanger/certificate.jpeg'); background-size: cover; background-position: center;"></div>
+  </div>
+
+
+<!-- Text Overlay on the Background Image -->
+<div style="position: absolute; top: 60%; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
+    <h1 style="font-size: 3em; font-weight: bold; text-align: center;">Advanced Bioinformatics Training</h1>
+    <p style="font-size: 1.5em; text-align: justify; max-width: 1000px; margin: 0 auto;">
+        This bioinformatics training is offered as part of the JUNO and GPS2 global genomic sequencing projects conducted by the Bentley Group. The GPS project, i.e., the Global Pneumococcal Sequencing project is a worldwide genomic surveillance network of *Streptococcus pneumoniae* which provides evidence for pneumococcal disease control. The JUNO project is a global genomic surveillance of *Streptococcus agalactiae*, which is a major cause of neonatal invasive disease worldwide.
+    </p>
+</div>
+
+</div>
+
+<!-- Structured Program Details Below the Image -->
+<div id="program-details" style="padding: 20px; background-color: #f9f9f9; max-width: 1200px; margin: 0 auto;">
+
+  <h2 style="text-align: center; font-weight: bold;">Training Details</h2>
+  <p style="text-align: center; font-size: 1.2em; max-width: 1000px; margin: 0 auto;">
+    This course is aimed at researchers who are part of these global surveillance networks and have an interest in learning how to carry out next-generation sequencing (NGS) and analysis of bacterial genomes, specifically <em>Streptococcus pneumoniae</em> and/or <em>Streptococcus agalactiae</em>. It concentrates on the application of cutting-edge genomic techniques that are currently being implemented.
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Day 1: Introduction and Basic Tools Setup</h3>
+  <div style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Introduction to Next Generation Sequencing (NGS)<br>
+    Introduction to Genomics<br>
+    Introduction to sequencing platforms<br>
+    Introduction to DNA library preparation
+  </div>
+  <p style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Tools: Data setup, Docker, JupyterLab
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Day 2: NGS Data Preparation and Quality Control</h3>
+  <div style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    NGS file formats<br>
+    NGS data quality control<br>
+    Adapter Trimming<br>
+    Taxonomy Sequence Classification
+  </div>
+  <p style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Tools: IGV, FigTree, Microreact, Phandango
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Day 3: Genome Assembly and Annotation</h3>
+  <div style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    De novo genome assembly<br>
+    Quality Assessment for Genome Assemblies<br>
+    Genome annotation<br>
+    GPS unified pipeline
+  </div>
+  <p style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Tools: SPAdes, Unicycler, Quast, Docker
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Day 4: Bacterial Typing and AMR Detection</h3>
+  <div style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Serotyping - Streptococcus pneumoniae<br>
+    Serotyping - Streptococcus agalactiae<br>
+    MLST<br>
+    AMR detection
+  </div>
+  <p style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Tools: MLST tools, AMR detection tools
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Day 5: Advanced Genomics and Phylogenetics</h3>
+  <div style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Mapping<br>
+    Variant Calling<br>
+    Phylogenetics<br>
+    Creating a phylogenetic tree using FastTree<br>
+    Clustering using popPUNK
+  </div>
+  <p style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Tools: BWA, GATK, FastTree, popPUNK
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Day 6: Overview and Case Studies</h3>
+  <div style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    An overview of NGS Bioinformatics workflow/pipeline<br>
+    Group Work - Case Studies
+  </div>
+  <p style="text-align: center; font-size: 1em; max-width: 1000px; margin: 0 auto;">
+    Tools: Docker, GPS unified pipeline, GBS Typer Pipeline
+  </p>
+
+  <h3 style="text-align: center; font-weight: bold;">Funding</h3>
+  <div style="text-align: center;">
+    <img src="../../files/img/training/Advanced_Bioinformatics_Training_Sanger/bmgf.png" alt="Bill & Melinda Gates Foundation" style="max-width: 300px; margin-bottom: 20px;">
+  </div>
+
+  <h3 style="text-align: center; font-weight: bold;">Partners</h3>
+  <div style="text-align: center;">
+    <img src="../../files/img/training/Advanced_Bioinformatics_Training_Sanger/logo-India.jpg" alt="India Partner" style="max-width: 150px; margin: 10px;">
+    <img src="../../files/img/training/Advanced_Bioinformatics_Training_Sanger/colombia.png" alt="Colombia Partner" style="max-width: 150px; margin: 10px;">
+    <img src="../../files/img/training/Advanced_Bioinformatics_Training_Sanger/MRC.png" alt="MRC Gambia Partner" style="max-width: 150px; margin: 10px;">
+    <img src="../../files/img/training/Advanced_Bioinformatics_Training_Sanger/LUMS Logo.png" alt="LUMS Partner" style="max-width: 150px; margin: 10px;">
+  </div>
+
+<h3 style="text-align: center; font-weight: bold;">Location and Schedule</h3>
+<p style="text-align: center; font-size: 1em;">
+    12th - 18th February, 2023<br>
+    Kempegowda Institute of Medical Sciences<br>
+    Bengaluru, India
+
+
+<p style="text-align: center;">
+    <a href="https://training.bactgen.sanger.ac.uk/#/" class="btn btn-primary rounded-pill me-2">Program Website</a>
+</p>
+
+</div>
+`);
+</script>
+
+<!-- Add additional details if required -->
+<style>
+  #program-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding-center: 80px; 
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.2em;
+  }
+  
+  h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  li {
+    padding: 10px;
+  }
+  ul {
+    font-size: 1em;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  <ull style="list-style-type: none; text-align: left; padding-left: 300px;">
+
+  div {
+    font-size: 1em;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1em;
+    margin: 0 auto;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  /* Each slide */
+  .mySlides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  .mySlides:first-child {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.mySlides');
+  
+  function showSlides() {
+    slides.forEach((slide) => {
+      slide.style.opacity = '0';  // Hide all slides
+    });
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }  // Loop back to first slide
+    slides[slideIndex - 1].style.opacity = '1';  // Show the current slide
+    setTimeout(showSlides, 3000);  // Change image every 3 seconds
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    showSlides();  // Initialize the slideshow
+  });
+</script>

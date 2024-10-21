@@ -1,0 +1,167 @@
+---
+title: "Genomic Epidemiology of Salmonella Paratyphi B Isolates from Bangladesh"
+description: "13th International Conference on Typhoid and Other Invasive Salmonelloses"
+image: "cat.jpeg"
+date: "2023-12-05"
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+  <!-- Slideshow Background -->
+  <div class="slideshow-container">
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_1.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_2.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_3.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/B.png'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_4.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_5.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_6.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_7.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_8.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_9.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_10.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_11.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_12.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_13.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_14.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/conferences/paratyphi_a_b/cat_15.jpeg'); background-size: cover; background-position: center;"></div>
+
+  </div>
+
+
+  <!-- Text Overlay on the Background Image -->
+  <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
+    <h1 style="font-size: 3em; font-weight: bold; text-align: center;">Genomic Epidemiology of Salmonella Paratyphi B Isolates from Bangladesh</h1>
+    <p style="font-size: 1.5em; text-align: center; max-width: 800px; margin: 0 auto;">Our research focuses on understanding the prevalence, genomic characteristics, and antimicrobial resistance of Salmonella Paratyphi B isolates in Bangladesh using Whole Genome Sequencing (WGS) and phylogenetic analysis.</p>
+  </div>
+</div>
+
+<!-- Structured Program Details Below the Image -->
+  <h3 style="text-align: center; font-weight: bold;">Highlights</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>Salmonella Paratyphi B biotype Java detected in invasive cases.</li>
+    <li>ST43/PG4 is the dominant lineage in Bangladesh.</li>
+    <li>No antimicrobial resistance genes were found in the isolates studied.</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Background</h3>
+  <p style="text-align: center;">Salmonella species are among the most common causes of foodborne diseases. Our research aims to better understand the genomic background of Salmonella Paratyphi B biotype Java, the most dominant in Bangladesh.</p>
+
+  <h3 style="text-align: center; font-weight: bold;">Methods</h3>
+  <ul style="list-style-type: none; padding: 0;">
+    <li>1. Surveillance study conducted from 1999 to 2002 in major Bangladeshi hospitals.</li>
+    <li>2. Cultures confirmed microbiologically, serologically, and biochemically.</li>
+    <li>3. Whole Genome Sequencing (WGS) using Illumina Next Generation Sequencing platform.</li>
+    <li>4. Multi-locus sequence typing (MLST) and phylogenetic analysis conducted using RAxML-NG.</li>
+  </ul>
+
+  <h3 style="text-align: center; font-weight: bold;">Results and Discussion</h3>
+  <p style="text-align: center;">14 isolates of Salmonella Paratyphi B were identified in the study, of which 13 belonged to biotype Java. Phylogenetic analysis showed clustering with isolates from other countries, with no detected antimicrobial resistance genes. This clustering was most prominent in phylogenetic group ST43/PG4.</p>
+
+  <h3 style="text-align: center; font-weight: bold;">Conclusion</h3>
+  <p style="text-align: center;">Salmonella Paratyphi B biotype Java is the dominant serovar in Bangladesh. WGS analysis shows a low prevalence of antimicrobial resistance, underscoring the need for continued surveillance.</p>
+
+  <h3 style="text-align: center; font-weight: bold;">Acknowledgements</h3>
+  <div style="text-align: center;">
+    <p style="text-align: center;">Anisur Rahman, Preonath Chondrow Dev, Md. Mobarak Hossain, Esha Kazi, Sharmistha Goswami, Hafizur Rahman, Yogesh Hooda, Arif M Tanmoy, Samir K Saha, Senjuti Saha - Child Health Research Foundation (CHRF)</p>
+
+    <img src="../../files/img/conferences/single_cell_atlas/chrf.png" alt="CHRF Logo" style="max-width: 150px; margin: 10px;">
+    <img src="../../files/img/conferences/single_cell_atlas/bmgf.png" alt="Bill & Melinda Gates Foundation" style="max-width: 150px; margin: 10px;">
+    <img src="../../files/img/conferences/single_cell_atlas/czi.png" alt="Chan Zuckerberg Initiative" style="max-width: 150px; margin: 10px;">
+    <img src="../../files/img/conferences/single_cell_atlas/who.png" alt="WHO Logo" style="max-width: 150px; margin: 10px;">
+  </div>
+
+  <h3 style="text-align: center; font-weight: bold;">Location and Schedule</h3>
+  <p style="text-align: center; font-size: 1em;">
+    Mahidol University, Bangkok, Thailand<br>
+    24th - 28th June, 2024<br>
+  </p>
+
+  <p style="text-align: center;">
+    <a href="https://www.chrfbd.org/research" class="btn btn-primary rounded-pill me-2">Learn More</a>
+  </p>
+
+`);
+</script>
+
+<style>
+  #program-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 1200px; /* Reduced width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  div {
+    font-size: 1em;
+    margin: 0 auto;
+    max-width: 1000px; /* Adjusted width */
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin: 0 auto;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Each slide */
+  .mySlides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  /* Make the first slide visible */
+  .mySlides:first-child {
+    opacity: 1;
+  }
+</style>
+
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.mySlides');
+  
+  function showSlides() {
+    slides.forEach((slide) => {
+      slide.style.opacity = '0';  // Hide all slides
+    });
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }  // Loop back to first slide
+    slides[slideIndex - 1].style.opacity = '1';  // Show the current slide
+    setTimeout(showSlides, 3000);  // Change image every 3 seconds
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    showSlides();  // Initialize the slideshow
+  });
+</script>

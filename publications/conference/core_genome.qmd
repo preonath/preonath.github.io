@@ -1,0 +1,20 @@
+---
+title: "Exploration of Streptococcus core genome to reveal druggable targets and novel therapeutics against S. pneumoniae"
+author: "Zeshan Mahmud Chowdhury, Arittra Bhattacharjee, Ishtiaque Ahammad, Mohammad Uzzal Hossain, Abdullah All Jaber, Anisur Rahman, Preonath Chondrow Dev, Md. Salimullah, Chaman Ara Keya"
+year: "2022"
+publication: "PLOS ONE"
+doi: "https://doi.org/10.1371/journal.pone.0272945"
+materials: "publications/conference/core_genome.pdf"
+toc: false
+categories:
+  - Research
+  - Microbiology
+  - Public Health
+---
+
+## Abstract
+Streptococcus pneumoniae (S. pneumoniae), the major etiological agent of community-acquired pneumonia (CAP), contributes significantly to the global burden of infectious diseases which is getting resistant day by day. Nearly 30% of the S. pneumoniae genomes encode hypothetical proteins (HPs), and better understandings of these HPs in virulence and pathogenicity plausibly decipher new treatments. Some of the HPs are present across many Streptococcus species, and systematic assessment of these unexplored HPs will disclose prospective drug targets. In this study, through a stringent bioinformatics analysis of the core genome and proteome of S. pneumoniae PCS8235, we identified and analyzed 28 HPs that are common in many Streptococcus species and might have a potential role in the virulence or pathogenesis of the bacteria. Functional annotations of the proteins were conducted based on the physicochemical properties, subcellular localization, virulence prediction, protein-protein interactions, and identification of essential genes, to find potentially druggable proteins among 28 HPs. The majority of the HPs are involved in bacterial transcription and translation. Besides, some of them were homologs of enzymes, binding proteins, transporters, and regulators. Protein-protein interactions revealed HP PCS8235_RS05845 made the highest interactions with other HPs and also has TRP structural motif along with virulent and pathogenic properties indicating it has critical cellular functions and might go under unconventional protein secretions. The second highest interacting protein, HP PCS8235_RS02595, interacts with the Regulator of Chromosomal Segregation (RocS) which participates in chromosome segregation and nucleoid protection in S. pneumoniae. In this interacting network, 54% of protein members have virulent properties, and 40% contain pathogenic properties. Among them, most of these proteins circulate in the cytoplasmic area and have hydrophilic properties. Finally, molecular docking and dynamics simulation demonstrated that the antimalarial drug Artenimol can act as a drug repurposing candidate against HP PCS8235_RS04650 of S. pneumoniae. Hence, the present study could aid in developing drugs against S. pneumoniae.
+
+**Keywords**: Uncontrolled, Duration, Controlled, Hyperlipidemia, Diabetes
+
+

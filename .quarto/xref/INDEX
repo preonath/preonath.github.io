@@ -1,0 +1,161 @@
+{
+  "index.qmd": {
+    "index.html": "0d6361ff"
+  },
+  "about.qmd": {
+    "about.html": "b2bec2c6"
+  },
+  "gallery.qmd": {
+    "gallery.html": "28f24135"
+  },
+  "projects.qmd": {
+    "projects.html": "76ddb6f0"
+  },
+  "projects/nipah-virus/index.qmd": {
+    "index.html": "66ebd5f8"
+  },
+  "publications.qmd": {
+    "publications.html": "33cf4ed1"
+  },
+  "publications/conference/BSM23_AkterS.qmd": {
+    "BSM23_AkterS.html": "394569de"
+  },
+  "publications/conference/BSM23_DasM.qmd": {
+    "BSM23_DasM.html": "de148f08"
+  },
+  "publications/conference/BSM23_ShahidMSB.qmd": {
+    "BSM23_ShahidMSB.html": "064fbc8b"
+  },
+  "research.qmd": {
+    "research.html": "73c2e51b"
+  },
+  "resources.qmd": {
+    "resources.html": "80a164d0"
+  },
+  "talks.qmd": {
+    "talks.html": "cf76197a"
+  },
+  "talks/NIB-WorkShop/index.qmd": {
+    "index.html": "38044023"
+  },
+  "talks/Nasal Swab Dissociation Livestream/index.qmd": {
+    "index.html": "78b3ffa5"
+  },
+  "talks/Sanger Institute/index.qmd": {
+    "index.html": "65aadddf"
+  },
+  "talks/state-the-art-of-microbial-genome-analysi/index.qmd": {
+    "index.html": "35294bcb"
+  },
+  "talks/undergraduate-research-importance-benefits-and-challenges/index.qmd": {
+    "index.html": "1fbac640"
+  },
+  "teaching.qmd": {
+    "teaching.html": "e0dce6a5"
+  },
+  "teaching/AI_in_Public_Health/index.qmd": {
+    "index.html": "a193bc61"
+  },
+  "teaching/Advanced_Next_Generation_Sequencing/index.qmd": {
+    "index.html": "57556768"
+  },
+  "teaching/Bioinformatics_for_Biotechnology_Research/index.qmd": {
+    "index.html": "dbff546c"
+  },
+  "use.qmd": {
+    "use.html": "e03348d9"
+  },
+  "projects/Choronic_Kidney/01_Choronic Kidney.ipynb": {
+    "01_Choronic Kidney.html": "f1d56959"
+  },
+  "projects/Breast_Cancer/03_Breast Cancer.ipynb": {
+    "03_Breast Cancer.html": "4b3f0204"
+  },
+  "projects/Heart_Disease/05_Heart Diseases.ipynb": {
+    "05_Heart Diseases.html": "b4489133"
+  },
+  "projects/Hepatitis/02_Hepatitis.ipynb": {
+    "02_Hepatitis.html": "2098fa8e"
+  },
+  "projects/Calories_Burnt/02_Calories Burnt Prediction.ipynb": {
+    "02_Calories Burnt Prediction.html": "1e284932"
+  },
+  "projects/ESOL/01_ESOL.ipynb": {
+    "01_ESOL.html": "fd9be275"
+  },
+  "training.qmd": {
+    "training.html": "285cfc0e"
+  },
+  "blog.qmd": {
+    "blog.html": "e403d431"
+  },
+  "dashboards.qmd": {
+    "dashboards.html": "1d4b38b6"
+  },
+  "training/NIB-WorkShop/index.qmd": {
+    "index.html": "5b501de1"
+  },
+  "training/Nasal Swab Dissociation Livestream/index.qmd": {
+    "index.html": "2a27890b"
+  },
+  "training/Sanger Institute/index.qmd": {
+    "index.html": "db6b8cdb"
+  },
+  "training/state-the-art-of-microbial-genome-analysi/index.qmd": {
+    "index.html": "d2d154bd"
+  },
+  "training/undergraduate-research-importance-benefits-and-challenges/index.qmd": {
+    "index.html": "97105b81"
+  },
+  "training/Advanced_Bioinformatics_Training_Sanger_Institute/index.qmd": {
+    "index.html": "049e687a"
+  },
+  "cv/index.qmd": {
+    "index.html": "db643db8"
+  },
+  "training/Serocalculator_Workshop/index.qmd": {
+    "index.html": "e4b38cb1"
+  },
+  "conference.qmd": {
+    "conference.html": "bd63c88d"
+  },
+  "conferences/single_cell_atlas/index.qmd": {
+    "index.html": "7e706b84"
+  },
+  "conferences/Paratyphi_A/index.qmd": {
+    "index.html": "fb288aa7"
+  },
+  "conferences/Paratyphi_B/index.qmd": {
+    "index.html": "a9ae891a"
+  },
+  "files/img/conferences/Paratyphi_A/index.qmd": {
+    "index.html": "4325e8cd"
+  },
+  "training/Industrial_training/index.qmd": {
+    "index.html": "ce33d7a4"
+  },
+  "training/NIB WorkShop/index.qmd": {
+    "index.html": "2b70ecfa"
+  },
+  "publications/conference/virustaxo.qmd": {
+    "virustaxo.html": "49fd7cda"
+  },
+  "publications/conference/type_2_diabetic.qmd": {
+    "type_2_diabetic.html": "cc48c30f"
+  },
+  "publications/conference/core_genome.qmd": {
+    "core_genome.html": "977a145e"
+  },
+  "publications/conference/phage.qmd": {
+    "phage.html": "9d6cf74e"
+  },
+  "publications/conference/monkeypox.qmd": {
+    "monkeypox.html": "89cc101d"
+  },
+  "training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/index.qmd": {
+    "index.html": "ba04aa8d"
+  },
+  "teaching/Bacterial_Genomics_&_Antimicrobial_Resistance_Workshop/index.qmd": {
+    "index.html": "856a3fcd"
+  }
+}
