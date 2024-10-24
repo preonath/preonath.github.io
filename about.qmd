@@ -112,25 +112,32 @@ Genome Annotation, Genome Submission, MLST Prediction at Total 2 Batches
 Using AI‑based Tools’; Topics Covered in the Training: Data cleaning and preprocessing, Dengue prediction in Puerto Rico using LSTM and
 ARIMA, Predicting Pneumonia in X‑rays using CNN
 
-
 ## Volunteering 
-**ACADEMiC TEAM MEMBER** \|  [Bangladesh Mathematical Olympiad] \|  Dhaka, Bangladesh \| (2021)
+**Academic Team Member** <br> 
+[Bangladesh Mathematical Olympiad] | Dhaka, Bangladesh | (2021)
 
-Engaged in evaluating examination papers and overseeing exam hall activities to ensure a smooth conduct of the Olympiad
+Engaged in evaluating examination papers and overseeing exam hall activities to ensure a smooth conduct of the Olympiad.
 
-**ACADEMiC TEAM MEMBER** \|  [Bangladesh Physics Olympiad] \|  Dhaka, Bangladesh \| (2021)
+**Academic Team Member** <br> 
+[Bangladesh Physics Olympiad] | Dhaka, Bangladesh | (2021)
 
 Played a crucial role in monitoring examination procedures and providing assistance to participants throughout the event.
 
-**ACADEMiC TEAM MEMBER** \|  [Bangladesh Physics Olympiad] \|  Dhaka, Bangladesh \| (2021)
+**Academic Team Member** <br> 
+[Bangladesh Physics Olympiad] | Dhaka, Bangladesh | (2021)
 
-Tasked with the assessment of solutions and maintaining order among candidates during the Olympiad competitions
+Tasked with the assessment of solutions and maintaining order among candidates during the Olympiad competitions.
 
-**ENZYME** \|  [Bangladesh Biology Olympiad ] \|  Dhaka, Bangladesh \| (2021)
+**Enzyme** <br> 
+Bangladesh Biology Olympiad] | Dhaka, Bangladesh | (2021)
 
-Assisted in the evaluation process and managed the exam hall logistics to facilitate a fair and efficient Olympiad
+Assisted in the evaluation process and managed the exam hall logistics to facilitate a fair and efficient Olympiad.
 
-**MENTOR** \|  [Bioinformatics School ] \|  Dhaka, Bangladesh \| (2021)
+**Mentor** <br> 
+[Bioinformatics School] | Dhaka, Bangladesh | (2021)
+
+Provided guidance and solved various bioinformatics-related problems for the group members.
+
 
 Solve the different kinds of bioinformatics related problem of the group members
 

@@ -11,51 +11,64 @@ comments: false
 # Technical Skills
 
 ### **Languages:**
-- Python
-- Bash
-- R
-- C
-- Nextflow
-- Java
+  - Python
+  - Bash
+  - R
+  - C
+  - Nextflow
+  - Java
 
 ### **Database Management Systems:**
-- SQL
-- Redis
-
+  - SQL
+  - MySQL
+  - Redis
+  
 ### **Data Analysis Tools:**
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
-- Keras
-- SciKit-Learn
-- TensorFlow
-- PyCaret
+  - Numpy
+  - Pandas
+  - Matplotlib
+  - Seaborn
+  - Keras
+  - SciKit-Learn
+  - TensorFlow
+  - PyCaret
+  
+
+### **Miscellaneous Skills:** 
+  - Git  
+  - Jupyter Notebook  
+  - Visual Studio  
+  - R Studio  
+  - PyCharm  
+  - Visual Studio Code  
+  - Terra  
+  - Posit  
+  - Bash Terminal  
 
 ### **Machine Learning and Deep Learning:**
-- Scikit-Learn
-- Keras
-- TensorFlow
-- PyTorch
-- PyCaret
+  - Scikit-Learn
+  - Keras
+  - TensorFlow
+  - PyTorch
+  - PyCaret
 
 ### **Microarray Analysis:**
 - limma
 - gProfileR
 
 ### **RNA Sequencing Analysis:**
-- FastQC
-- Trimmomatic
-- Cutadapt
-- Fastp
-- STAR
-- HISAT2
-- DESeq2
-- ClusterProfiler
-- IGV
-- ggplot2
-- Bioconductor
-- Nextflow
+  - FastQC
+  - Trimmomatic
+  - Cutadapt
+  - Fastp
+  - STAR
+  - HISAT2
+  - DESeq2
+  - ClusterProfiler
+  - IGV
+  - ggplot2
+  - Bioconductor
+  - Nextflow
 
 # **Single Cell RNA Sequencing Analysis:**
 
