@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -155,30 +189,280 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Technical Skills</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Python</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Bash</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Data Resources</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false">Genomics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false">Metagenomics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false">Teaching Tools</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Technical Skills</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false"><strong>Single Cell RNA Sequencing Analysis:</strong></a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Bash</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Wet Lab</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Python</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-7" role="tab" aria-controls="tabset-1-7" aria-selected="false">Nextflow</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-8" role="tab" aria-controls="tabset-1-8" aria-selected="false">Deep Learning</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-9-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-9" role="tab" aria-controls="tabset-1-9" aria-selected="false">Genomics</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-10-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-10" role="tab" aria-controls="tabset-1-10" aria-selected="false">Teaching Tools</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<!-- ## Literature Review  -->
-<!-- - [typeset.io](https://typeset.io/) - Typeset.io is a platform designed to assist researchers, academics, and authors in the process of writing, formatting, and preparing documents for publication.  -->
-<!-- - [scholarcy](https://www.scholarcy.com/) - The AI-powered article summarizer.  -->
-<!-- - [elicit](https://elicit.org/) - AI-based research assistant.  -->
-<!-- ## Journal Finders  -->
-<!-- - [Journal Finder by Elsevier](https://journalfinder.elsevier.com/): This tool allows you to enter your manuscript title and abstract to find journals that are a good match for your research. It also provides information on journal metrics and submission guidelines. -->
-<!-- - [Springer Journal Suggester](https://journalsuggester.springer.com/): Springer's tool helps you find the right journal for your research by analyzing your abstract or keywords and suggesting journals that publish articles in your field. -->
-<!-- - [PubMed Journal Selector](https://www.ncbi.nlm.nih.gov/pmc/journals/): If your research is in the biomedical or life sciences, PubMed's Journal Selector can assist you in finding journals that match your keywords and research area. -->
-<!-- - [JANE (Journal/Author Name Estimator)](https://jane.biosemantics.org/): JANE is a free online tool that helps you find journals and authors based on the text of your article's title and abstract. -->
-<!-- - [JournalGuide](https://www.journalguide.com/): This tool provides a comprehensive database of journals in various fields and allows you to search for journals by keywords or browse by subject area. -->
-<!-- - [Scopus Journal Finder](https://www.scopus.com/sources.uri): Scopus, a bibliographic database, offers a journal finder feature that helps you find journals related to your research area based on keywords or article titles. -->
-<!-- - [DOAJ (Directory of Open Access Journals)](https://doaj.org/): If you're interested in open-access journals, DOAJ is a directory of freely available scholarly journals that you can search by subject or keyword. -->
-<!-- - [Scimago Journal & Country Rank](https://www.scimagojr.com/): On the Scimago platform, you can find information about journals, their rankings, citation data, and more, which can be useful for researchers looking to identify suitable journals for their research or assess the impact and prestige of journals in their field. It's a valuable tool for academic research and evaluation. -->
-<p>Languages: <strong>Bash, Python, C, R, Java</strong></p>
-<p>Database Management System(<strong>SQL, MySQL, Redis</strong>)</p>
-<p>Skillful at <strong>Machine learning and Deep Learning</strong>.</p>
-<p>Data analysis using <strong>Numpy, Pandas, Malplotlib, Seaborn, Keras, SciKit-Learn TensorFlow.</strong></p>
-<p>Microarray analysis.</p>
-<p>RNA sequencing Analysis</p>
-<p>Single Cell RNA sequencing Analysis</p>
-<p>Molecular biology:</p>
+<section id="languages" class="level3">
+<h3 class="anchored" data-anchor-id="languages"><strong>Languages:</strong></h3>
+<ul>
+<li>Python</li>
+<li>Bash</li>
+<li>R</li>
+<li>C</li>
+<li>Nextflow</li>
+<li>Java</li>
+</ul>
+</section>
+<section id="database-management-systems" class="level3">
+<h3 class="anchored" data-anchor-id="database-management-systems"><strong>Database Management Systems:</strong></h3>
+<ul>
+<li>SQL</li>
+<li>Redis</li>
+</ul>
+</section>
+<section id="data-analysis-tools" class="level3">
+<h3 class="anchored" data-anchor-id="data-analysis-tools"><strong>Data Analysis Tools:</strong></h3>
+<ul>
+<li>Numpy</li>
+<li>Pandas</li>
+<li>Matplotlib</li>
+<li>Seaborn</li>
+<li>Keras</li>
+<li>SciKit-Learn</li>
+<li>TensorFlow</li>
+<li>PyCaret</li>
+</ul>
+</section>
+<section id="machine-learning-and-deep-learning" class="level3">
+<h3 class="anchored" data-anchor-id="machine-learning-and-deep-learning"><strong>Machine Learning and Deep Learning:</strong></h3>
+<ul>
+<li>Scikit-Learn</li>
+<li>Keras</li>
+<li>TensorFlow</li>
+<li>PyTorch</li>
+<li>PyCaret</li>
+</ul>
+</section>
+<section id="microarray-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="microarray-analysis"><strong>Microarray Analysis:</strong></h3>
+<ul>
+<li>limma</li>
+<li>gProfileR</li>
+</ul>
+</section>
+<section id="rna-sequencing-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="rna-sequencing-analysis"><strong>RNA Sequencing Analysis:</strong></h3>
+<ul>
+<li>FastQC</li>
+<li>Trimmomatic</li>
+<li>Cutadapt</li>
+<li>Fastp</li>
+<li>STAR</li>
+<li>HISAT2</li>
+<li>DESeq2</li>
+<li>ClusterProfiler</li>
+<li>IGV</li>
+<li>ggplot2</li>
+<li>Bioconductor</li>
+<li>Nextflow</li>
+</ul>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<section id="data-pre-processing" class="level4">
+<h4 class="anchored" data-anchor-id="data-pre-processing"><strong>1. Data Pre-processing:</strong></h4>
+<ul>
+<li><strong>Scanpy</strong>: Preprocessing single-cell RNA-seq data with functions like <code>pp.filter_genes</code>, <code>pp.normalize_total</code>, and <code>pp.log1p</code> for normalization, scaling, and filtering.</li>
+<li><strong>Seurat</strong>: Preprocessing with functions such as <code>NormalizeData</code>, <code>ScaleData</code>, and <code>FindVariableFeatures</code> to prepare the data for downstream analysis.</li>
+<li><strong>Cell Ranger</strong>: Primary analysis pipeline from 10x Genomics for generating FASTQ, aligning reads, and creating expression matrices.</li>
+<li><strong>Scater (R)</strong>: For quality control and visualization of single-cell RNA-seq data.</li>
+<li><strong>scrublet</strong>: For detecting doublets in droplet-based single-cell RNA-seq data.</li>
+<li><strong>DropletUtils (R)</strong>: For handling and processing droplet-based single-cell RNA-seq data, including ambient RNA correction.</li>
+</ul>
+</section>
+<section id="clustering-and-cell-annotation" class="level4">
+<h4 class="anchored" data-anchor-id="clustering-and-cell-annotation"><strong>2. Clustering and Cell Annotation:</strong></h4>
+<ul>
+<li><strong>Scanpy</strong>: Clustering with algorithms like Louvain (<code>tl.louvain</code>) and Leiden (<code>tl.leiden</code>). Annotation with marker genes using <code>tl.rank_genes_groups</code>.</li>
+<li><strong>Seurat</strong>: Clustering with <code>FindClusters</code> and <code>RunPCA</code> for dimensionality reduction and visualization. Annotation via <code>FindAllMarkers</code> to identify cell-type-specific markers.</li>
+<li><strong>Harmony</strong>: Batch correction and integration during clustering to harmonize multiple datasets.</li>
+<li><strong>SingleR</strong>: Automated cell type annotation by comparing single-cell RNA-seq profiles to reference datasets.</li>
+<li><strong>SCINA</strong>: A marker-based approach to classify single-cell data into known cell types.</li>
+<li><strong>CellAssign</strong>: Bayesian probabilistic model to assign cell types based on pre-defined marker genes.</li>
+</ul>
+</section>
+<section id="integration-and-batch-correction" class="level4">
+<h4 class="anchored" data-anchor-id="integration-and-batch-correction"><strong>3. Integration and Batch Correction:</strong></h4>
+<ul>
+<li><strong>Scanpy</strong>: Integration tools like <code>tl.bbknn</code> for batch-correction using nearest neighbors and <code>external.pp.harmony_integrate</code> for Harmony integration.</li>
+<li><strong>Seurat</strong>: Integration tools such as Canonical Correlation Analysis (<code>FindIntegrationAnchors</code>) and Reciprocal PCA (<code>IntegrateData</code>) for batch correction across datasets.</li>
+<li><strong>Harmony</strong>: A flexible tool for integration and batch effect correction during analysis.</li>
+<li><strong>MNNCorrect</strong>: Mutual Nearest Neighbors correction for batch effect removal.</li>
+<li><strong>scVI</strong>: Scalable Variational Inference for integrating and analyzing multi-modal single-cell datasets.</li>
+</ul>
+</section>
+<section id="cell-cell-communication" class="level4">
+<h4 class="anchored" data-anchor-id="cell-cell-communication"><strong>4. Cell-Cell Communication:</strong></h4>
+<ul>
+<li><strong>CellPhoneDB</strong>: A Python tool for inferring cell-cell communication based on ligand-receptor interactions.</li>
+<li><strong>NATMI</strong>: For predicting ligand-receptor interactions between cell populations.</li>
+<li><strong>iTALK</strong>: R package for analyzing and visualizing cell-cell communication using scRNA-seq data.</li>
+<li><strong>CellChat</strong>: R package for inferring and visualizing intercellular communication networks.</li>
+<li><strong>SingleCellSignalR</strong>: An R package for identifying cell-cell communication networks based on receptor-ligand interaction analysis.</li>
+</ul>
+</section>
+<section id="bcr-background-and-10x-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="bcr-background-and-10x-analysis"><strong>5. BCR Background and 10x Analysis:</strong></h4>
+<ul>
+<li><strong>Cell Ranger</strong>: For reconstructing BCR and TCR sequences from 10x Genomics single-cell data.</li>
+<li><strong>VDJtools</strong>: Analyzing BCR/TCR repertoires from single-cell RNA-seq data.</li>
+<li><strong>scRepertoire</strong>: R package for analyzing TCR/BCR sequences in single-cell datasets, providing clonotype tracking and diversity analysis.</li>
+</ul>
+</section>
+<section id="trajectory-inference" class="level4">
+<h4 class="anchored" data-anchor-id="trajectory-inference"><strong>6. Trajectory Inference:</strong></h4>
+<ul>
+<li><strong>Monocle3</strong>: R package for performing pseudotime analysis and reconstructing cell trajectories.</li>
+<li><strong>Slingshot</strong>: R package for lineage inference and trajectory reconstruction from single-cell RNA-seq data.</li>
+<li><strong>Scanpy</strong>: Trajectory inference using methods like Palantir (<code>tl.palantir</code>) and pseudotime analysis with <code>tl.dpt</code>.</li>
+<li><strong>PAGA</strong>: Partition-based graph abstraction for inferring lineage relationships and transitions between cell states in Scanpy.</li>
+<li><strong>Velocyto</strong>: A tool for estimating RNA velocity in single cells, predicting the future states of cells in trajectory analysis.</li>
+<li><strong>dynverse</strong>: A collection of methods and packages for trajectory inference, integrated with both Seurat and Scanpy workflows.</li>
+</ul>
+</section>
+<section id="differential-abundance" class="level4">
+<h4 class="anchored" data-anchor-id="differential-abundance"><strong>7. Differential Abundance:</strong></h4>
+<ul>
+<li><strong>DAseq</strong>: R package for differential abundance analysis of single-cell datasets, identifying significant differences in cell populations.</li>
+<li><strong>Milo</strong>: For testing differential abundance of cell neighborhoods across conditions.</li>
+<li><strong>edgeR</strong>: For differential expression analysis in scRNA-seq data.</li>
+<li><strong>DESeq2</strong>: R package for differential expression analysis in bulk RNA-seq and scRNA-seq data.</li>
+</ul>
+</section>
+<section id="multiomic-scatac" class="level4">
+<h4 class="anchored" data-anchor-id="multiomic-scatac"><strong>8. Multiomic scATAC:</strong></h4>
+<ul>
+<li><strong>Signac</strong>: An R package built on top of Seurat for integrating scRNA-seq and scATAC-seq data.</li>
+<li><strong>ArchR</strong>: A comprehensive tool for single-cell ATAC-seq data analysis, including peak calling, dimensionality reduction, and clustering.</li>
+<li><strong>Cicero</strong>: Tool for inferring co-accessibility networks from scATAC-seq data.</li>
+<li><strong>SnapATAC</strong>: For scATAC-seq clustering, visualization, and integration with scRNA-seq datasets.</li>
+<li><strong>scVI</strong>: Probabilistic modeling for multi-modal single-cell data, supporting scRNA-seq and scATAC-seq integration.</li>
+</ul>
+</section>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<section id="key-bash-commands-and-tools-for-bioinformatics" class="level2">
+<h2 class="anchored" data-anchor-id="key-bash-commands-and-tools-for-bioinformatics">Key Bash Commands and Tools for Bioinformatics:</h2>
+<section id="file-management-and-text-processing" class="level3">
+<h3 class="anchored" data-anchor-id="file-management-and-text-processing"><strong>1. File Management and Text Processing:</strong></h3>
+<ul>
+<li><strong><code>grep</code></strong>: For searching and filtering text data from large files (e.g., logs, sequence data).</li>
+<li><strong><code>awk</code></strong>: Used for text processing and pattern scanning, often in sequence data files like FASTA, FASTQ, or SAM.</li>
+<li><strong><code>sed</code></strong>: Stream editor for basic text transformations in bioinformatics pipelines.</li>
+<li><strong><code>cut</code></strong>: For extracting columns from text files such as tabular data (e.g., VCF or expression matrices).</li>
+<li><strong><code>sort</code> and <code>uniq</code></strong>: To sort and filter unique lines in large datasets.</li>
+<li><strong><code>find</code></strong>: Locating files and directories based on name, size, or modification time.</li>
+</ul>
+</section>
+<section id="sequence-data-handling" class="level3">
+<h3 class="anchored" data-anchor-id="sequence-data-handling"><strong>2. Sequence Data Handling:</strong></h3>
+<ul>
+<li><strong><code>fastqc</code></strong>: Quality control tool for high-throughput sequence data (FASTQ files).</li>
+<li><strong><code>multiqc</code></strong>: Aggregates results from multiple <code>fastqc</code> reports into a single summary report.</li>
+<li><strong><code>bwa</code></strong>: Burrows-Wheeler Aligner for mapping low-divergent sequences against a large reference genome.</li>
+<li><strong><code>samtools</code></strong>: Utilities for processing SAM, BAM, and CRAM files (e.g., sorting, indexing, and converting formats).</li>
+<li><strong><code>bcftools</code></strong>: Tools for variant calling and manipulating VCF files, used in variant calling workflows.</li>
+<li><strong><code>bedtools</code></strong>: Suite of tools for performing a wide range of genomic operations on BED files.</li>
+<li><strong><code>cutadapt</code></strong>: Used for trimming adapter sequences from reads in FASTQ files.</li>
+<li><strong><code>trimmomatic</code></strong>: Tool for trimming low-quality regions and adapters from high-throughput sequencing reads.</li>
+</ul>
+</section>
+<section id="working-with-single-cell-data" class="level3">
+<h3 class="anchored" data-anchor-id="working-with-single-cell-data"><strong>3. Working with Single-Cell Data:</strong></h3>
+<ul>
+<li><strong><code>cellranger</code></strong>: Command-line tool from 10x Genomics for preprocessing single-cell RNA-seq data (alignment, counting, clustering).</li>
+<li><strong><code>STAR</code></strong>: RNA-seq aligner widely used in both bulk and single-cell RNA-seq data processing.</li>
+<li><strong><code>UMI-tools</code></strong>: For handling Unique Molecular Identifiers (UMIs) in single-cell RNA-seq workflows.</li>
+<li><strong><code>featureCounts</code></strong>: For assigning aligned reads to genomic features like genes.</li>
+<li><strong><code>bedGraphToBigWig</code></strong>: Converts bedGraph files to BigWig format for visualization in genome browsers.</li>
+</ul>
+</section>
+<section id="data-compression-and-decompression" class="level3">
+<h3 class="anchored" data-anchor-id="data-compression-and-decompression"><strong>4. Data Compression and Decompression:</strong></h3>
+<ul>
+<li><strong><code>gzip</code> / <code>gunzip</code></strong>: For compressing and decompressing sequence files (e.g., FASTQ, BAM).</li>
+<li><strong><code>tar</code></strong>: To compress and extract multiple files or directories (often used with <code>gzip</code>).</li>
+<li><strong><code>bgzip</code></strong>: Used for compressing VCF and other large text files, often combined with <code>tabix</code> for indexing.</li>
+<li><strong><code>zcat</code></strong> / <strong><code>bzcat</code></strong>: For reading compressed files without decompressing them.</li>
+</ul>
+</section>
+<section id="pipeline-and-workflow-automation" class="level3">
+<h3 class="anchored" data-anchor-id="pipeline-and-workflow-automation"><strong>5. Pipeline and Workflow Automation:</strong></h3>
+<ul>
+<li><strong><code>Nextflow</code></strong>: Workflow manager for reproducible and scalable bioinformatics pipelines, designed to work with cloud resources and clusters.</li>
+<li><strong><code>Snakemake</code></strong>: Workflow management system for creating reproducible and scalable bioinformatics pipelines.</li>
+<li><strong><code>GNU Parallel</code></strong>: Tool for executing jobs in parallel across multiple CPU cores, useful for speeding up pipelines.</li>
+</ul>
+</section>
+<section id="genomic-data-handling" class="level3">
+<h3 class="anchored" data-anchor-id="genomic-data-handling"><strong>6. Genomic Data Handling:</strong></h3>
+<ul>
+<li><strong><code>bcl2fastq</code></strong>: Converts raw Illumina BCL data files into FASTQ format for downstream analysis.</li>
+<li><strong><code>kraken2</code></strong>: For taxonomic classification of metagenomic sequence data.</li>
+<li><strong><code>prokka</code></strong>: For genome annotation of bacterial sequences.</li>
+<li><strong><code>pilon</code></strong>: Tool for improving genome assemblies by correcting sequence errors.</li>
+<li><strong><code>unicycler</code></strong>: Hybrid assembly pipeline optimized for bacterial genomes.</li>
+<li><strong><code>quast</code></strong>: For quality assessment of genome assemblies.</li>
+</ul>
+</section>
+<section id="visualization" class="level3">
+<h3 class="anchored" data-anchor-id="visualization"><strong>7. Visualization:</strong></h3>
+<ul>
+<li><strong><code>IGV</code></strong>: Command-line interface for the Integrative Genomics Viewer, useful for visualizing sequence data.</li>
+<li><strong><code>circos</code></strong>: Tool for generating circular genome plots, often used for comparative genomics.</li>
+<li><strong><code>samtools tview</code></strong>: A text-based alignment viewer for BAM files.</li>
+</ul>
+</section>
+<section id="monitoring-and-resource-management" class="level3">
+<h3 class="anchored" data-anchor-id="monitoring-and-resource-management"><strong>8. Monitoring and Resource Management:</strong></h3>
+<ul>
+<li><strong><code>top</code></strong>: Monitor system resource usage (CPU, memory).</li>
+<li><strong><code>htop</code></strong>: A more interactive version of <code>top</code> for monitoring system performance.</li>
+<li><strong><code>df</code></strong> and <strong><code>du</code></strong>: For checking disk space and usage, ensuring enough storage is available for large sequencing datasets.</li>
+<li><strong><code>screen</code></strong> and <strong><code>tmux</code></strong>: Tools for managing long-running jobs on remote servers.</li>
+</ul>
+</section>
+<section id="parallel-and-distributed-computing" class="level3">
+<h3 class="anchored" data-anchor-id="parallel-and-distributed-computing"><strong>9. Parallel and Distributed Computing:</strong></h3>
+<ul>
+<li><strong><code>xargs</code></strong>: For parallelizing commands across multiple cores, especially for processing multiple files or datasets.</li>
+<li><strong><code>sbatch</code> / <code>squeue</code> (Slurm)</strong>: For submitting and managing jobs on high-performance computing clusters.</li>
+</ul>
+</section>
+<section id="software-installation" class="level3">
+<h3 class="anchored" data-anchor-id="software-installation"><strong>10. Software Installation:</strong></h3>
+<ul>
+<li><strong><code>conda</code></strong>: Package and environment manager for installing bioinformatics tools and managing dependencies.</li>
+<li><strong><code>docker</code></strong>: Containerization platform for running bioinformatics tools in isolated environments.</li>
+<li><strong><code>singularity</code></strong>: Containerization platform commonly used in high-performance computing environments.</li>
+</ul>
+</section>
+</section>
+<section id="example-bash-workflow-for-single-cell-rna-seq" class="level2">
+<h2 class="anchored" data-anchor-id="example-bash-workflow-for-single-cell-rna-seq">Example Bash Workflow for Single-Cell RNA-seq:</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Run FastQC for quality control</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">fastqc</span> <span class="pp">*</span>.fastq.gz</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: Use Cell Ranger for single-cell RNA-seq data alignment and counting</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">cellranger</span> count <span class="at">--id</span><span class="op">=</span>sample1 <span class="at">--transcriptome</span><span class="op">=</span>refdata-gex-GRCh38-2020-A <span class="at">--fastqs</span><span class="op">=</span>./fastq_files</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Perform read trimming with cutadapt</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ex">cutadapt</span> <span class="at">-a</span> AGATCGGAAGAG <span class="at">-o</span> trimmed_sample.fastq.gz sample.fastq.gz</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Align reads using STAR</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ex">STAR</span> <span class="at">--runThreadN</span> 8 <span class="at">--genomeDir</span> ./genome <span class="at">--readFilesIn</span> trimmed_sample.fastq.gz <span class="at">--outFileNamePrefix</span> sample1</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 5: Convert SAM to BAM, sort and index with Samtools</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ex">samtools</span> view <span class="at">-bS</span> sample1.sam <span class="kw">|</span> <span class="ex">samtools</span> sort <span class="at">-o</span> sample1_sorted.bam</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ex">samtools</span> index sample1_sorted.bam</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 6: Use featureCounts for gene-level read counting</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ex">featureCounts</span> <span class="at">-a</span> genes.gtf <span class="at">-o</span> counts.txt sample1_sorted.bam</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<section id="molecular-biology" class="level3">
+<h3 class="anchored" data-anchor-id="molecular-biology"><strong>Molecular Biology:</strong></h3>
 <ul>
 <li>Agarose &amp; Polyacrylamide Gel Electrophoresis and Imaging</li>
 <li>Blotting techniques</li>
@@ -186,177 +470,247 @@ ul.task-list li input[type="checkbox"] {
 <li>Molecular cloning &amp; Restriction enzymes</li>
 <li>Conventional and Real-time PCR</li>
 <li>ELISA &amp; ICT</li>
-<li>Vaccine trial &amp; microsurgery on the mouse model.</li>
-<li>Library preparation and pulling for Bacterial and Viral sequencing of Illumina</li>
-<li>Library preparation and pulling of Nanopore.</li>
+<li>Vaccine trial &amp; microsurgery on mouse model</li>
+<li>Library preparation and pooling for Bacterial and Viral sequencing (Illumina)</li>
+<li>Library preparation and pooling (Nanopore)</li>
 </ul>
-<p>Microbiology:</p>
+</section>
+<section id="microbiology" class="level3">
+<h3 class="anchored" data-anchor-id="microbiology"><strong>Microbiology:</strong></h3>
 <ul>
-<li>Culture media preparation (Blood, MacCONKEY, Muller-Hinton blood, and Chocolate agar) &amp; Gram Staining.</li>
-<li>Catalase, Coagulase, Optochine sensitivity, CAMP, Bile solubility, Oxidase, Biochemical(TSI, MIU, - - Citrate), Satellitism, X-V factor, Antibiotic susceptibility test.</li>
+<li>Culture media preparation (Blood, MacCONKEY, Muller-Hinton, and Chocolate agar)</li>
+<li>Gram Staining</li>
+<li>Catalase, Coagulase, Optochin sensitivity, CAMP, Bile solubility, Oxidase, Biochemical (TSI, MIU, Citrate)</li>
+<li>Satellitism, X-V factor</li>
+<li>Antibiotic susceptibility test</li>
 </ul>
-<!-- # machine learning and deep learning tools  -->
-<!-- **Bash :** -->
+</section>
 </div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<section id="python-libraries-for-data-analysis-and-scientific-computing" class="level2">
+<h2 class="anchored" data-anchor-id="python-libraries-for-data-analysis-and-scientific-computing">Python Libraries for Data Analysis and Scientific Computing:</h2>
+<ul>
+<li><strong>NumPy</strong>: Used for numerical and scientific computing, providing support for arrays and matrices.</li>
+<li><strong>Pandas</strong>: For data manipulation and analysis, offering data structures and operations for numerical tables and time series.</li>
+<li><strong>Matplotlib</strong>: A plotting library for creating static, animated, and interactive visualizations in Python.</li>
+<li><strong>Seaborn</strong>: Built on top of Matplotlib, Seaborn provides a high-level interface for drawing attractive and informative statistical graphics.</li>
+<li><strong>Plotly</strong>: An interactive plotting library that enables the creation of web-based, interactive plots and dashboards.</li>
+<li><strong>researchpy</strong>: Simplifies statistical tests and summarizing data in Python, particularly for social science research.</li>
+<li><strong>Dask</strong>: Designed for parallel computing, it is used for processing big data and creating scalable data pipelines.</li>
+</ul>
+</section>
+<section id="machine-learning-and-image-processing" class="level2">
+<h2 class="anchored" data-anchor-id="machine-learning-and-image-processing">Machine Learning and Image Processing:</h2>
+<ul>
+<li><strong>scikit-learn</strong>: A powerful library for machine learning and data mining, supporting a wide range of supervised and unsupervised algorithms.</li>
+<li><strong>scikit-image</strong>: For image processing tasks, especially used in life science applications like segmentation, filtering, and transformations.</li>
+</ul>
+</section>
+<section id="bioinformatics-tools-in-python" class="level2">
+<h2 class="anchored" data-anchor-id="bioinformatics-tools-in-python">Bioinformatics Tools in Python:</h2>
+<ul>
+<li><p><strong>Biopython</strong>: A comprehensive library for biological computation, supporting sequence analysis, file parsing (FASTA, GenBank), phylogenetics, and more. Widely used in genomics, protein analysis, and molecular biology. <strong>Table of contents with Tools:</strong></p>
+<ul>
+<li><p><strong>Sequence objects</strong>: Handling biological sequences using the <code>Seq</code> object from Biopython.</p></li>
+<li><p><strong>Sequence annotation objects</strong>: Annotating sequences with <code>SeqRecord</code> and <code>Feature</code> objects.</p></li>
+<li><p><strong>Sequence Input/Output</strong>: Tools like <code>SeqIO</code> and <code>AlignIO</code> for reading and writing sequence file formats (e.g., FASTA, GenBank).</p></li>
+<li><p><strong>Sequence alignments</strong>: Working with sequence alignment objects using <code>AlignIO</code>.</p></li>
+<li><p><strong>Pairwise sequence alignment</strong>: Performing pairwise sequence alignment with <code>Bio.pairwise2</code>.</p></li>
+<li><p><strong>Multiple Sequence Alignment objects</strong>: Handling and manipulating multiple sequence alignments using <code>MultipleSeqAlignment</code> and <code>AlignIO</code>.</p></li>
+<li><p><strong>Pairwise alignments using pairwise2</strong>: Detailed use of the <code>pairwise2</code> module for flexible sequence alignment.</p></li>
+<li><p><strong>BLAST </strong>: Accessing NCBI BLAST services with the <code>NCBIXML</code> and <code>NCBIWWW</code> modules to parse BLAST output.</p></li>
+<li><p><strong>Accessing NCBI’s Entrez databases</strong>: Using <code>Bio.Entrez</code> for accessing and retrieving data from NCBI’s Entrez databases (e.g., PubMed, GenBank).</p></li>
+<li><p><strong>Swiss-Prot and ExPASy</strong>: Tools for accessing Swiss-Prot (UniProt) and ExPASy databases for protein sequences.</p></li>
+<li><p><strong>Going 3D: The PDB module</strong>: Parsing and analyzing 3D protein structures with <code>Bio.PDB</code>.</p></li>
+<li><p><strong>Bio.PopGen: Population genetics</strong>: Tools for analyzing population genetics using the <code>Bio.PopGen</code> module.</p></li>
+<li><p><strong>Phylogenetics with Bio.Phylo</strong>: Tools for parsing, constructing, and analyzing phylogenetic trees using <code>Bio.Phylo</code>.</p></li>
+<li><p><strong>Sequence motif analysis using Bio.motifs</strong>: Finding and analyzing sequence motifs with the <code>Bio.motifs</code> module.</p></li>
+<li><p><strong>Cluster analysis</strong>: Performing cluster analysis of biological data.</p></li>
+<li><p><strong>Graphics including GenomeDiagram</strong>: Creating high-quality genomic diagrams and visualizations with <code>GenomeDiagram</code>.</p></li>
+<li><p><strong>KEGG</strong>: Tools for interacting with the Kyoto Encyclopedia of Genes and Genomes (KEGG) using <code>Bio.KEGG</code>.</p></li>
+<li><p><strong>Bio.phenotype: Analyze phenotypic data</strong>: Analyzing phenotype-genotype associations with <code>Bio.phenotype</code>.</p></li>
+<li><p><strong>PyBigWig</strong>: For reading and writing BigWig files, commonly used for storing dense, continuous data such as coverage tracks from sequencing experiments.</p></li>
+<li><p><strong>HTSeq</strong>: A Python framework to process high-throughput sequencing data, especially for RNA-Seq counting and alignment.</p></li>
+<li><p><strong>Pysam</strong>: A Python module for reading, manipulating, and writing genomic data in SAM/BAM/VCF format.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="additional-tools-for-specialized-tasks" class="level2">
+<h2 class="anchored" data-anchor-id="additional-tools-for-specialized-tasks">Additional Tools for Specialized Tasks:</h2>
+<ul>
+<li><strong>PyCaret</strong>: An open-source, low-code machine learning library that automates machine learning workflows for classification, regression, and clustering.</li>
+<li><strong>TensorFlow</strong>: An end-to-end open-source platform for machine learning, especially for building and training deep learning models.</li>
+<li><strong>Keras</strong>: A high-level API for building and training neural networks, running on top of TensorFlow for deep learning tasks.</li>
+</ul>
+</section>
+</div>
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
 <section id="data-wrangling" class="level2">
 <h2 class="anchored" data-anchor-id="data-wrangling">Data Wrangling</h2>
 <ul>
-<li><a href="https://readxl.tidyverse.org/">readxl</a> for importing data into R</li>
-<li>dplyr, tidyr and others from the <a href="https://www.tidyverse.org/">tidyverse</a> for data preparation.</li>
+<li><a href="https://readxl.tidyverse.org/">readxl</a> for importing data into R.</li>
+<li>dplyr, tidyr, and others from the <a href="https://www.tidyverse.org/">tidyverse</a> for data preparation.</li>
 </ul>
 </section>
 <section id="data-visualization" class="level2">
 <h2 class="anchored" data-anchor-id="data-visualization">Data Visualization</h2>
 <ul>
-<li><a href="https://ggplot2.tidyverse.org/">ggplot2</a> for the vast majority of the graphics, together with the <a href="https://github.com/hrbrmstr/hrbrthemes">hrbrtheme</a> for styling.</li>
-<li><a href="https://github.com/thomasp85/patchwork">patchwork</a> to put graphics together.</li>
-<li><a href="https://github.com/thomasp85/ggraph">ggraph</a> and igraph for most of the network related graphics</li>
-<li><a href="https://r-graph-gallery.com/interactive-charts">plotly</a> and other html widgets for interactive graphics.</li>
-<li><a href="https://github.com/cran/RColorBrewer">RColorBrewer</a> and <a href="https://github.com/sjmgarnier/viridis">viridis</a> and colormap to control color in charts.</li>
-<li><a href="https://github.com/slowkow/ggrepel">Ggrepel</a> and other ggplot2 extension that make your life simpler.</li>
-<li><a href="https://github.com/talgalili/heatmaply">Heatmaply</a> for most of the heatmaps</li>
+<li><a href="https://ggplot2.tidyverse.org/">ggplot2</a> for the majority of the graphics, together with the <a href="https://github.com/hrbrmstr/hrbrthemes">hrbrtheme</a> for styling.</li>
+<li><a href="https://github.com/thomasp85/patchwork">patchwork</a> to combine graphics.</li>
+<li><a href="https://github.com/thomasp85/ggraph">ggraph</a> and igraph for most network-related graphics.</li>
+<li><a href="https://r-graph-gallery.com/interactive-charts">plotly</a> and other HTML widgets for interactive graphics.</li>
+<li><a href="https://github.com/cran/RColorBrewer">RColorBrewer</a>, <a href="https://github.com/sjmgarnier/viridis">viridis</a>, and colormap for color control in charts.</li>
+<li><a href="https://github.com/slowkow/ggrepel">ggrepel</a> and other ggplot2 extensions for simplifying plotting tasks.</li>
+<li><a href="https://github.com/talgalili/heatmaply">heatmaply</a> for heatmaps.</li>
 </ul>
 </section>
 <section id="reproducible-research" class="level2">
 <h2 class="anchored" data-anchor-id="reproducible-research">Reproducible Research</h2>
 <ul>
 <li><a href="https://rmarkdown.rstudio.com/">R Markdown</a> to produce statistical reports.</li>
-<li><a href="https://quarto.org/">Quarto</a> to build 95% of the website for my courses and others.</li>
+<li><a href="https://quarto.org/">Quarto</a> to build websites for courses and more.</li>
 </ul>
 </section>
 <section id="statistical-modeling" class="level2">
 <h2 class="anchored" data-anchor-id="statistical-modeling">Statistical Modeling</h2>
-<!-- - [easystats](https://easystats.github.io/easystats/) for easy statistical modeling, visualization, and reporting  -->
-<p>Static modelling in SPSS entails building and evaluating models that represent relationships within a dataset at a particular point in time. ANOVA, descriptive statistics, and regression analysis are common methods. Data preparation, variable selection, model construction, and evaluation are all steps in the process. Coefficients, p-values, and R-squared are used in output interpretation to determine the significance and strength of relationships. Applications include business analytics, social sciences, and market research. It is crucial to take into account presumptions and constraints, such as the presumption of ongoing relationships. Static modelling helps with decision-making based on observed patterns by offering insights into cross-sectional data.</p>
+<p>Static modeling in SPSS entails building and evaluating models that represent relationships within a dataset at a particular point in time. Common methods include ANOVA, descriptive statistics, and regression analysis. Data preparation, variable selection, model construction, and evaluation are part of the process. Coefficients, p-values, and R-squared help interpret output to determine the significance and strength of relationships. Applications include business analytics, social sciences, and market research.</p>
 </section>
 </div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
+<section id="workflow-management-and-pipeline-development" class="level2">
+<h2 class="anchored" data-anchor-id="workflow-management-and-pipeline-development">Workflow Management and Pipeline Development:</h2>
 <ul>
-<li><a href="https://numpy.org/doc/stable/index.html">NumPy</a> for scientific computing.</li>
-<li><a href="https://pandas.pydata.org/">Pandas</a> for data wrangling and analysis</li>
-<li><a href="https://matplotlib.org/">Matplotlib</a> for data visulization</li>
-<li><a href="https://seaborn.pydata.org/">Seaborn</a> for advance statistical visualizations</li>
-<li><a href="https://plotly.com/python/">Plotly</a> for interative data visualization</li>
-<li><a href="https://researchpy.readthedocs.io/en/latest/">researchpy</a> to summarize data and perform statistical tests.</li>
-<li><a href="https://www.dask.org/">Dask</a> for big data analysis</li>
-<li><a href="https://scikit-learn.org/stable/">scikit-learn</a> for machine learning</li>
-<li><a href="https://scikit-image.org/">scikit-image</a> for life science image manipulation</li>
-</ul>
-</div>
-<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
-<p><strong>Bash :</strong></p>
-</div>
-<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
-<section id="guides" class="level2">
-<h2 class="anchored" data-anchor-id="guides">Guides</h2>
-<ul>
-<li><p>The <a href="https://labs.data.gov/dashboard/">Project Open Data Dashboard</a> gives overview statistics of available government data from various agencies.</p></li>
-<li><p><a href="http://blog.kaggle.com/2016/10/21/a-guide-to-open-data-publishing-analytics/">Guide to Open Data Publishing &amp; Analytics</a> - A good article describing best practices for publishing data openly. Is also a good read for those who want to analyze other’s data.</p></li>
-<li><p><a href="https://rviews.rstudio.com/2017/11/01/r-data-packages/">A short list of data related R packages</a> - packages that either access data or include data</p></li>
-<li><p><a href="https://toolbox.google.com/datasetsearch">Google’s Data Search Engine</a></p></li>
+<li>Nextflow is used to create reproducible and scalable data analysis pipelines.</li>
+<li>Integrates with software such as Docker, Singularity, and Conda for environment management.</li>
+<li>Ideal for processing large-scale data, especially in genomics and bioinformatics.</li>
+<li>Can manage complex workflows involving multiple tools like FastQC, STAR, HISAT2, DESeq2, and more.</li>
 </ul>
 </section>
-<section id="some-data-sources" class="level2">
-<h2 class="anchored" data-anchor-id="some-data-sources">Some Data Sources</h2>
+<section id="key-tools-in-nextflow-pipelines" class="level2">
+<h2 class="anchored" data-anchor-id="key-tools-in-nextflow-pipelines">Key Tools in Nextflow Pipelines:</h2>
 <ul>
-<li><p><a href="https://www.kaggle.com/datasets">Kaggle Data</a> - A growing number of datasets used in Kaggle data analysis contests and available for any other use.</p></li>
-<li><p><a href="https://data.nasdaq.com/">Nasdaq Data Link</a> - mainly finance related data</p></li>
-<li><p><a href="http://www.cdc.gov/nchs/nhanes.htm">NHANES</a> - longstanding and thorough survey done by CDC</p></li>
-<li><p><a href="http://seer.cancer.gov/">SEER</a> - Cancer data</p></li>
-<li><p><a href="http://wonder.cdc.gov/">CDC WONDER</a> - list of mainly CDC online databases</p></li>
-<li><p><a href="https://health.gov/healthypeople">Healthy People Website</a> - contains among other things links to various data sources</p></li>
-<li><p><a href="https://www.hcup-us.ahrq.gov/">HCUP</a> - collection of health related databases, focusing on US wide and state-specific samples of ER and hospital visits. Not free, but not too expensive.</p></li>
-<li><p><a href="https://www.clinicalstudydatarequest.com/">Clinical Study Data Request</a> - a way to get (tedious) access to clinical trial data</p></li>
-<li><p><a href="https://clinicaldata.ema.europa.eu/web/cdp/home">EMA Clinical Data Portal</a> - looks like a way to get access to some clinical trial data for EMA registered studies.</p></li>
-<li><p><a href="https://mimic.physionet.org/">MIMIC</a> - a free and open database of critical care patient visits to a Boston hospital.</p></li>
-<li><p><a href="http://www.data.gov/">Data.gov</a> - federak government data platform.</p></li>
-<li><p><a href="http://asdfree.com/">Analyze Survey Data for Free</a> - Step by Step Instructions to Explore Public Microdata from an Easy to Type Website</p></li>
-<li><p><a href="https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/vsd/accessing-data.html">Vaccine Safety Datalink (VSD)</a></p></li>
-<li><p><a href="http://ghdx.healthdata.org/">Global Health Data Exchange / IHME</a></p></li>
-<li><p><a href="https://vaers.hhs.gov/">Vaccine Adverse Event Reporting System (VAERS)</a></p></li>
-<li><p><a href="https://nemsis.org/">National EMS Data (NEMSIS)</a></p></li>
-<li><p><a href="http://data.un.org/">Data from the UN</a></p></li>
-<li><p><a href="http://www.icpsr.umich.edu/">Inter-university Consortium for Political and Social Research (ICPSR)</a> - access to various social and behavioral sciences data.</p></li>
-<li><p><a href="http://acrdc.gsu.edu/index.html">Federal Reserve in Atlanta Data Center</a></p></li>
-<li><p><a href="https://www.healthdata.gov/">Database to search health related government data</a></p></li>
-<li><p><a href="http://mran.revolutionanalytics.com/documents/data/">A list hosted by Microsoft with links to various data sources</a></p></li>
+<li><strong>FastQC</strong>: For quality control of raw sequence data.</li>
+<li><strong>Trimmomatic</strong>: For trimming low-quality reads and adapters.</li>
+<li><strong>STAR/HISAT2</strong>: For read alignment to reference genomes.</li>
+<li><strong>DESeq2/edgeR</strong>: For differential expression analysis.</li>
+<li><strong>MultiQC</strong>: To aggregate results across multiple samples for easy interpretation.</li>
+<li><strong>ARIBA</strong>: Rapid antimicrobial resistance genotyping directly from sequencing reads.</li>
+<li><strong>BCFtools</strong>: For variant calling and manipulating VCF/BCF files.</li>
+<li><strong>SAMtools</strong>: For handling BAM/SAM files.</li>
+<li><strong>BWA</strong>: For sequence alignment.</li>
+<li><strong>Docker Images (StaPH-B)</strong>: Pre-built containerized environments with bioinformatics tools like ARIBA, BCFtools, Kraken 2, and more.</li>
+<li><strong>fastp</strong>: Ultra-fast all-in-one FASTQ preprocessor.</li>
+<li><strong>Kraken 2</strong>: For metagenomic analysis and taxonomy assignment.</li>
+<li><strong>mlst</strong>: For multi-locus sequence typing.</li>
+<li><strong>PopPUNK</strong>: Bacterial genomic epidemiology analysis tool.</li>
+<li><strong>QUAST</strong>: For genome assembly evaluation.</li>
+<li><strong>SeroBA</strong>: High-throughput serotyping of Streptococcus pneumoniae.</li>
+<li><strong>Unicycler</strong>: Bacterial genome assembly tool.</li>
+<li><strong>SPN-PBP-AMR</strong>: Predicts penicillin resistance in Streptococcus pneumoniae.</li>
 </ul>
 </section>
-<section id="infectious-disease-specific" class="level2">
-<h2 class="anchored" data-anchor-id="infectious-disease-specific">Infectious Disease Specific</h2>
-<section id="general" class="level3">
-<h3 class="anchored" data-anchor-id="general">General</h3>
+<section id="example-use-cases" class="level2">
+<h2 class="anchored" data-anchor-id="example-use-cases">Example Use Cases:</h2>
 <ul>
-<li><a href="https://www.tycho.pitt.edu/">Project Tycho</a> - infectious disease data</li>
-<li><a href="http://www.viprbrc.org" class="uri">http://www.viprbrc.org</a></li>
-<li><a href="http://eupathdb.org" class="uri">http://eupathdb.org</a></li>
-<li><a href="https://clinepidb.org">ClinEpiDB</a> - a database of (a few) clinical epidemiology studies, focusing on infectious diseases.</li>
-<li><a href="https://immport.niaid.nih.gov">ImmPort</a></li>
+<li>GPS Pipeline</li>
+<li>KPN pipeline</li>
+<li>RNA-Seq pipelines</li>
+<li>Whole Genome Sequencing (WGS)</li>
+<li>Single-cell RNA-Seq analysis</li>
+<li>Metagenomics analysis</li>
 </ul>
-</section>
-<section id="influenza" class="level3">
-<h3 class="anchored" data-anchor-id="influenza">Influenza</h3>
-<ul>
-<li>http://www.fludb.org</li>
-<li><who flunet=""></who></li>
-<li>&lt;gisaid.org&gt;</li>
-<li><a href="http://www.cdc.gov/flu/index.htm" class="uri">http://www.cdc.gov/flu/index.htm</a></li>
-<li><a href="http://www.ncbi.nlm.nih.gov/genomes/FLU/FLU.html" class="uri">http://www.ncbi.nlm.nih.gov/genomes/FLU/FLU.html</a></li>
-<li><a href="http://www.SystemsInfluenza.org" class="uri">http://www.SystemsInfluenza.org</a></li>
-</ul>
-</section>
-<section id="tb" class="level3">
-<h3 class="anchored" data-anchor-id="tb">TB</h3>
-<ul>
-<li>OTIS on CDC WONDER: <a href="http://wonder.cdc.gov/tb.html" class="uri">http://wonder.cdc.gov/tb.html</a></li>
-</ul>
-</section>
 </section>
 </div>
-<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
+<div id="tabset-1-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-8-tab">
+<section id="deep-learning-frameworks-and-libraries" class="level2">
+<h2 class="anchored" data-anchor-id="deep-learning-frameworks-and-libraries">Deep Learning Frameworks and Libraries:</h2>
+<ul>
+<li><strong>TensorFlow</strong>: An open-source framework for deep learning developed by Google. TensorFlow supports building and training neural networks, including tasks such as image classification, natural language processing, and more.</li>
+<li><strong>Keras</strong>: A high-level neural networks API that runs on top of TensorFlow, simplifying the construction of deep learning models with minimal code.</li>
+<li><strong>PyTorch</strong>: Developed by Facebook, PyTorch is a widely used deep learning library with a dynamic computational graph, making it easier for research and experimentation. It’s highly popular in the research community for developing new models.</li>
+<li><strong>Theano</strong>: An older deep learning framework, originally developed to enable efficient computation of mathematical expressions, including neural networks. While it’s less commonly used now, Theano laid the foundation for many modern deep learning tools.</li>
+<li><strong>MXNet</strong>: A scalable deep learning framework supporting both imperative and symbolic programming. It’s often used for training deep learning models on large datasets in distributed environments.</li>
+<li><strong>Chainer</strong>: A flexible deep learning framework known for its support of dynamic computation graphs, which makes it easier to implement complex models.</li>
+<li><strong>Fastai</strong>: A deep learning library that simplifies training models using PyTorch. It provides easy-to-use functions and pre-built models for tasks such as computer vision and natural language processing.</li>
+<li><strong>DLib</strong>: A toolkit for developing machine learning and deep learning models, often used for computer vision tasks like face recognition and object detection.</li>
+</ul>
+</section>
+<section id="deep-learning-tools-and-applications" class="level2">
+<h2 class="anchored" data-anchor-id="deep-learning-tools-and-applications">Deep Learning Tools and Applications:</h2>
+<ul>
+<li><strong>Autoencoders</strong>: Used for unsupervised learning and dimensionality reduction, autoencoders learn compressed representations of data. They are often used in tasks such as anomaly detection, data denoising, and generative models.</li>
+<li><strong>Convolutional Neural Networks (CNNs)</strong>: Deep learning models primarily used for tasks like image classification, object detection, and image segmentation. CNNs excel in extracting spatial features from images.</li>
+<li><strong>Recurrent Neural Networks (RNNs)</strong>: A type of neural network used for sequence data, such as time-series analysis, language modeling, and speech recognition. Variants like LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Unit) help in capturing long-term dependencies.</li>
+<li><strong>Generative Adversarial Networks (GANs)</strong>: A powerful framework for generating new data that mimics real datasets. GANs are used for generating images, improving image resolution, and generating synthetic datasets.</li>
+<li><strong>Transfer Learning</strong>: A technique where pre-trained deep learning models are fine-tuned for a specific task with fewer data. Popular models include VGG, ResNet, Inception, and BERT.</li>
+<li><strong>Reinforcement Learning</strong>: Deep learning models that learn by interacting with environments, often used in robotics, game AI, and autonomous systems.</li>
+<li><strong>Transformers</strong>: A deep learning model architecture used for tasks like natural language processing (NLP). Models like BERT, GPT, and T5 are transformer-based models.</li>
+</ul>
+</section>
+<section id="additional-libraries-for-deep-learning" class="level2">
+<h2 class="anchored" data-anchor-id="additional-libraries-for-deep-learning">Additional Libraries for Deep Learning:</h2>
+<ul>
+<li><strong>Horovod</strong>: A distributed training framework for TensorFlow, PyTorch, and Keras, designed to enable efficient scaling of deep learning models across multiple GPUs.</li>
+<li><strong>ONNX (Open Neural Network Exchange)</strong>: An open-source format that allows interoperability between different deep learning frameworks, enabling the movement of models between PyTorch, TensorFlow, MXNet, and other frameworks.</li>
+<li><strong>OpenCV</strong>: A computer vision library that integrates with deep learning frameworks like TensorFlow and PyTorch for tasks like image recognition, object detection, and video analysis.</li>
+<li><strong>Caffe</strong>: A deep learning framework that is particularly popular for computer vision tasks and is known for its speed in deploying deep learning models.</li>
+</ul>
+</section>
+<section id="use-cases-in-deep-learning" class="level2">
+<h2 class="anchored" data-anchor-id="use-cases-in-deep-learning">Use Cases in Deep Learning:</h2>
+<ul>
+<li><strong>Image Classification</strong>: Using CNNs and pre-trained models like VGG or ResNet to classify images into categories.</li>
+<li><strong>Object Detection</strong>: Models like YOLO (You Only Look Once) and Faster R-CNN used for identifying and classifying objects within images.</li>
+<li><strong>Natural Language Processing (NLP)</strong>: Deep learning models for tasks like sentiment analysis, language translation, and chatbot development using LSTMs, GRUs, or transformers like BERT and GPT.</li>
+<li><strong>Speech Recognition</strong>: Deep learning models like DeepSpeech are widely used in converting speech to text and understanding spoken commands.</li>
+<li><strong>Medical Imaging</strong>: Using deep learning for detecting and diagnosing diseases through X-rays, MRIs, and CT scans. CNNs and GANs are often applied for tasks like tumor detection and segmentation.</li>
+<li><strong>Autonomous Vehicles</strong>: Deep learning models are used in self-driving cars for tasks like object detection, lane detection, and decision-making processes.</li>
+</ul>
+</section>
+</div>
+<div id="tabset-1-9" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-9-tab">
 <section id="data-sources" class="level2">
 <h2 class="anchored" data-anchor-id="data-sources">Data Sources</h2>
 <ul>
-<li><a href="https://portal.gdc.cancer.gov/">The Cancer Genome Atlas (TCGA):</a> TCGA is a comprehensive collection of multi-dimensional cancer genomics data covering multiple cancer types.</li>
-<li><a href="https://icgc.org/">International Cancer Genome Consortium (ICGC):</a> Description: ICGC provides high-quality genomic and clinical data from various cancer projects worldwide.</li>
-<li><a href="https://www.ncbi.nlm.nih.gov/geo/">Gene Expression Omnibus (GEO):</a> GEO is a public repository hosted by the National Center for Biotechnology Information (NCBI) containing a vast collection of gene expression data, including cancer datasets.</li>
-<li><a href="https://ega-archive.org/">European Genome-phenome Archive (EGA):</a> Description: EGA is a repository for secure storage and sharing of human genetic and phenotypic data, including cancer datasets.</li>
-<li><a href="https://gdc.cancer.gov/">National Cancer Institute (NCI) Genomic Data Commons (GDC):</a> Description: GDC is an open-access data portal providing access to a wide range of cancer genomics datasets.</li>
+<li><a href="https://portal.gdc.cancer.gov/">The Cancer Genome Atlas (TCGA)</a>: Comprehensive multi-dimensional cancer genomics data.</li>
+<li><a href="https://icgc.org/">International Cancer Genome Consortium (ICGC)</a>: Genomic and clinical data from cancer projects worldwide.</li>
+<li><a href="https://www.ncbi.nlm.nih.gov/geo/">Gene Expression Omnibus (GEO)</a>: Public repository for gene expression data, including cancer datasets.</li>
+<li><a href="https://ega-archive.org/">European Genome-phenome Archive (EGA)</a>: Repository for secure storage of human genetic and phenotypic data.</li>
+<li><a href="https://gdc.cancer.gov/">National Cancer Institute (NCI) Genomic Data Commons (GDC)</a>: Open-access data portal for cancer genomics datasets.</li>
 </ul>
 </section>
 <section id="analysis-tools" class="level2">
 <h2 class="anchored" data-anchor-id="analysis-tools">Analysis Tools</h2>
 <ul>
-<li><p><a href="http://gepia2.cancer-pku.cn/">GEPIA2</a>: GEPIA2 is a web-based tool for analyzing gene expression data in cancer. It stands for Gene Expression Profiling Interactive Analysis 2 and is an updated version of the original GEPIA tool. GEPIA2 allows users to explore gene expression patterns, perform survival analyses, and visualize gene expression data across various cancer types.</p></li>
-<li><p><a href="http://timer.cistrome.org/">TIMER2.0</a>: TIMER is a comprehensive resource for systematical analysis of immune infiltrates across diverse cancer types. This version of webserver provides immune infiltrates’ abundances estimated by multiple immune deconvolution methods, and allows users to generate high-quality figures dynamically to explore tumor immunological, clinical and genomic features comprehensively.</p></li>
-<li><p><a href="http://ualcan.path.uab.edu/">UALCAN</a>: UALCAN is a web-based platform that provides interactive and comprehensive analysis of cancer transcriptome data. It enables users to explore gene expression patterns, perform survival analyses, and compare gene expression between tumor and normal samples across different cancer types. UALCAN utilizes data from The Cancer Genome Atlas (TCGA) to facilitate cancer research and provide insights into tumor biology.</p></li>
-<li><p><a href="https://www.cbioportal.org/">cBioPortal for Cancer Genomics:</a>: cBioPortal hosts a large collection of cancer genomics datasets, allowing users to explore and visualize the data.</p></li>
-<li><p><a href="http://www.ilincs.org/apps/grein/">GREIN : GEO RNA-seq Experiments Interactive Navigator:</a> GREIN is an interactive web platform that provides user-friendly options to explore and analyze GEO RNA-seq data. GREIN is powered by the back-end computational pipeline for uniform processing of RNA-seq data and the large number (&gt;6,000) of already processed datasets. These datasets were retrieved from GEO and reprocessed consistently by the back-end GEO RNA-seq experiments processing pipeline (GREP2).</p></li>
-<li><p><a href="http://www.oncolnc.org/">OncoLnc</a>: Description: OncoLnc is a web resource that provides survival analysis and expression correlation for genes of interest across multiple cancer datasets.</p></li>
-<li><p><a href="https://genome-cancer.ucsc.edu/">UCSC Cancer Genomics Browser:</a> The UCSC Cancer Genomics Browser offers a comprehensive collection of cancer genomics data integrated with genomic annotations.</p></li>
-<li><p><a href="https://www.oncomine.org/resource/login.html">ONCOMINE</a>: ONCOMINE is a powerful web-based platform for the analysis and visualization of cancer transcriptomic data. It provides researchers with access to a vast collection of publicly available gene expression datasets derived from cancer studies. ONCOMINE allows users to explore gene expression patterns, identify potential biomarkers, and compare gene expression between different cancer types or subtypes.</p></li>
+<li><a href="http://gepia2.cancer-pku.cn/">GEPIA2</a>: Web tool for analyzing gene expression data in cancer.</li>
+<li><a href="http://timer.cistrome.org/">TIMER2.0</a>: Tool for immune infiltrate analysis in cancer.</li>
+<li><a href="http://ualcan.path.uab.edu/">UALCAN</a>: Platform for exploring cancer transcriptome data.</li>
+<li><a href="https://www.cbioportal.org/">cBioPortal for Cancer Genomics</a>: Collection of cancer genomics datasets for exploration and visualization.</li>
+<li><a href="http://www.ilincs.org/apps/grein/">GREIN</a>: Interactive platform for exploring and analyzing GEO RNA-seq data.</li>
+<li><a href="http://www.oncolnc.org/">OncoLnc</a>: Resource for survival analysis and gene expression correlation.</li>
+<li><a href="https://genome-cancer.ucsc.edu/">UCSC Cancer Genomics Browser</a>: Browser for cancer genomics data.</li>
+<li><a href="https://www.oncomine.org/resource/login.html">ONCOMINE</a>: Platform for cancer transcriptomic data analysis.</li>
 </ul>
 </section>
 <section id="r-packages" class="level2">
 <h2 class="anchored" data-anchor-id="r-packages">R Packages</h2>
 <ul>
-<li><p><a href="https://bioconductor.org/packages/release/bioc/vignettes/TCGAbiolinks/inst/doc/index.html#Required_libraries">TCGAbiolinks</a>: An R/Bioconductor package for integrative analysis with GDC data. TCGAbiolinks is able to access The National Cancer Institute (NCI) Genomic Data Commons (GDC) thorough its GDC Application Programming Interface (API) to search, download and prepare relevant data for analysis in R.</p></li>
-<li><p><a href="https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html">maftools</a>: Summarize, Analyze and Visualize MAF Files. This package attempts to summarize, analyze, annotate and visualize MAF files in an efficient manner from either TCGA sources or any in-house studies as long as the data is in MAF format.</p></li>
-<li><p><a href="https://bioconductor.org/packages/release/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html">SummarizedExperiment</a>: The SummarizedExperiment container contains one or more assays, each represented by a matrix-like object of numeric or other mode. The rows typically represent genomic ranges of interest and the columns represent samples.</p></li>
-<li><p><a href="https://bioconductor.org/packages/release/bioc/vignettes/MutationalPatterns/inst/doc/Introduction_to_MutationalPatterns.html">MutationalPatterns</a>: Comprehensive genome-wide analysis of mutational processes. he package covers a wide range of patterns including: mutational signatures, transcriptional and replicative strand bias, lesion segregation, genomic distribution and association with genomic features, which are collectively meaningful for studying the activity of mutational processes. The package works with single nucleotide variants (SNVs), insertions and deletions (Indels), double base substitutions (DBSs) and larger multi base substitutions (MBSs). The package provides functionalities for both extracting mutational signatures de novo and determining the contribution of previously identified mutational signatures on a single sample level. MutationalPatterns integrates with common R genomic analysis workflows and allows easy association with (publicly available) annotation data.</p></li>
+<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/TCGAbiolinks/inst/doc/index.html">TCGAbiolinks</a>: R package for integrative analysis with GDC data.</li>
+<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html">maftools</a>: R package for summarizing, analyzing, and visualizing MAF files.</li>
+<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html">SummarizedExperiment</a>: Container for genomic data assays.</li>
+<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/MutationalPatterns/inst/doc/Introduction_to_MutationalPatterns.html">MutationalPatterns</a>: Tool for genome-wide analysis of mutational processes.</li>
 </ul>
 </section>
 </div>
-<div id="tabset-1-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-7-tab">
-<p><strong>QIIME2 :</strong> Instead of taking changes over time into account, static modelling in SPSS entails building and evaluating models that represent relationships within a dataset at a particular point in time. ANOVA, descriptive statistics, and regression analysis are common methods. Data preparation, variable selection, model construction, and evaluation are all steps in the process. Coefficients, p-values, and R-squared are used in output interpretation to determine the significance and strength of relationships. Applications include business analytics, social sciences, and market research. It is crucial to take into account presumptions and constraints, such as the presumption of ongoing relationships. Static modelling helps with decision-making based on observed patterns by offering insights into cross-sectional data.</p>
-</div>
-<div id="tabset-1-8" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-8-tab">
+<div id="tabset-1-10" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-10-tab">
 <ul>
-<li><p><strong>Bioinformatician</strong> -DNA, RNA extraction, PCR, Library Preparation for Illumina and Nanopore, Tapstation, Sample sheet preparation.</p></li>
-<li><p><strong>Illumina</strong> Converting(BCL2fastq), Quality checking(fastQC, MultiQC, Quast), Quality control(Trimmomatic), Assembly(Unicycler, Spades, Megahit)</p></li>
-<li><p><strong>Annotation</strong> Kraken2 , Prokka, Seroba, AMRFinderPlus, Abricat, SRST, MLST, Snippy, Mafft, fasta2phylip, Raxml-ng, Poppunk, PlasmidFinder, ResFinder, Blast, Pharokka. . <!-- - [learnr](https://rstudio.github.io/learnr/) - R package that allows development of interactive web-based R tutorials. --></p></li>
-<li><p><strong>Research Fellow</strong> Develop ML based pipeline for shot-gun sequence, 16s rrna sequencing analysis using qiime2, RNA seq using DESeq2, stats, ggplot, corrplot, pheatmap, EDASeq, gProfileR</p></li>
+<li><strong>Bioinformatician:</strong> DNA/RNA extraction, PCR, Library Preparation (Illumina/Nanopore), Tapestation, Sample sheet preparation.</li>
+<li><strong>Illumina:</strong> Converting (BCL2fastq), Quality checking (FastQC, MultiQC, Quast), Quality control (Trimmomatic), Assembly (Unicycler, Spades, Megahit).</li>
+<li><strong>Annotation:</strong> Kraken2, Prokka, Seroba, AMRFinderPlus, Abricate, SRST, MLST, Snippy, Mafft, fasta2phylip, Raxml-ng, Poppunk, PlasmidFinder, ResFinder, BLAST, Pharokka.</li>
+</ul>
+<!-- - [learnr](https://rstudio.github.io/learnr/) - R package for developing interactive web-based R tutorials. -->
+<ul>
+<li><strong>Research Fellow:</strong> Developed ML-based pipeline for shotgun sequencing, 16S rRNA sequencing using QIIME2, RNA-seq using DESeq2, stats, ggplot, corrplot, pheatmap, EDASeq, gProfileR.</li>
 </ul>
 </div>
 </div>

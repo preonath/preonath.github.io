@@ -14,7 +14,7 @@ format:
 <script type="text/javascript">
 document.write(`
 <!-- Background Image with Gradient Overlay and Slideshow -->
-<div id="intro-section" style="position: relative; text-align: center; color: white;">
+<div id="intro-section" style="position: relative; text-align: right; color: white;">
 
   <!-- Slideshow Background with the images -->
 <div class="slideshow-container">
@@ -51,7 +51,7 @@ document.write(`
 </div>
 
 <!-- Structured Program Details Below the Image -->
-<div id="program-details" style="padding: 20px; background-color: #f9f9f9; max-width: 1200px; margin: 0 auto;">
+<div id="program-details" style="padding: 20px;  background-color: #f9f9f9; max-width: 1200px; margin: 0 auto;">
 
   <h2 style="text-align: center; font-weight: bold;">Training Details</h2>
 
@@ -157,9 +157,9 @@ Tell Something
 
   <!-- Workshop Instructor (moved to the bottom) -->
   <h3 style="text-align: center; font-weight: bold;">Instructors</h3>
-  <p style="text-align: center; font-size: 1em;">
-  <p>Jaclyn Long - PhD Candidate - Harvard Medical School </p>
-  <p> Faith Taliaferro - Research Technologist - Ordovas-Montanes Lab, Boston Children's Hospital </p>
+  <p style="text-align: center; font-size: 1em;">Jaclyn Long - PhD Candidate - Harvard Medical School</p>
+  <p style="text-align: center; font-size: 1em;">Faith Taliaferro - Research Technologist - Ordovas-Montanes Lab, Boston Children's Hospital</p>
+
   
   <h3 style="text-align: center; font-weight: bold;">Collaboration and Funding</h3>
   <p style="text-align: center; font-size: 2em;">
@@ -173,9 +173,9 @@ Tell Something
   
   <!-- Workshop Dates and Location Section (moved to the bottom) -->
   <h3 style="text-align: center; font-weight: bold;">Location and Schedule</h3>
-  <p style="text-align: center; font-size: 1em;">
-  <p>Child Health Research Foundation (CHRF), Dhaka, Bangladesh</p>
-  <p>4 - 11th March, 2024</p>
+  <p style="text-align: center; font-size: 1em;">Child Health Research Foundation (CHRF), Dhaka, Bangladesh</p>
+  <p style="text-align: center; font-size: 1em;">4 - 11th March, 2024</p>
+
 
 </section>
 <p style="text-align: center;">
@@ -187,21 +187,36 @@ Tell Something
 
 <!-- Add additional details if required -->
 <style>
+  /* General styles for the program details section */
   #program-details {
     font-family: Arial, sans-serif;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
     background-color: #f9f9f9;
     max-width: 1200px;
     margin: 0 auto;
+    font-size: 1.2em;
+    padding: 20px; /* Removed incorrect padding-center */
   }
-  
+
+  /* Ensure no horizontal scrolling */
+  html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+    
   h2, h3 {
-    margin-top: 20px;
+    margin-top: 10px; /* Reduced margin for better spacing */
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
+  }
+  
+  ul {
+    font-size: 1em;
+    margin: 0 auto;
+    max-width: 800px;
   }
 
   div {
@@ -212,23 +227,40 @@ Tell Something
   }
 
   p {
-    font-size: 1.2em;
+    font-size: 1em;
+    margin: 10px auto;
+  }
+  
+  /* Prevent containers from exceeding the viewport width */
+  .container, .slideshow-container {
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Slideshow container adjustments */
+  .slideshow-container {
+    position: relative;
+    height: 80vh; /* Adjusted for smaller height */
+    width: 100vw;
+    overflow: hidden;
     margin: 0 auto;
   }
 
-  /* Slideshow container */
-  .slideshow-container {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
+  /* Ensuring all elements, especially images, fit within the viewport */
+  img, .slideshow-container, #program-details, div {
+    max-width: 100%;
+    width: 100vw; /* Ensure elements don't exceed the viewport */
+    margin: 0 auto;
+    padding: 0;
   }
 
-  /* Each slide */
+  /* Each slide style */
   .mySlides {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    height: 80vh; /* Adjusted to match slideshow container */
+    width: 100vw;
     background-size: cover;
     background-position: center;
     opacity: 0;
