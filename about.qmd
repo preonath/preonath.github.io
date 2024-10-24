@@ -29,17 +29,17 @@ As a **bioinformatician**, I combine my knowledge in **biochemistry, molecular b
 
 
 
-# Research Interests
+<!-- # Research Interests -->
 
-- **Public Health:** Monte Carlo simulations have been used extensively in medical research to evaluate the possible effects of RSV (Respiratory Syncytial Virus) vaccinations. Their work explores the complex dynamics of vaccination efficacy and its ramifications, thanks to the perceptive examination of Mohammad Abul Hasnat, Farhan Rahman Niloy, Arafat Islam Ashik, Mahedi Hasan, Preonath Chondrow Dev, Sharmin Sultana Panna, Md. Waseque Mia, and Zafrul Hasan. In the meanwhile, they continue to explore the complex terrain of diabetes, concentrating on the incidence of hyperlipidemia in patients with type 2 diabetes who are under control as well as those who are not. This dual emphasis highlights the interdisciplinary character of modern medical research, where clinical nuances and quantitative modelling collide to promote a comprehensive understanding of public health issues.
+<!-- - **Public Health:** Monte Carlo simulations have been used extensively in medical research to evaluate the possible effects of RSV (Respiratory Syncytial Virus) vaccinations. Their work explores the complex dynamics of vaccination efficacy and its ramifications, thanks to the perceptive examination of Mohammad Abul Hasnat, Farhan Rahman Niloy, Arafat Islam Ashik, Mahedi Hasan, Preonath Chondrow Dev, Sharmin Sultana Panna, Md. Waseque Mia, and Zafrul Hasan. In the meanwhile, they continue to explore the complex terrain of diabetes, concentrating on the incidence of hyperlipidemia in patients with type 2 diabetes who are under control as well as those who are not. This dual emphasis highlights the interdisciplinary character of modern medical research, where clinical nuances and quantitative modelling collide to promote a comprehensive understanding of public health issues. -->
 
-- **Genomics:** Gene Expression,Epigenomics,Evolutionary Genomics,Comparative Genomic Hybridization (CGH),Pharmacogenomics,Metagenomics,Cancer Genomics,Structural Genomics,Synthetic Genomics,Nutrigenomics,Single-Cell Genomics,Ancient DNA (aDNA),Ethical, Legal, and Social Implications (ELSI) of Genomics.
+<!-- - **Genomics:** Gene Expression,Epigenomics,Evolutionary Genomics,Comparative Genomic Hybridization (CGH),Pharmacogenomics,Metagenomics,Cancer Genomics,Structural Genomics,Synthetic Genomics,Nutrigenomics,Single-Cell Genomics,Ancient DNA (aDNA),Ethical, Legal, and Social Implications (ELSI) of Genomics. -->
 
-- **Metagenomics:** Vir metagenomics,Functional Metagenomics,Environmental Monitoring,Host-Microbiome Interactions,Antibiotic Resistance Surveillance,Ecofunctional Profiling,Extreme Environments,Community Dynamics,Biogeochemical Cycling,Bioinformatics and Computational Tools.
+<!-- - **Metagenomics:** Vir metagenomics,Functional Metagenomics,Environmental Monitoring,Host-Microbiome Interactions,Antibiotic Resistance Surveillance,Ecofunctional Profiling,Extreme Environments,Community Dynamics,Biogeochemical Cycling,Bioinformatics and Computational Tools. -->
 
-- **AI for Public Health(AI4PH):** AI for Public Health is an interdisciplinary research field that aims to address a range of public health concerns by utilising machine learning and artificial intelligence methods. Innovating approaches to analysing massive datasets, enhancing decision-making processes in the public health sector, developing diagnostic tools, optimising healthcare delivery, and predicting health trends are all explored by researchers in this subject. Utilising AI's potential to improve population-wide health outcomes, prevent sickness, and foster well-being is the ultimate objective..
+<!-- - **AI for Public Health(AI4PH):** AI for Public Health is an interdisciplinary research field that aims to address a range of public health concerns by utilising machine learning and artificial intelligence methods. Innovating approaches to analysing massive datasets, enhancing decision-making processes in the public health sector, developing diagnostic tools, optimising healthcare delivery, and predicting health trends are all explored by researchers in this subject. Utilising AI's potential to improve population-wide health outcomes, prevent sickness, and foster well-being is the ultimate objective.. -->
 
-- **Integrated Multi-Omics Data:** Integrating multi-omics data sets—genomics, transcriptomics, proteomics, and other fields—is a major area of interest for me. With this all-encompassing approach, I am able to obtain a thorough understanding of the molecular terrain of cancer. I work to find new biomarkers, therapeutic targets, and pathways that can have a big influence on cancer diagnosis and therapy by examining many layers of biological data.
+<!-- - **Integrated Multi-Omics Data:** Integrating multi-omics data sets—genomics, transcriptomics, proteomics, and other fields—is a major area of interest for me. With this all-encompassing approach, I am able to obtain a thorough understanding of the molecular terrain of cancer. I work to find new biomarkers, therapeutic targets, and pathways that can have a big influence on cancer diagnosis and therapy by examining many layers of biological data. -->
 
 
 # Education
@@ -88,29 +88,13 @@ bioinformatics methods, analysis of results, and synthesis of conclusions from s
 - Take the initiative to acquire new bioinformatics, statistical, or programming skills as needed.
 
 <!-- **Research Intern** \| Health Systems and Population Health Studies Division |  [International Centre for Diarrhoeal Disease Research, Bangladesh)](https://www.icddrb.org/) \|  Dhaka, Bangladesh \| (February 2022 - June 2022) -->
-**Center for Health Innovation, Research, Action, and Learning ‑ Bangladesh** | Dhaka, Bangladesh \| (Nov 2023 ‑ Present)
+<!-- **Center for Health Innovation, Research, Action, and Learning ‑ Bangladesh** | Dhaka, Bangladesh \| (Nov 2023 ‑ Present) -->
 
-- Design and develop bioinformatics courses for undergraduates and professionals
-- Design and implement bioinformatics solutions for biologists
-- Lead the omics team to design and implement multi‑omics projects
+<!-- - Design and develop bioinformatics courses for undergraduates and professionals -->
+<!-- - Design and implement bioinformatics solutions for biologists -->
+<!-- - Lead the omics team to design and implement multi‑omics projects -->
 
 
-
-## Teaching Experience 
-**INSTRUCTOR** \|  [Bioinformatics Division, National Institute of Biotechnology (NIB)] \|  Dhaka, Bangladesh \|  (2021) 
-
-- Delivered training on Bioinformatics for Biotechnology Research
-- Topics covered included Linux OS, NGS Data Analysis, and Python.
-
-**TEACHiNG ASSiSTANT** \| [Child Health Research Foundation (CHRF)] \|  Dhaka, Bangladesh \| (2021)
-
-- Advanced Next Generation Sequencing, Topics Covered in the Training: Linux OS, NGS Data Analysis: Quality checking, Quality filter, Genome
-Assembly, Annotation Using Pathogenwatch, Building Consensus using CZID, Sample Sheet Preparation for NextSeq2000; Total 25 Batches
-- Bacterial Genomics Antimicrobial Resistance, Topics Covered in the Training: Linux OS, Bash Scripting Genome Assembly, Genome Mapping,
-Genome Annotation, Genome Submission, MLST Prediction at Total 2 Batches
-- AI in Public Health, This workshop support from the Bill and Melinda Gates foundation, through the ’Democratizing Public Health Modeling
-Using AI‑based Tools’; Topics Covered in the Training: Data cleaning and preprocessing, Dengue prediction in Puerto Rico using LSTM and
-ARIMA, Predicting Pneumonia in X‑rays using CNN
 
 ## Volunteering 
 **Academic Team Member** <br> 
@@ -140,41 +124,6 @@ Provided guidance and solved various bioinformatics-related problems for the gro
 
 
 Solve the different kinds of bioinformatics related problem of the group members
-
-# Skills
-
-**Programming Languages:** Bash, Python, C, R, Java;
-
-**Database Management System: ** SQL, MySQL, Redis;
-
-**Machine Learning and Deep Learning: ** Proficient in various frameworks and techniques;
-
-**Data Analysis:** Numpy, Pandas, Matplotlib, Seaborn, Keras, SciKit‑Learn, TensorFlow;
-
-**Bioinformatics:** Microarray analysis,
-RNA sequencing Analysis using R and Bash, Single Cell RNA sequencing Analysis using scanpy and seura
-
-**Wet Lab:** Agarose & Polyacrylamide Gel Electrophoresis and Imaging, Blotting techniques, DNA & RNA extraction, Molecu‑
-lar cloning & Restriction enzymes, Conventional and Real‑time PCR, ELISA & ICT, Vaccine trial & microsurgery on
-the mouse model, Library preparation and pooling for Bacterial and Viral sequencing of Illumina, Library prepara‑
-tion and pooling of Nanopore, Culture media preparation (Blood, MacCONKEY, Muller‑Hinton blood, and Chocolate
-agar), Gram Staining, Catalase, Coagulase, Optochine sensitivity, CAMP, Bile solubility, Oxidase, Biochemical tests
-(TSI, MIU, Citrate), Satellitism, X‑V factor, Antibiotic susceptibility test
-
-**Bioinformatics:** 
-BioPython, Bioconductor, BioPandas, Microarray analysis, RNASeq 
-  <ul style="margin-left: 20px;">
-    <li><strong>NGS:</strong> Converting(BCL2fastq), Quality checking(fastQC, MultiQC, Quast), Quality control(Trimmomatic), Assembly(Unicycler, Spades, Megahit, Pilon, Flye), Assembly viewer (Bandage)</li>
-    <li><strong>Annotation:</strong> AMRFinderPlus, Abricate, SRST, MLST, Snippy, Mafft, fasta2phylip, Raxml-ng, Poppunk, PlasmidFinder, ResFinder, Blast, Pharokka, Virustaxo, Kraken2, Prokka, Seroba, bwa, bowtie2, samtools, bamtools, bcftools, snp-sites, BLAST, snippy, FastTree, Gubbins, popPUNK, Abricate, Any2fasta, ARIBA, SeroBA, SRST2, mlst, IGV, CZID, Nextstrain</li>
-    <li><strong>Single Cell RNA sequencing Analysis:</strong> Scanpy, Seurat</li>
-  </ul>
-
-
-
-**Miscellaneous Skills:** UNIX, Version Control(Git), Web Scraping
-
-
-# Accomplishments
 
 
 

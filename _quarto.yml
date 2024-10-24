@@ -68,8 +68,8 @@ website:
         href: training.qmd
       - text: "Teaching"
         file: teaching.qmd
-      - text: "What I Use"
-        file: use.qmd
+      - text: "Skills"
+        file: skill.qmd
       - text: "CV"
         file: cv/index.qmd
     right: []  # This makes the right section of the navbar empty
