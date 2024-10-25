@@ -2678,7 +2678,7 @@
     "href": "research.html#building-a-singlecell-atlas-of-the-nasopharyngeal-mucosa-to-investigate-sarscov2-infection.",
     "title": "Research Projects",
     "section": "Building a single‑cell atlas of the nasopharyngeal mucosa to investigate SARS‑CoV‑2 infection.",
-    "text": "Building a single‑cell atlas of the nasopharyngeal mucosa to investigate SARS‑CoV‑2 infection.\n\n\nAbstract"
+    "text": "Building a single‑cell atlas of the nasopharyngeal mucosa to investigate SARS‑CoV‑2 infection.\n\nAbstract\nSteps in Building the Atlas: - Dataset selection: Tissues related to the respiratory system, focusing on the nasopharynx. - Integration of datasets from studies (Yoshida, Ziegler, Ren), using Harmony to combine over 245,000 cells. - Clustering analysis of integrated dataset to define distinct cell types in the nasopharyngeal tissue. - Cell-type clusters identified with the integrated dataset and visualization of immune cell subtypes. - Assess expression of SARS‑CoV‑2 in the nasopharynx. - Reannotate cell types to identify novel or other subtypes. - Analyze the dataset with demographic details like age, SARS-CoV-2 status, and more. - Compare findings from the Bangladesh cohort with the global integrated dataset."
   },
   {
     "objectID": "skill.html#key-bash-commands-and-tools-for-bioinformatics",
@@ -2819,5 +2819,12 @@
     "title": "What I Use",
     "section": "R Packages",
     "text": "R Packages\n\nTCGAbiolinks: R package for integrative analysis with GDC data.\nmaftools: R package for summarizing, analyzing, and visualizing MAF files.\nSummarizedExperiment: Container for genomic data assays.\nMutationalPatterns: Tool for genome-wide analysis of mutational processes."
+  },
+  {
+    "objectID": "research.html#building-a-singlecell-atlas-of-the-nasopharyngeal-mucosa-to-investigate-sarscov2-infection",
+    "href": "research.html#building-a-singlecell-atlas-of-the-nasopharyngeal-mucosa-to-investigate-sarscov2-infection",
+    "title": "Research Projects",
+    "section": "Building a Single‑Cell Atlas of the Nasopharyngeal Mucosa to Investigate SARS‑CoV‑2 Infection",
+    "text": "Building a Single‑Cell Atlas of the Nasopharyngeal Mucosa to Investigate SARS‑CoV‑2 Infection\n\nAbstract\nSteps in Building the Atlas:  - Dataset Selection: Tissues related to the respiratory system, focusing on the nasopharynx. - Integration of Datasets: From studies by Yoshida, Ziegler, and Ren, using Harmony to combine over 245,000 cells. - Clustering Analysis: Of the integrated dataset to define distinct cell types in the nasopharyngeal tissue. - Identification of Cell-Type Clusters: With the integrated dataset and visualization of immune cell subtypes. - SARS‑CoV‑2 Expression Assessment: In the nasopharynx.  - Reannotation of Cell Types: To identify novel or other subtypes.  - Demographic Analysis: Analyze the dataset with demographic details like age, SARS-CoV-2 status, and more. - Comparative Analysis: Compare findings from the Bangladesh cohort with the global integrated dataset."
   }
 ]
