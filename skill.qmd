@@ -23,13 +23,14 @@ comments: false
   - MySQL
   - Redis
   
-### **Data Analysis Tools:**
+### **Data Analysis, Machine Learning and Deep Learning:**
   - Numpy
   - Pandas
   - Matplotlib
   - Seaborn
   - Keras
   - SciKit-Learn
+  - PyTorch
   - TensorFlow
   - PyCaret
   
@@ -40,17 +41,9 @@ comments: false
   - Visual Studio  
   - R Studio  
   - PyCharm  
-  - Visual Studio Code  
   - Terra  
   - Posit  
   - Bash Terminal  
-
-### **Machine Learning and Deep Learning:**
-  - Scikit-Learn
-  - Keras
-  - TensorFlow
-  - PyTorch
-  - PyCaret
 
 ### **Microarray Analysis:**
 - limma
@@ -65,68 +58,9 @@ comments: false
   - HISAT2
   - DESeq2
   - ClusterProfiler
-  - IGV
   - ggplot2
   - Bioconductor
-  - Nextflow
 
-# **Single Cell RNA Sequencing Analysis:**
-
-#### **1. Data Pre-processing:**
-  - **Scanpy**: Preprocessing single-cell RNA-seq data with functions like `pp.filter_genes`, `pp.normalize_total`, and `pp.log1p` for normalization, scaling, and filtering.
-  - **Seurat**: Preprocessing with functions such as `NormalizeData`, `ScaleData`, and `FindVariableFeatures` to prepare the data for downstream analysis.
-  - **Cell Ranger**: Primary analysis pipeline from 10x Genomics for generating FASTQ, aligning reads, and creating expression matrices.
-  - **Scater (R)**: For quality control and visualization of single-cell RNA-seq data.
-  - **scrublet**: For detecting doublets in droplet-based single-cell RNA-seq data.
-  - **DropletUtils (R)**: For handling and processing droplet-based single-cell RNA-seq data, including ambient RNA correction.
-
-#### **2. Clustering and Cell Annotation:**
-  - **Scanpy**: Clustering with algorithms like Louvain (`tl.louvain`) and Leiden (`tl.leiden`). Annotation with marker genes using `tl.rank_genes_groups`.
-  - **Seurat**: Clustering with `FindClusters` and `RunPCA` for dimensionality reduction and visualization. Annotation via `FindAllMarkers` to identify cell-type-specific markers.
-  - **Harmony**: Batch correction and integration during clustering to harmonize multiple datasets.
-  - **SingleR**: Automated cell type annotation by comparing single-cell RNA-seq profiles to reference datasets.
-  - **SCINA**: A marker-based approach to classify single-cell data into known cell types.
-  - **CellAssign**: Bayesian probabilistic model to assign cell types based on pre-defined marker genes.
-
-#### **3. Integration and Batch Correction:**
-  - **Scanpy**: Integration tools like `tl.bbknn` for batch-correction using nearest neighbors and `external.pp.harmony_integrate` for Harmony integration.
-  - **Seurat**: Integration tools such as Canonical Correlation Analysis (`FindIntegrationAnchors`) and Reciprocal PCA (`IntegrateData`) for batch correction across datasets.
-  - **Harmony**: A flexible tool for integration and batch effect correction during analysis.
-  - **MNNCorrect**: Mutual Nearest Neighbors correction for batch effect removal.
-  - **scVI**: Scalable Variational Inference for integrating and analyzing multi-modal single-cell datasets.
-
-#### **4. Cell-Cell Communication:**
-  - **CellPhoneDB**: A Python tool for inferring cell-cell communication based on ligand-receptor interactions.
-  - **NATMI**: For predicting ligand-receptor interactions between cell populations.
-  - **iTALK**: R package for analyzing and visualizing cell-cell communication using scRNA-seq data.
-  - **CellChat**: R package for inferring and visualizing intercellular communication networks.
-  - **SingleCellSignalR**: An R package for identifying cell-cell communication networks based on receptor-ligand interaction analysis.
-
-#### **5. BCR Background and 10x Analysis:**
-  - **Cell Ranger**: For reconstructing BCR and TCR sequences from 10x Genomics single-cell data.
-  - **VDJtools**: Analyzing BCR/TCR repertoires from single-cell RNA-seq data.
-  - **scRepertoire**: R package for analyzing TCR/BCR sequences in single-cell datasets, providing clonotype tracking and diversity analysis.
-
-#### **6. Trajectory Inference:**
-  - **Monocle3**: R package for performing pseudotime analysis and reconstructing cell trajectories.
-  - **Slingshot**: R package for lineage inference and trajectory reconstruction from single-cell RNA-seq data.
-  - **Scanpy**: Trajectory inference using methods like Palantir (`tl.palantir`) and pseudotime analysis with `tl.dpt`.
-  - **PAGA**: Partition-based graph abstraction for inferring lineage relationships and transitions between cell states in Scanpy.
-  - **Velocyto**: A tool for estimating RNA velocity in single cells, predicting the future states of cells in trajectory analysis.
-  - **dynverse**: A collection of methods and packages for trajectory inference, integrated with both Seurat and Scanpy workflows.
-
-#### **7. Differential Abundance:**
-  - **DAseq**: R package for differential abundance analysis of single-cell datasets, identifying significant differences in cell populations.
-  - **Milo**: For testing differential abundance of cell neighborhoods across conditions.
-  - **edgeR**: For differential expression analysis in scRNA-seq data.
-  - **DESeq2**: R package for differential expression analysis in bulk RNA-seq and scRNA-seq data.
-
-#### **8. Multiomic scATAC:**
-  - **Signac**: An R package built on top of Seurat for integrating scRNA-seq and scATAC-seq data.
-  - **ArchR**: A comprehensive tool for single-cell ATAC-seq data analysis, including peak calling, dimensionality reduction, and clustering.
-  - **Cicero**: Tool for inferring co-accessibility networks from scATAC-seq data.
-  - **SnapATAC**: For scATAC-seq clustering, visualization, and integration with scRNA-seq datasets.
-  - **scVI**: Probabilistic modeling for multi-modal single-cell data, supporting scRNA-seq and scATAC-seq integration.
 
 # Bash
 ## Key Bash Commands and Tools for Bioinformatics:
@@ -149,25 +83,17 @@ comments: false
   - **`cutadapt`**: Used for trimming adapter sequences from reads in FASTQ files.
   - **`trimmomatic`**: Tool for trimming low-quality regions and adapters from high-throughput sequencing reads.
   
-### **3. Working with Single-Cell Data:**
-  - **`cellranger`**: Command-line tool from 10x Genomics for preprocessing single-cell RNA-seq data (alignment, counting, clustering).
-  - **`STAR`**: RNA-seq aligner widely used in both bulk and single-cell RNA-seq data processing.
-  - **`UMI-tools`**: For handling Unique Molecular Identifiers (UMIs) in single-cell RNA-seq workflows.
-  - **`featureCounts`**: For assigning aligned reads to genomic features like genes.
-  - **`bedGraphToBigWig`**: Converts bedGraph files to BigWig format for visualization in genome browsers.
   
-### **4. Data Compression and Decompression:**
+### **3. Data Compression and Decompression:**
   - **`gzip` / `gunzip`**: For compressing and decompressing sequence files (e.g., FASTQ, BAM).
   - **`tar`**: To compress and extract multiple files or directories (often used with `gzip`).
   - **`bgzip`**: Used for compressing VCF and other large text files, often combined with `tabix` for indexing.
   - **`zcat`** / **`bzcat`**: For reading compressed files without decompressing them.
   
-### **5. Pipeline and Workflow Automation:**
+### **4. Pipeline and Workflow Automation:**
   - **`Nextflow`**: Workflow manager for reproducible and scalable bioinformatics pipelines, designed to work with cloud resources and clusters.
-  - **`Snakemake`**: Workflow management system for creating reproducible and scalable bioinformatics pipelines.
-  - **`GNU Parallel`**: Tool for executing jobs in parallel across multiple CPU cores, useful for speeding up pipelines.
-  
-### **6. Genomic Data Handling:**
+
+### **5. Genomic Data Handling:**
   - **`bcl2fastq`**: Converts raw Illumina BCL data files into FASTQ format for downstream analysis.
   - **`kraken2`**: For taxonomic classification of metagenomic sequence data.
   - **`prokka`**: For genome annotation of bacterial sequences.
@@ -175,84 +101,21 @@ comments: false
   - **`unicycler`**: Hybrid assembly pipeline optimized for bacterial genomes.
   - **`quast`**: For quality assessment of genome assemblies.
   
-### **7. Visualization:**
+### **6. Visualization:**
   - **`IGV`**: Command-line interface for the Integrative Genomics Viewer, useful for visualizing sequence data.
-  - **`circos`**: Tool for generating circular genome plots, often used for comparative genomics.
   - **`samtools tview`**: A text-based alignment viewer for BAM files.
   
-### **8. Monitoring and Resource Management:**
+### **7. Monitoring and Resource Management:**
   - **`top`**: Monitor system resource usage (CPU, memory).
   - **`htop`**: A more interactive version of `top` for monitoring system performance.
   - **`df`** and **`du`**: For checking disk space and usage, ensuring enough storage is available for large sequencing datasets.
-  - **`screen`** and **`tmux`**: Tools for managing long-running jobs on remote servers.
+
   
-### **9. Parallel and Distributed Computing:**
-  - **`xargs`**: For parallelizing commands across multiple cores, especially for processing multiple files or datasets.
-  - **`sbatch` / `squeue` (Slurm)**: For submitting and managing jobs on high-performance computing clusters.
-  
-### **10. Software Installation:**
+### **8. Software Installation:**
   - **`conda`**: Package and environment manager for installing bioinformatics tools and managing dependencies.
   - **`docker`**: Containerization platform for running bioinformatics tools in isolated environments.
-  - **`singularity`**: Containerization platform commonly used in high-performance computing environments.
-  
-## Example Bash Workflow for Single-Cell RNA-seq:
-  
-  ```bash
-  # Step 1: Run FastQC for quality control
-  fastqc *.fastq.gz
-  
-  # Step 2: Use Cell Ranger for single-cell RNA-seq data alignment and counting
-  cellranger count --id=sample1 --transcriptome=refdata-gex-GRCh38-2020-A --fastqs=./fastq_files
-  
-  # Step 3: Perform read trimming with cutadapt
-  cutadapt -a AGATCGGAAGAG -o trimmed_sample.fastq.gz sample.fastq.gz
-  
-  # Step 4: Align reads using STAR
-  STAR --runThreadN 8 --genomeDir ./genome --readFilesIn trimmed_sample.fastq.gz --outFileNamePrefix sample1
-  
-  # Step 5: Convert SAM to BAM, sort and index with Samtools
-  samtools view -bS sample1.sam | samtools sort -o sample1_sorted.bam
-  samtools index sample1_sorted.bam
-  
-  # Step 6: Use featureCounts for gene-level read counting
-  featureCounts -a genes.gtf -o counts.txt sample1_sorted.bam
-  ```
-  
-  
-# Wet Lab
-### **Molecular Biology:**
-  - Agarose & Polyacrylamide Gel Electrophoresis and Imaging
-  - Blotting techniques
-  - DNA & RNA extraction
-  - Molecular cloning & Restriction enzymes
-  - Conventional and Real-time PCR
-  - ELISA & ICT
-  - Vaccine trial & microsurgery on mouse model
-  - Library preparation and pooling for Bacterial and Viral sequencing (Illumina)
-  - Library preparation and pooling (Nanopore)
 
-### **Microbiology:**
-  - Culture media preparation (Blood, MacCONKEY, Muller-Hinton, and Chocolate agar)
-  - Gram Staining
-  - Catalase, Coagulase, Optochin sensitivity, CAMP, Bile solubility, Oxidase, Biochemical (TSI, MIU, Citrate)
-  - Satellitism, X-V factor
-  - Antibiotic susceptibility test
-
-# Python
-## Python Libraries for Data Analysis and Scientific Computing:
-  - **NumPy**: Used for numerical and scientific computing, providing support for arrays and matrices.
-  - **Pandas**: For data manipulation and analysis, offering data structures and operations for numerical tables and time series.
-  - **Matplotlib**: A plotting library for creating static, animated, and interactive visualizations in Python.
-  - **Seaborn**: Built on top of Matplotlib, Seaborn provides a high-level interface for drawing attractive and informative statistical graphics.
-  - **Plotly**: An interactive plotting library that enables the creation of web-based, interactive plots and dashboards.
-  - **researchpy**: Simplifies statistical tests and summarizing data in Python, particularly for social science research.
-  - **Dask**: Designed for parallel computing, it is used for processing big data and creating scalable data pipelines.
-
-## Machine Learning and Image Processing:
-  - **scikit-learn**: A powerful library for machine learning and data mining, supporting a wide range of supervised and unsupervised algorithms.
-  - **scikit-image**: For image processing tasks, especially used in life science applications like segmentation, filtering, and transformations.
-
-## Bioinformatics Tools in Python:
+# Python & Biopython
 - **Biopython**: A comprehensive library for biological computation, supporting sequence analysis, file parsing (FASTA, GenBank), phylogenetics, and more. Widely used in genomics, protein analysis, and molecular biology.
 **Table of contents with Tools:**
 
@@ -284,7 +147,6 @@ comments: false
   - **PyCaret**: An open-source, low-code machine learning library that automates machine learning workflows for classification, regression, and clustering.
   - **TensorFlow**: An end-to-end open-source platform for machine learning, especially for building and training deep learning models.
   - **Keras**: A high-level API for building and training neural networks, running on top of TensorFlow for deep learning tasks.
-
 
 # R 
 ## Data Wrangling 
@@ -342,6 +204,7 @@ Static modeling in SPSS entails building and evaluating models that represent re
   - Single-cell RNA-Seq analysis
   - Metagenomics analysis
 
+
 # Deep Learning
 ## Deep Learning Frameworks and Libraries:
   - **TensorFlow**: An open-source framework for deep learning developed by Google. TensorFlow supports building and training neural networks, including tasks such as image classification, natural language processing, and more.
@@ -376,36 +239,95 @@ Static modeling in SPSS entails building and evaluating models that represent re
   - **Medical Imaging**: Using deep learning for detecting and diagnosing diseases through X-rays, MRIs, and CT scans. CNNs and GANs are often applied for tasks like tumor detection and segmentation.
   - **Autonomous Vehicles**: Deep learning models are used in self-driving cars for tasks like object detection, lane detection, and decision-making processes.
   
+# Wet Lab
+### **Molecular Biology:**
+  - Agarose & Polyacrylamide Gel Electrophoresis and Imaging
+  - Blotting techniques
+  - DNA & RNA extraction
+  - Molecular cloning & Restriction enzymes
+  - Conventional and Real-time PCR
+  - ELISA & ICT
+  - Vaccine trial & microsurgery on mouse model
+  - Library preparation and pooling for Bacterial and Viral sequencing (Illumina)
+  - Library preparation and pooling (Nanopore)
+  - DNA/RNA extraction, PCR, Library Preparation (Illumina/Nanopore), Tapestation
+
+### **Microbiology:**
+  - Culture media preparation (Blood, MacCONKEY, Muller-Hinton, and Chocolate agar)
+  - Gram Staining
+  - Catalase, Coagulase, Optochin sensitivity, CAMP, Bile solubility, Oxidase, Biochemical (TSI, MIU, Citrate)
+  - Satellitism, X-V factor
+  - Antibiotic susceptibility test
+
+  
 
 
-# Genomics  
-## Data Sources 
-  - [The Cancer Genome Atlas (TCGA)](https://portal.gdc.cancer.gov/): Comprehensive multi-dimensional cancer genomics data.
-  - [International Cancer Genome Consortium (ICGC)](https://icgc.org/): Genomic and clinical data from cancer projects worldwide.
-  - [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/): Public repository for gene expression data, including cancer datasets.
-  - [European Genome-phenome Archive (EGA)](https://ega-archive.org/): Repository for secure storage of human genetic and phenotypic data.
-  - [National Cancer Institute (NCI) Genomic Data Commons (GDC)](https://gdc.cancer.gov/): Open-access data portal for cancer genomics datasets.
+# Genomics & Single-Cell Genomics 
 
-## Analysis Tools 
-  - [GEPIA2](http://gepia2.cancer-pku.cn/): Web tool for analyzing gene expression data in cancer.
-  - [TIMER2.0](http://timer.cistrome.org/): Tool for immune infiltrate analysis in cancer.
-  - [UALCAN](http://ualcan.path.uab.edu/): Platform for exploring cancer transcriptome data.
-  - [cBioPortal for Cancer Genomics](https://www.cbioportal.org/): Collection of cancer genomics datasets for exploration and visualization.
-  - [GREIN](http://www.ilincs.org/apps/grein/): Interactive platform for exploring and analyzing GEO RNA-seq data.
-  - [OncoLnc](http://www.oncolnc.org/): Resource for survival analysis and gene expression correlation.
-  - [UCSC Cancer Genomics Browser](https://genome-cancer.ucsc.edu/): Browser for cancer genomics data.
-  - [ONCOMINE](https://www.oncomine.org/resource/login.html): Platform for cancer transcriptomic data analysis.
-
-## R Packages 
-  - [TCGAbiolinks](https://bioconductor.org/packages/release/bioc/vignettes/TCGAbiolinks/inst/doc/index.html): R package for integrative analysis with GDC data.
-  - [maftools](https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html): R package for summarizing, analyzing, and visualizing MAF files.
-  - [SummarizedExperiment](https://bioconductor.org/packages/release/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html): Container for genomic data assays.
-  - [MutationalPatterns](https://bioconductor.org/packages/release/bioc/vignettes/MutationalPatterns/inst/doc/Introduction_to_MutationalPatterns.html): Tool for genome-wide analysis of mutational processes.
-
-# Teaching Tools 
-  - **Bioinformatician:** DNA/RNA extraction, PCR, Library Preparation (Illumina/Nanopore), Tapestation, Sample sheet preparation. 
-  - **Illumina:** Converting (BCL2fastq), Quality checking (FastQC, MultiQC, Quast), Quality control (Trimmomatic), Assembly (Unicycler, Spades, Megahit).
+## Genomics
+  - **Illumina:** , Sample sheet preparation, Converting (BCL2fastq), Quality checking (FastQC, MultiQC, Quast), Quality control (Trimmomatic), Assembly (Unicycler, Spades, Megahit).
   - **Annotation:** Kraken2, Prokka, Seroba, AMRFinderPlus, Abricate, SRST, MLST, Snippy, Mafft, fasta2phylip, Raxml-ng, Poppunk, PlasmidFinder, ResFinder, BLAST, Pharokka.
+
+#### Data Sources 
+  - NCBI 
+  - [The Cancer Genome Atlas (TCGA)](https://portal.gdc.cancer.gov/): Comprehensive multi-dimensional cancer genomics data.
+  - [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/): Public repository for gene expression data, including cancer datasets.
+  - CELLXGENE 
+
+
+## Single Cell RNA Sequence Analysis
+
+#### **1. Data Pre-processing:**
+  - **Scanpy**: Preprocessing single-cell RNA-seq data with functions like `pp.filter_genes`, `pp.normalize_total`, and `pp.log1p` for normalization, scaling, and filtering.
+  - **Seurat**: Preprocessing with functions such as `NormalizeData`, `ScaleData`, and `FindVariableFeatures` to prepare the data for downstream analysis.
+  - **Cell Ranger**: Primary analysis pipeline from 10x Genomics for generating FASTQ, aligning reads, and creating expression matrices.
+
+
+#### **2. Clustering and Cell Annotation:**
+  - **Scanpy**: Clustering with algorithms like Louvain (`tl.louvain`) and Leiden (`tl.leiden`). Annotation with marker genes using `tl.rank_genes_groups`.
+  - **Seurat**: Clustering with `FindClusters` and `RunPCA` for dimensionality reduction and visualization. Annotation via `FindAllMarkers` to identify cell-type-specific markers.
+  - **Harmony**: Batch correction and integration during clustering to harmonize multiple datasets.
+
+
+#### **3. Integration and Batch Correction:**
+  - **Scanpy**: Integration tools like `tl.bbknn` for batch-correction using nearest neighbors and `external.pp.harmony_integrate` for Harmony integration.
+  - **Seurat**: Integration tools such as Canonical Correlation Analysis (`FindIntegrationAnchors`) and Reciprocal PCA (`IntegrateData`) for batch correction across datasets.
+  - **Harmony**: A flexible tool for integration and batch effect correction during analysis.
+  - **scVI**: Scalable Variational Inference for integrating and analyzing multi-modal single-cell datasets.
+
+#### **4. Cell-Cell Communication:**
+  - **CellPhoneDB**: A Python tool for inferring cell-cell communication based on ligand-receptor interactions.
+  - **NATMI**: For predicting ligand-receptor interactions between cell populations.
+  - **iTALK**: R package for analyzing and visualizing cell-cell communication using scRNA-seq data.
+  - **CellChat**: R package for inferring and visualizing intercellular communication networks.
+  - **SingleCellSignalR**: An R package for identifying cell-cell communication networks based on receptor-ligand interaction analysis.
+
+#### **5. BCR Background and 10x Analysis:**
+  - **Cell Ranger**: For reconstructing BCR and TCR sequences from 10x Genomics single-cell data.
+  - **VDJtools**: Analyzing BCR/TCR repertoires from single-cell RNA-seq data.
+  - **scRepertoire**: R package for analyzing TCR/BCR sequences in single-cell datasets, providing clonotype tracking and diversity analysis.
+
+#### **6. Trajectory Inference:**
+  - **Monocle3**: R package for performing pseudotime analysis and reconstructing cell trajectories.
+  - **Slingshot**: R package for lineage inference and trajectory reconstruction from single-cell RNA-seq data.
+  - **Scanpy**: Trajectory inference using methods like Palantir (`tl.palantir`) and pseudotime analysis with `tl.dpt`.
+  - **PAGA**: Partition-based graph abstraction for inferring lineage relationships and transitions between cell states in Scanpy.
+  - **Velocyto**: A tool for estimating RNA velocity in single cells, predicting the future states of cells in trajectory analysis.
+  - **dynverse**: A collection of methods and packages for trajectory inference, integrated with both Seurat and Scanpy workflows.
+
+#### **7. Differential Abundance:**
+  - **DAseq**: R package for differential abundance analysis of single-cell datasets, identifying significant differences in cell populations.
+  - **Milo**: For testing differential abundance of cell neighborhoods across conditions.
+  - **edgeR**: For differential expression analysis in scRNA-seq data.
+  - **DESeq2**: R package for differential expression analysis in bulk RNA-seq and scRNA-seq data.
+
+#### **8. Multiomic scATAC:**
+  - **Signac**: An R package built on top of Seurat for integrating scRNA-seq and scATAC-seq data.
+  - **ArchR**: A comprehensive tool for single-cell ATAC-seq data analysis, including peak calling, dimensionality reduction, and clustering.
+  - **Cicero**: Tool for inferring co-accessibility networks from scATAC-seq data.
+  - **SnapATAC**: For scATAC-seq clustering, visualization, and integration with scRNA-seq datasets.
+  - **scVI**: Probabilistic modeling for multi-modal single-cell data, supporting scRNA-seq and scATAC-seq integration.
+
 
 <!-- - [learnr](https://rstudio.github.io/learnr/) - R package for developing interactive web-based R tutorials. -->
 - **Research Fellow:** Developed ML-based pipeline for shotgun sequencing, 16S rRNA sequencing using QIIME2, RNA-seq using DESeq2, stats, ggplot, corrplot, pheatmap, EDASeq, gProfileR.
