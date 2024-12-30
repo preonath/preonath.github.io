@@ -246,30 +246,78 @@ p {
 </section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<section id="parv4-detection-in-children-with-suspected-meningitis-is-associated-with-high-mortality." class="level2">
-<h2 class="anchored" data-anchor-id="parv4-detection-in-children-with-suspected-meningitis-is-associated-with-high-mortality.">Parv4 detection in children with suspected meningitis is associated with high mortality.</h2>
+<div class="slideshow-container">
+<!-- Slide 1 -->
+<div class="mySlides" style="background-image: url('../../files/img/research/NextSeq_Sequencing_load_1.jpg'); background-size: cover; background-position: center; height: 1500px;">
+
+</div>
+<!-- Slide 2 -->
+<div class="mySlides" style="background-image: url('../../files/img/research/NextSeq_Sequencing_load_2.jpg'); background-size: cover; background-position: center; height: 1500px;">
+
+</div>
+<!-- Slide 3 -->
+<div class="mySlides" style="background-image: url('../../files/img/research/NextSeq_Sequencing_load_3.jpg'); background-size: cover; background-position: center; height: 1500px;">
+
+</div>
+</div>
 <style>
-p {
-    text-align: justify;
+/* Slideshow container styling */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Default styling for slides */
+.mySlides {
+  display: none;
+}
+
+/* Animation effect */
+.fade {
+  animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0.4;}
+  to {opacity: 1;}
 }
 </style>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  
+  // Hide all slides
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  // Increment slide index
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1; } // Reset index if it exceeds number of slides
+  
+  // Show the current slide
+  slides[slideIndex - 1].style.display = "block";
+  
+  // Change slide every 3 seconds
+  setTimeout(showSlides, 3000);
+}
+</script>
+<section id="genome-sequences-of-bacteriophages-that-infect-salmonella-typhi-from-bangladesh" class="level2">
+<h2 class="anchored" data-anchor-id="genome-sequences-of-bacteriophages-that-infect-salmonella-typhi-from-bangladesh">Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh</h2>
 <section id="abstract-6" class="level3">
 <h3 class="anchored" data-anchor-id="abstract-6">Abstract</h3>
-<section id="keyword-metagenomics-analysisconsensus-sequence-generated-using-cz-id-mapping-mafft-raxm" class="level6">
-<h6 class="anchored" data-anchor-id="keyword-metagenomics-analysisconsensus-sequence-generated-using-cz-id-mapping-mafft-raxm"><strong>Keyword:</strong> Metagenomics analysis—consensus sequence generated using CZ ID, mapping, MAFFT, RAxM</h6>
-</section>
-<section id="processing-to-submit" class="level6">
-<h6 class="anchored" data-anchor-id="processing-to-submit">Processing to submit</h6>
+<section id="keyword" class="level6">
+<h6 class="anchored" data-anchor-id="keyword"><strong>Keyword:</strong></h6>
 </section>
 </section>
 </section>
-<section id="exploring-diversity-and-environmental-dynamics-of-salmonella-typhi-and-its-bacteriophages" class="level2">
-<h2 class="anchored" data-anchor-id="exploring-diversity-and-environmental-dynamics-of-salmonella-typhi-and-its-bacteriophages">Exploring diversity and environmental dynamics of Salmonella Typhi and its bacteriophages</h2>
-<style>
-p {
-    text-align: justify;
-}
-</style>
+<section id="parv4-detection-in-children-with-suspected-meningitis-is-associated-with-high-mortality." class="level2">
+<h2 class="anchored" data-anchor-id="parv4-detection-in-children-with-suspected-meningitis-is-associated-with-high-mortality.">Parv4 detection in children with suspected meningitis is associated with high mortality.</h2>
 <section id="abstract-7" class="level3">
 <h3 class="anchored" data-anchor-id="abstract-7">Abstract</h3>
 <p>Bacteriophages (or phages) are viruses that infect bacteria and regulate their abundance, phenotypic characteristics, and long-term evolutionary trajectory. Recently, our group has shown that Typhi-specific phages are abundant in surface water collected from high typhoid burden settings in Bangladesh and phage abundance correlates with typhoid burden. However, no information is available regarding the infecting mechanisms of Typhi-phages and the role these phages play in the evolution and dynamics of Salmonella Typhi in the environment. In this study, we used a combination of whole genome sequencing and bacterial killing assays against a diverse panel of Salmonella Typhi isolates to characterize the Typhi-phages present in Bangladesh.</p>
