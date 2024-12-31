@@ -8,7 +8,6 @@ callout-icon: false
 ---
 
 :::  panel-tabset
-
 # Genomics 
 
 <div class="slideshow-container">
@@ -22,66 +21,28 @@ callout-icon: false
   <div class="mySlides" style="background-image: url('../../files/img/research/Genomics/NextSeq_Sequencing_load_3.jpg'); background-size: cover; background-position: center; height: 1500px;"></div>
 </div>
 
-<style>
-/* Slideshow container styling */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
 
-/* Default styling for slides */
-.mySlides {
-  display: none;
-}
-
-/* Animation effect */
-.fade {
-  animation: fadeEffect 1.5s;
-}
-
-@keyframes fadeEffect {
-  from {opacity: 0.4;}
-  to {opacity: 1;}
-}
-</style>
-
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  
-  // Hide all slides
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  // Increment slide index
-  slideIndex++;
-  if (slideIndex > slides.length) { slideIndex = 1; } // Reset index if it exceeds number of slides
-  
-  // Show the current slide
-  slides[slideIndex - 1].style.display = "block";
-  
-  // Change slide every 3 seconds
-  setTimeout(showSlides, 3000);
-}
-</script>
 
 
 ## Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh  
-### Abstract 
-###### **Keyword:** 
 
+### Abstract 
+This report presents the near-complete genome sequences of 14 bacteriophages that infect Salmonella Typhi, identified through environmental surveillance in Bangladesh between August 2021 and June 2022. The bacteriophages, belonging to the genera Kayfunavirus, Macdonaldcampvirus, and Teseptimavirus, share evolutionarily ties with previously documented Typhi bacteriophages.
+
+###### **Keyword:** 
+###### **Funding:** This study was funded by the Bill and Melinda Gates Foundation (INV-003717) .
+<div class="static-image">
+  <img src="../../files/img/research/Genomics/Phages_phylogenetic_tree_1.png" alt="Phylogenetic Tree of Phages" style="width: 100%; height: auto; margin-top: 20px;">
+</div>
 ## Parv4 detection in children with suspected meningitis is associated with high mortality.
 
 ### Abstract 
 Bacteriophages (or phages) are viruses that infect bacteria and regulate their abundance, phenotypic characteristics, and long-term evolutionary trajectory. Recently, our group has shown that Typhi-specific phages are abundant in surface water collected from high typhoid burden settings in Bangladesh and phage abundance correlates with typhoid burden. However, no information is available regarding the infecting mechanisms of Typhi-phages and the role these phages play in the evolution and dynamics of Salmonella Typhi in the environment. In this study, we used a combination of whole genome sequencing and bacterial killing assays against a diverse panel of Salmonella Typhi isolates to characterize the Typhi-phages present in Bangladesh.
 
 ###### **Keyword:** Water-borne diseases, factors, vibrio cholerae, public health, health impacts, calamities, water.
+<div class="static-image">
+  <img src="../../files/img/research/Genomics/PARV4_Phylogenetic_tree_1.png" alt="Phylogenetic Tree of PARV4" style="width: 100%; height: auto; margin-top: 20px;">
+</div>
 ###### On review
 
 ## Global Pneumococcal Sequencing Project.
@@ -225,5 +186,54 @@ The project's primary objectives include raising public awareness about thalasse
 
 To ensure equitable access to quality healthcare, the project focuses on enhancing healthcare facilities' capacity to provide specialized thalassemia care. This involves training healthcare personnel, ensuring the availability of necessary treatments, and creating a supportive environment for patients and their families. Moreover, the project emphasizes the importance of support groups and counseling services to address the psychological and emotional aspects of thalassemia.
 
+
+<style>
+/* Slideshow container styling */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Default styling for slides */
+.mySlides {
+  display: none;
+}
+
+/* Animation effect */
+.fade {
+  animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0.4;}
+  to {opacity: 1;}
+}
+</style>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  
+  // Hide all slides
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  // Increment slide index
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1; } // Reset index if it exceeds number of slides
+  
+  // Show the current slide
+  slides[slideIndex - 1].style.display = "block";
+  
+  // Change slide every 3 seconds
+  setTimeout(showSlides, 3000);
+}
+</script>
 
 ::: 

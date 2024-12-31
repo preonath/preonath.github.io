@@ -2622,7 +2622,7 @@
     "href": "research.html",
     "title": "Research Projects",
     "section": "",
-    "text": "::: panel-tabset # AI for Healthcare"
+    "text": "::: panel-tabset"
   },
   {
     "objectID": "research.html#development-of-a-disease-detection-tool-from-shotgun-metagenomic-data-utilizing-algorithms-based-on-k-mer-frequency-a-gut-microbiome-study.",
@@ -2650,7 +2650,7 @@
     "href": "research.html#parv4-detection-in-children-with-suspected-meningitis-is-associated-with-high-mortality.",
     "title": "Research Projects",
     "section": "Parv4 detection in children with suspected meningitis is associated with high mortality.",
-    "text": "Parv4 detection in children with suspected meningitis is associated with high mortality.\n\nAbstract\nBacteriophages (or phages) are viruses that infect bacteria and regulate their abundance, phenotypic characteristics, and long-term evolutionary trajectory. Recently, our group has shown that Typhi-specific phages are abundant in surface water collected from high typhoid burden settings in Bangladesh and phage abundance correlates with typhoid burden. However, no information is available regarding the infecting mechanisms of Typhi-phages and the role these phages play in the evolution and dynamics of Salmonella Typhi in the environment. In this study, we used a combination of whole genome sequencing and bacterial killing assays against a diverse panel of Salmonella Typhi isolates to characterize the Typhi-phages present in Bangladesh.\n\nKeyword: Water-borne diseases, factors, vibrio cholerae, public health, health impacts, calamities, water.\n\n\nOn review"
+    "text": "Parv4 detection in children with suspected meningitis is associated with high mortality.\n\nAbstract\nBacteriophages (or phages) are viruses that infect bacteria and regulate their abundance, phenotypic characteristics, and long-term evolutionary trajectory. Recently, our group has shown that Typhi-specific phages are abundant in surface water collected from high typhoid burden settings in Bangladesh and phage abundance correlates with typhoid burden. However, no information is available regarding the infecting mechanisms of Typhi-phages and the role these phages play in the evolution and dynamics of Salmonella Typhi in the environment. In this study, we used a combination of whole genome sequencing and bacterial killing assays against a diverse panel of Salmonella Typhi isolates to characterize the Typhi-phages present in Bangladesh.\n\nKeyword: Water-borne diseases, factors, vibrio cholerae, public health, health impacts, calamities, water.\n\n\n\n\n\nOn review"
   },
   {
     "objectID": "research.html#a-global-pediatric-cell-atlas-of-nasal-and-oral-mucosa-1",
@@ -2846,6 +2846,6 @@
     "href": "research.html#genome-sequences-of-bacteriophages-that-infect-salmonella-typhi-from-bangladesh",
     "title": "Research Projects",
     "section": "Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh",
-    "text": "Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh\n\nAbstract\n\nKeyword:"
+    "text": "Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh\n\nAbstract\nThis report presents the near-complete genome sequences of 14 bacteriophages that infect Salmonella Typhi, identified through environmental surveillance in Bangladesh between August 2021 and June 2022. The bacteriophages, belonging to the genera Kayfunavirus, Macdonaldcampvirus, and Teseptimavirus, share evolutionarily ties with previously documented Typhi bacteriophages.\n\nKeyword:\n\n\nFunding: This study was funded by the Bill and Melinda Gates Foundation (INV-003717) ."
   }
 ]
