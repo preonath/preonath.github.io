@@ -8,6 +8,95 @@ callout-icon: false
 ---
 
 :::  panel-tabset
+
+# Genomics 
+
+<div class="slideshow-container">
+  <!-- Slide 1 -->
+  <div class="mySlides" style="background-image: url('../../files/img/research/Genomics/NextSeq_Sequencing_load_1.jpg'); background-size: cover; background-position: center; height: 1500px;"></div>
+  
+  <!-- Slide 2 -->
+  <div class="mySlides" style="background-image: url('../../files/img/research/Genomics/NextSeq_Sequencing_load_2.jpg'); background-size: cover; background-position: center; height: 1500px;"></div>
+  
+  <!-- Slide 3 -->
+  <div class="mySlides" style="background-image: url('../../files/img/research/Genomics/NextSeq_Sequencing_load_3.jpg'); background-size: cover; background-position: center; height: 1500px;"></div>
+</div>
+
+<style>
+/* Slideshow container styling */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Default styling for slides */
+.mySlides {
+  display: none;
+}
+
+/* Animation effect */
+.fade {
+  animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0.4;}
+  to {opacity: 1;}
+}
+</style>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  
+  // Hide all slides
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  // Increment slide index
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1; } // Reset index if it exceeds number of slides
+  
+  // Show the current slide
+  slides[slideIndex - 1].style.display = "block";
+  
+  // Change slide every 3 seconds
+  setTimeout(showSlides, 3000);
+}
+</script>
+
+
+## Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh  
+### Abstract 
+###### **Keyword:** 
+
+## Parv4 detection in children with suspected meningitis is associated with high mortality.
+
+### Abstract 
+Bacteriophages (or phages) are viruses that infect bacteria and regulate their abundance, phenotypic characteristics, and long-term evolutionary trajectory. Recently, our group has shown that Typhi-specific phages are abundant in surface water collected from high typhoid burden settings in Bangladesh and phage abundance correlates with typhoid burden. However, no information is available regarding the infecting mechanisms of Typhi-phages and the role these phages play in the evolution and dynamics of Salmonella Typhi in the environment. In this study, we used a combination of whole genome sequencing and bacterial killing assays against a diverse panel of Salmonella Typhi isolates to characterize the Typhi-phages present in Bangladesh.
+
+###### **Keyword:** Water-borne diseases, factors, vibrio cholerae, public health, health impacts, calamities, water.
+###### On review
+
+## Global Pneumococcal Sequencing Project.
+
+<style>
+p {
+    text-align: justify;
+}
+</style>
+### Abstract 
+
+
+#####
+
+
 # AI for Healthcare  
 
 ## Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach
@@ -89,92 +178,6 @@ One important epigenetic alteration that is essential for controlling gene expre
 
 
 
-# Genomics 
-
-<div class="slideshow-container">
-  <!-- Slide 1 -->
-  <div class="mySlides" style="background-image: url('../../files/img/research/NextSeq_Sequencing_load_1.jpg'); background-size: cover; background-position: center; height: 1500px;"></div>
-  
-  <!-- Slide 2 -->
-  <div class="mySlides" style="background-image: url('../../files/img/research/NextSeq_Sequencing_load_2.jpg'); background-size: cover; background-position: center; height: 1500px;"></div>
-  
-  <!-- Slide 3 -->
-  <div class="mySlides" style="background-image: url('../../files/img/research/NextSeq_Sequencing_load_3.jpg'); background-size: cover; background-position: center; height: 1500px;"></div>
-</div>
-
-<style>
-/* Slideshow container styling */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-/* Default styling for slides */
-.mySlides {
-  display: none;
-}
-
-/* Animation effect */
-.fade {
-  animation: fadeEffect 1.5s;
-}
-
-@keyframes fadeEffect {
-  from {opacity: 0.4;}
-  to {opacity: 1;}
-}
-</style>
-
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  
-  // Hide all slides
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  // Increment slide index
-  slideIndex++;
-  if (slideIndex > slides.length) { slideIndex = 1; } // Reset index if it exceeds number of slides
-  
-  // Show the current slide
-  slides[slideIndex - 1].style.display = "block";
-  
-  // Change slide every 3 seconds
-  setTimeout(showSlides, 3000);
-}
-</script>
-
-
-## Genome sequences of bacteriophages that infect Salmonella Typhi from Bangladesh  
-### Abstract 
-###### **Keyword:** 
-
-## Parv4 detection in children with suspected meningitis is associated with high mortality.
-
-### Abstract 
-Bacteriophages (or phages) are viruses that infect bacteria and regulate their abundance, phenotypic characteristics, and long-term evolutionary trajectory. Recently, our group has shown that Typhi-specific phages are abundant in surface water collected from high typhoid burden settings in Bangladesh and phage abundance correlates with typhoid burden. However, no information is available regarding the infecting mechanisms of Typhi-phages and the role these phages play in the evolution and dynamics of Salmonella Typhi in the environment. In this study, we used a combination of whole genome sequencing and bacterial killing assays against a diverse panel of Salmonella Typhi isolates to characterize the Typhi-phages present in Bangladesh.
-
-###### **Keyword:** Water-borne diseases, factors, vibrio cholerae, public health, health impacts, calamities, water.
-###### On review
-
-## Global Pneumococcal Sequencing Project.
-
-<style>
-p {
-    text-align: justify;
-}
-</style>
-### Abstract 
-
-
-#####
 
 
 # Single Cell RNA Seq Analysis
