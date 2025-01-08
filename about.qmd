@@ -83,6 +83,7 @@ I am a **Bioinformatician** at the [Child Health Research Foundation](https://ch
     { src: "../../files/img/front_page/video_1.mp4", title: "Genome Sequencing at NextSeq-2000" },
     { src: "../../files/img/front_page/video_2.mp4", title: "Genome Sequencing at NextSeq-2000" },
     { src: "../../files/img/front_page/video_3.mp4", title: "Genome Sequencing at NextSeq-2000" },
+    { src: "../../files/img/front_page/Nanopore_Seq_Run_5.mp4", title: "Genome Sequencing at Oxford Nanopore Sequencer" },
     { src: "../../files/img/front_page/nib_research_1.mp4", title: "Rota Vaccine Trial at Mice Model" },
     { src: "../../files/img/front_page/nib_research_2.mp4", title: "Rota Vaccine Trial at Mice Model" },
     { src: "../../files/img/front_page/video_4.mp4", title: "Genome Sequencing at iSeq-100" },
@@ -100,6 +101,7 @@ I am a **Bioinformatician** at the [Child Health Research Foundation](https://ch
     { src: "../../files/img/front_page/bacterial_genomics_1.jpg", title: "Teaching at Bacterial Genomics & Antimicrobial Resistance Workshop" },
     { src: "../../files/img/front_page/cat_2.jpeg", title: "Poster-Presentation at CAT Conference, Africa" },
     { src: "../../files/img/front_page/cat_5.jpeg", title: "Poster-Presentation at CAT Conference, Africa" },
+    { src: "../../files/img/front_page/ont_1.jpg", title: "Genome Sequencing at Oxford Nanopore Sequencer" },
     { src: "../../files/img/front_page/Awarwed_from_Zafor_Iqbal.jpg", title: "Awarwed from Dr. Zafor Iqbal" },
   ];
 
