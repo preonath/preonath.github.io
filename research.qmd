@@ -71,7 +71,10 @@ p {
 Monkeypox virus (MPXV), a zoonotic pathogen, resurged in 2022 with the Clade IIb variant, raising global health concerns due to its unprecedented spread in non-endemic regions. Recent studies revealed that Clade IIb (2022 MPXV) is characterized by unique genomic mutations and epidemiological behaviors, suggesting variations in host-virus interactions. This study aimed to identify differentially expressed genes (DEGs) induced by the 2022 MPXV infection through comprehensive bioinformatics analyses of microarray and RNA-Seq datasets from post-infected cell lines across different MPXV clades. Gene expression network analyses pinpointed key DEGs, followed by candidate drug assessment using the Drug SIGnatures DataBase (DSigDB) and validation by multiple machine learning models. Comparative differential gene expression (DGE) analysis revealed 798 DEGs exclusive to the 2022 MPXV invasion in skin cell lines (keratinocytes and fibroblasts). Intriguingly, 13 key DEGs were identified across hubs and clusters, highlighting their aberrant expression in cell cycle regulation, immune responses, and cancer pathways. Biomarker screening via a Random Forest (RF) model (selected with PyCaret from multiple models) and validation through t-distributed stochastic neighbor embedding (t-SNE) algorithm, principal component analysis (PCA), and ROC curve analysis employing Logistic Regression and Random Forest identified 6 key DEGs (TXNRD1, CCNB1, BUB1, CDC20, BUB1B, and CCNA2) as promising biomarkers (AUC > 0.7) for Clade IIb infection. This study anticipates that further investigation and clinical trials will catalyze the development of novel detection and therapeutic options to combat the 2022 MPXV infection in humans.
 
 ###### Keywords: Mpox (monkeypox), 2022 MPXV (Clade IIb), DEGs, machine learning (ML) models, biomarker, candidate drugs
-
+<div class="static-image">
+  <img src="../../files/img/research/AI_for_Healthcare/MPOX/figure_01.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/MPOX/figure_02.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+</div>
 ## VirusTaxo: Taxonomic classification of viruses from the genome sequence using k-mer enrichment
 <style>
 p {
@@ -84,12 +87,12 @@ Classification of viruses into their taxonomic ranks (e.g., order, family, and g
 
 ###### Keywords: Virus, Taxonomy, Hierarchical classification, k-mer, Genome
 <div class="static-image">
-  <img src="../../files/img/research/AI_for_Healthcare/virustaxo_1.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
-  <img src="../../files/img/research/AI_for_Healthcare/virustaxo_2.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
-  <img src="../../files/img/research/AI_for_Healthcare/virustaxo_3.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
-  <img src="../../files/img/research/AI_for_Healthcare/virustaxo_4.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
-  <img src="../../files/img/research/AI_for_Healthcare/virustaxo_5.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
-  <img src="../../files/img/research/AI_for_Healthcare/virustaxo_6.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/VirusTaxo/virustaxo_1.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/VirusTaxo/virustaxo_2.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/VirusTaxo/virustaxo_3.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/VirusTaxo/virustaxo_4.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/VirusTaxo/virustaxo_5.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/VirusTaxo/virustaxo_6.png" alt="virustaxo" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
 
 </div>
 
@@ -105,7 +108,12 @@ Human gut microbiome composition can be influenced by various factors, including
 MetaDSC outperformed several existing tools in this regard. Specifically, MetaDSC can recognize Healthy, Type 2 Diabetes Mellitus (T2D), Non-Alcoholic Fatty Liver Disease (NAFLD), Inflammatory Bowel Disease (IBD), and Obesity from metagenomics sequences with 92.8%, 92.8%, 88.22%, 100%, and 90.0% accuracy respectively. MetaDSC has the potential to be utilized for accurate diagnosis across a wide variety of diseases, provided that new datasets are consistently incorporated into the tool.
 
 ###### Keywords: Gut Microbiome, Non-Communicable Diseases, Metagenomic, Machine learning , Deep learning, k-mer, MetaDSC.
-
+<div class="static-image">
+  <img src="../../files/img/research/AI_for_Healthcare/Thesis/thesis_1.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/Thesis/thesis_2.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/Thesis/thesis_3.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/Thesis/thesis_4.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+</div>
 ## Computational framework to interpret chest X-rays and diagnose pneumonia
 <style>
 p {
@@ -144,7 +152,14 @@ p {
 ### Abstract 
 One important epigenetic alteration that is essential for controlling gene expression and other biological functions is DNA methylation. One effective method for single-base resolution DNA methylation profiling is Whole Genome Bisulfite Sequencing (WGBS). However, missing methylation values in WGBS datasets are frequently the consequence of technical difficulties and experimental limitations. It is imperative to address these absent values in order to gain a thorough understanding of the epigenetic landscape. In this work, we suggest a novel method for predicting missing DNA methylation values in WGBS data, which is based on K-Nearest Neighbours (KNN). Our approach accurately imputes missing values by utilising the methylation data's inherent structure and patterns. KNN, an instance-based, non-parametric machine learning algorithm, is used to find comparable methylation profiles for each
 
-
+<div class="static-image">
+  <img src="../../files/img/research/AI_for_Healthcare/CpG/CpG_1.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/CpG/CpG_2.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/CpG/CpG_3.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/CpG/CpG_4.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/CpG/CpG_5.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/CpG/CpG_6.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+</div>
 
 
 
