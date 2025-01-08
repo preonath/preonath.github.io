@@ -125,7 +125,15 @@ p {
 In low- and middle-income countries, pneumonia remains the leading cause of illness and death in children under 5 years. The recommended diagnostic tool for pediatric pneumonia is chest X-ray image interpretation, which is challenging to standardize and requires trained clinicians or radiologists. Current automated computational tools predominantly focus on assessing adult pneumonia and have been trained on images evaluated by a single specialist. This study aims to develop a computational tool using a deep learning approach to diagnose pediatric pneumonia from X-ray images assessed by multiple specialists trained by the WHO expert X-ray image reading panel.
 
 ###### Workingg to the previous extended project 
+<div class="static-image">
+  <img src="../../files/img/research/AI_for_Healthcare/Xray/xray_1.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/Xray/xray_2.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/Xray/xray_4.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/Xray/xray_3.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
 
+
+
+</div>
 
 
 ## Predicting Disease Spread of Dengue using LSTM
@@ -141,6 +149,14 @@ Mosquito-borne dengue fever is a disease found in tropical and subtropical regio
 Dengue transmission dynamics are influenced by climate variables like temperature and precipitation since the virus is spread by mosquitoes. Despite the complexity of the relationship, an increasing number of scientists contend that changes in distribution brought about by climate change would likely have a major impact on public health globally.
 
 Dengue fever has been increasing in recent years. Southeast Asia and the Pacific islands have historically had the highest rates of the illness.
+
+<div class="static-image">
+  <img src="../../files/img/research/AI_for_Healthcare/Dengue/dengue_1.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/Dengue/dengue_2.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/Dengue/dengue_3.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/Dengue/dengue_4.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+</div>
+
 
 ## Prediction of Missing DNA Methylation fromWhole Genome Bisulfite Data Using KNN
 <style>
