@@ -181,6 +181,15 @@ One important epigenetic alteration that is essential for controlling gene expre
 
 
 # Single Cell RNA Seq Analysis
+
+<div class="static-video">
+  <video controls style="margin-top: 10px; height: 500px; width: 1000px;">
+    <source src="../../files/img/research/Single_Cell_Genomics/video_1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
 ## A Global Pediatric Cell Atlas of Nasal and Oral Mucosa
 <style>
 p {

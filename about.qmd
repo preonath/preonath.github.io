@@ -44,6 +44,8 @@ As a **bioinformatician**, I combine my knowledge in **biochemistry, molecular b
 <!-- - **Integrated Multi-Omics Data:** Integrating multi-omics data sets—genomics, transcriptomics, proteomics, and other fields—is a major area of interest for me. With this all-encompassing approach, I am able to obtain a thorough understanding of the molecular terrain of cancer. I work to find new biomarkers, therapeutic targets, and pathways that can have a big influence on cancer diagnosis and therapy by examining many layers of biological data. -->
 
 
+
+
 # Education
 
 <div style="position: relative; padding-right: 100px;"> <!-- Add padding to account for logo -->
@@ -62,6 +64,12 @@ As a **bioinformatician**, I combine my knowledge in **biochemistry, molecular b
     School of Life Sciences  
     Major: Biochemistry and Molecular Biology  
     <img src="sust.jpg" alt="SUST Logo" style="max-height: 80px; position: absolute; right: 0; top: 50%; transform: translateY(-50%);">
+</div>
+<div class="static-video">
+  <video controls autoplay muted style="margin-top: 10px; height: 300px; width: 800px;">
+    <source src="../../files/img/research/Single_Cell_Genomics/video_3.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 
@@ -95,6 +103,7 @@ bioinformatics methods, analysis of results, and synthesis of conclusions from s
 <!-- - Design and develop bioinformatics courses for undergraduates and professionals -->
 <!-- - Design and implement bioinformatics solutions for biologists -->
 <!-- - Lead the omics team to design and implement multi‑omics projects -->
+
 
 
 

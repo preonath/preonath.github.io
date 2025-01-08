@@ -2018,9 +2018,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "",
+    "title": "Preonath Chondrow Dev",
     "section": "",
-    "text": "&lt;!DOCTYPE html&gt;\n\n\n\nPreonath Chondrow Dev\n\n\n\n\n\n\n        &lt;img src=\"files/profiles/preonath.jpg\" alt=\"Preonath Chondrow Dev\" class=\"profile-photo\"&gt;\n        &lt;h1&gt;Preonath Chondrow Dev&lt;/h1&gt;\n        &lt;h2&gt;Research Officer and Bioinformatician&lt;/h2&gt;\n        &lt;p&gt;I work at the Child Health Research Foundation in Dhaka, Bangladesh, improving child health through bioinformatics research.&lt;/p&gt;\n    &lt;/div&gt;\n    &lt;nav class=\"navigation\"&gt;\n        &lt;ul&gt;\n            &lt;li&gt;&lt;a href=\"#bio\"&gt;Bio&lt;/a&gt;&lt;/li&gt;\n            &lt;li&gt;&lt;a href=\"#education\"&gt;Education&lt;/a&gt;&lt;/li&gt;\n            &lt;li&gt;&lt;a href=\"#experience\"&gt;Experience&lt;/a&gt;&lt;/li&gt;\n            &lt;li&gt;&lt;a href=\"#volunteering\"&gt;Volunteering&lt;/a&gt;&lt;/li&gt;\n            &lt;li&gt;&lt;a href=\"#skills\"&gt;Skills&lt;/a&gt;&lt;/li&gt;\n        &lt;/ul&gt;\n    &lt;/nav&gt;\n&lt;/header&gt;\n\n&lt;!-- Additional sections for Bio, Education, Experience, etc. --&gt;\n\n&lt;footer&gt;\n    &lt;p&gt;© Copyright 2023, Preonath Chondrow Dev&lt;/p&gt;\n&lt;/footer&gt;"
+    "text": "::: panel-tabset"
   },
   {
     "objectID": "about.html#education",
