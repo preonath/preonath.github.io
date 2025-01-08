@@ -187,9 +187,79 @@ School of Life Sciences<br>
 Major: Biochemistry and Molecular Biology<br>
 <img src="sust.jpg" alt="SUST Logo" style="max-height: 80px; position: absolute; right: 0; top: 50%; transform: translateY(-50%);"></p>
 </div>
-<div class="static-video">
-<p><video controls="" autoplay="" muted="" style="margin-top: 10px; height: 300px; width: 800px;"> <source src="../../files/img/research/Single_Cell_Genomics/video_3.mp4" type="video/mp4"> Your browser does not support the video tag. </video></p>
+<div class="static-video" style="position: relative; width: 800px; height: 300px;">
+<p><video id="fast-video" controls="" autoplay="" muted="" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;"> <source id="video-source" src="../../files/img/front_page/video_1.mp4" type="video/mp4"> Your browser does not support the video tag. </video></p>
+<p><img id="slideshow" src="../../files/img/front_page/HCA_1.jpeg" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: none; width: 400px; height: 300px;"></p>
 </div>
+<script>
+  const video = document.getElementById('fast-video');
+  const videoSource = document.getElementById('video-source');
+  const slideshow = document.getElementById('slideshow');
+  // Video sources list
+  const videoList = [
+    "../../files/img/front_page/video_1.mp4",
+    "../../files/img/front_page/video_2.mp4",
+    "../../files/img/front_page/video_3.mp4",
+    "../../files/img/front_page/nib_research_2.mp4"
+  ];
+  // Image sources list
+  const imageList = [
+    "../../files/img/front_page/HCA_1.jpeg",
+    "../../files/img/front_page/HCA_2.jpeg",
+    "../../files/img/front_page/HCA_4.jpeg",
+    "../../files/img/front_page/ai_in_public_health_1.jpeg"
+  ];
+  let videoIndex = 0;
+  let imageIndex = 0;
+  function playNextVideo() {
+    if (videoIndex < videoList.length) {
+      // Set the current video source
+      videoSource.src = videoList[videoIndex];
+      video.load();
+      video.onloadedmetadata = () => {
+        // Calculate playback rate to fit the video into 3 seconds
+        const playbackSpeed = video.duration / 3;
+        video.playbackRate = playbackSpeed; // Set playback rate
+        video.play();
+        // Force the next video after 3 seconds
+        setTimeout(() => {
+          videoIndex++;
+          playNextVideo();
+        }, 3000); // 3000ms = 3 seconds
+      };
+    } else {
+      // After all videos are played, start the image slideshow
+      startSlideshow();
+    }
+  }
+  function startSlideshow() {
+    slideshow.style.display = 'block'; // Show the image container in the same frame
+    showNextImage();
+  }
+  function showNextImage() {
+    if (imageIndex < imageList.length) {
+      slideshow.src = imageList[imageIndex];
+      imageIndex++;
+      // Show the next image after 3 seconds
+      setTimeout(showNextImage, 3000); // Change image every 3 seconds
+    } else {
+      // After all images are displayed, restart the entire sequence
+      console.log("Slideshow finished!");
+      resetSequence();
+    }
+  }
+  function resetSequence() {
+    // Reset video and image indexes and start over
+    videoIndex = 0;
+    imageIndex = 0;
+    // Reset the video and restart from the first video
+    video.currentTime = 0;  // Set video time to 0
+    video.play();  // Start the video again
+    playNextVideo(); // Start playing videos again from the first
+  }
+  // Start with the first video
+  playNextVideo();
+</script>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <section id="research-experience" class="level2">
