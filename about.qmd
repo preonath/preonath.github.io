@@ -19,17 +19,9 @@ about:
     - icon: envelope 
       href: mailto:preonath2838@gmail.com
 ---
+I am a **Bioinformatician** at the [Child Health Research Foundation](https://chrfbd.org/) working to improve child health through research and advocacy by applying my expertise in biochemistry, molecular biology, genomics, single-cell genomics, and computer science to develop computational methods for understanding disease genomics and fostering collaborations.
 
-:::  panel-tabset
-
-<div style="text-align: justify;">
-I am *[Preonath Chondrow Dev](https://preonath.github.io/)*. I am a **Bioinformatician** at the [Child Health Research Foundation](https://chrfbd.org/) to improve child health in Bangladesh and around the world by facilitating appropriate policy decisions through research and advocacy. I am also working as a mentor at [Bioinformatics School](https://www.facebook.com/groups/390262838074549/?hoisted_section_header_type=recently_seen&multi_permalinks=1429385037495652). 
-
-As a **bioinformatician**, I combine my knowledge in **biochemistry, molecular biology, and computer science** to further the cause of improving human health by developing and implementing state-of-the-art computational methods with the sincere intention of illuminating the route to new discoveries and solutions by teasing apart the genomic complexities of diseases through highly engaging and fruitful collaborations.
-</div>
-
-
-
+::: panel-tabset
 
 <!-- # Research Interests -->
 
