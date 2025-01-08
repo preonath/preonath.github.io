@@ -125,6 +125,9 @@ As a **bioinformatician**, I combine my knowledge in **biochemistry, molecular b
   }
 
   function startSlideshow() {
+    // Hide the video element
+    video.style.display = 'none';
+    
     slideshow.style.display = 'block'; // Show the image container in the same frame
     showNextImage();
   }
@@ -144,9 +147,15 @@ As a **bioinformatician**, I combine my knowledge in **biochemistry, molecular b
   }
 
   function resetSequence() {
+    // Hide the slideshow image before restarting the video
+    slideshow.style.display = 'none';
+
     // Reset video and image indexes and start over
     videoIndex = 0;
     imageIndex = 0;
+
+    // Reset the video element visibility
+    video.style.display = 'block';
     
     // Reset the video and restart from the first video
     video.currentTime = 0;  // Set video time to 0
