@@ -205,6 +205,11 @@ Steps in Building the Atlas: <br>
 - **Demographic Analysis**: Analyze the dataset with demographic details like age, SARS-CoV-2 status, and more.<br>
 - **Comparative Analysis**: Compare findings from the Bangladesh cohort with the global integrated dataset. <br>
 
+<div class="static-image">
+  <img src="../../files/img/research/Single_Cell_Genomics/Integration/umap_plot_by_authors_v1.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 1000px; margin-top: 10px;">
+</div>
+
+
 
 
 ## PCV effectiveness study via single‑cell analysis of pregnant women.
