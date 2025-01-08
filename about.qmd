@@ -86,7 +86,11 @@ As a **bioinformatician**, I combine my knowledge in **biochemistry, molecular b
     "../../files/img/front_page/video_1.mp4",
     "../../files/img/front_page/video_2.mp4",
     "../../files/img/front_page/video_3.mp4",
+    "../../files/img/front_page/nib_research_1.mp4"
     "../../files/img/front_page/nib_research_2.mp4"
+    "../../files/img/front_page/video_4.mp4",
+    "../../files/img/front_page/video_5.mp4",
+    "../../files/img/front_page/video_6.mp4",
   ];
 
   // Image sources list
