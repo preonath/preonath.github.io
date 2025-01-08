@@ -192,83 +192,91 @@ Major: Biochemistry and Molecular Biology<br>
 <p><video id="fast-video" controls="" autoplay="" muted="" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;"> <source id="video-source" src="../../files/img/front_page/video_1.mp4" type="video/mp4"> Your browser does not support the video tag. </video></p>
 <p><img id="slideshow" src="../../files/img/front_page/HCA_1.jpeg" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: none; width: 400px; height: 300px;"></p>
 </div>
+<!-- Title below the media -->
+<p id="media-title" style="text-align: center; font-size: 18px; margin-top: 10px; font-weight: bold;">
+</p>
 <script>
   const video = document.getElementById('fast-video');
   const videoSource = document.getElementById('video-source');
   const slideshow = document.getElementById('slideshow');
-  // Video sources list
+  const mediaTitle = document.getElementById('media-title');
+  // Video sources and titles
   const videoList = [
-    "../../files/img/front_page/video_1.mp4",
-    "../../files/img/front_page/video_2.mp4",
-    "../../files/img/front_page/video_3.mp4",
-    "../../files/img/front_page/nib_research_1.mp4"
-    "../../files/img/front_page/nib_research_2.mp4"
-    "../../files/img/front_page/video_4.mp4",
-    "../../files/img/front_page/video_5.mp4",
-    "../../files/img/front_page/video_6.mp4",
+    { src: "../../files/img/front_page/video_1.mp4", title: "Genome Sequencing at NextSeq-2000" },
+    { src: "../../files/img/front_page/video_2.mp4", title: "Genome Sequencing at NextSeq-2000" },
+    { src: "../../files/img/front_page/video_3.mp4", title: "Genome Sequencing at NextSeq-2000" },
+    { src: "../../files/img/front_page/nib_research_1.mp4", title: "Rota Vaccine Trial at Mice Model" },
+    { src: "../../files/img/front_page/nib_research_2.mp4", title: "Rota Vaccine Trial at Mice Model" },
+    { src: "../../files/img/front_page/video_4.mp4", title: "Genome Sequencing at iSeq-100" },
+    { src: "../../files/img/front_page/video_5.mp4", title: "Genome Sequencing at iSeq-100" },
+    { src: "../../files/img/front_page/video_6.mp4", title: "Nucleotide Extraction at Semi-Automated Magbead" }
   ];
-  // Image sources list
+  // Image sources and titles
   const imageList = [
-    "../../files/img/front_page/HCA_1.jpeg",
-    "../../files/img/front_page/HCA_2.jpeg",
-    "../../files/img/front_page/HCA_4.jpeg",
-    "../../files/img/front_page/ai_in_public_health_1.jpeg"
+    { src: "../../files/img/front_page/HCA_1.jpeg", title: "Poster-Presentation at Human Cell Atlas Workshop, Thailand to John Randell" },
+    { src: "../../files/img/front_page/HCA_2.jpeg", title: "Poster-Presentation at Human Cell Atlas Workshop, Thailand to Professor Alex K. Shalek" },
+    { src: "../../files/img/front_page/HCA_4.jpeg", title: "Poster-Presentation at Human Cell Atlas Workshop, Thailand to My Team Member" },
+    { src: "../../files/img/front_page/ai_in_public_health_1.jpeg", title: "Teaching at AI in Public Health Workshop" },
+    { src: "../../files/img/front_page/group_presentation.jpeg", title: "Group Presentation at Human Cell Atlas Workshop, Thailand" },
+    { src: "../../files/img/front_page/bacterial_genomics_1.jpg", title: "Teaching at Bacterial Genomics & Antimicrobial Resistance Workshop" },
+    { src: "../../files/img/front_page/cat_2.jpeg", title: "Poster-Presentation at CAT Conference, Africa" },
+    { src: "../../files/img/front_page/cat_5.jpeg", title: "Poster-Presentation at CAT Conference, Africa" },
+    { src: "../../files/img/front_page/Awarwed_from_Zafor_Iqbal.jpg", title: "Awarwed from Dr. Zafor Iqbal" },
   ];
   let videoIndex = 0;
   let imageIndex = 0;
   function playNextVideo() {
     if (videoIndex < videoList.length) {
-      // Set the current video source
-      videoSource.src = videoList[videoIndex];
+      // Set the current video source and title
+      videoSource.src = videoList[videoIndex].src;
+      mediaTitle.innerText = videoList[videoIndex].title;
       video.load();
       video.onloadedmetadata = () => {
         // Calculate playback rate to fit the video into 3 seconds
         const playbackSpeed = video.duration / 3;
-        video.playbackRate = playbackSpeed; // Set playback rate
+        video.playbackRate = playbackSpeed;
         video.play();
-        // Force the next video after 3 seconds
+        // Move to the next video after 3 seconds
         setTimeout(() => {
           videoIndex++;
           playNextVideo();
-        }, 3000); // 3000ms = 3 seconds
+        }, 3000);
       };
     } else {
-      // After all videos are played, start the image slideshow
+      // Start the image slideshow once videos are done
       startSlideshow();
     }
   }
   function startSlideshow() {
     // Hide the video element
     video.style.display = 'none';
-    slideshow.style.display = 'block'; // Show the image container in the same frame
+    slideshow.style.display = 'block'; // Show the image container
     showNextImage();
   }
   function showNextImage() {
     if (imageIndex < imageList.length) {
-      slideshow.src = imageList[imageIndex];
+      // Set the current image source and title
+      slideshow.src = imageList[imageIndex].src;
+      mediaTitle.innerText = imageList[imageIndex].title;
       imageIndex++;
       // Show the next image after 3 seconds
-      setTimeout(showNextImage, 3000); // Change image every 3 seconds
+      setTimeout(showNextImage, 3000);
     } else {
-      // After all images are displayed, restart the entire sequence
-      console.log("Slideshow finished!");
+      // Restart the sequence after the slideshow finishes
       resetSequence();
     }
   }
   function resetSequence() {
-    // Hide the slideshow image before restarting the video
-    slideshow.style.display = 'none';
-    // Reset video and image indexes and start over
+    // Reset video and image indexes
     videoIndex = 0;
     imageIndex = 0;
-    // Reset the video element visibility
+    // Hide slideshow and show video
+    slideshow.style.display = 'none';
     video.style.display = 'block';
-    // Reset the video and restart from the first video
-    video.currentTime = 0;  // Set video time to 0
-    video.play();  // Start the video again
-    playNextVideo(); // Start playing videos again from the first
+    // Start the video sequence again
+    playNextVideo();
   }
-  // Start with the first video
+  // Start the sequence
   playNextVideo();
 </script>
 </div>
