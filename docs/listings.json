@@ -10,8 +10,8 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/publications/conference/phage.html",
       "/publications/conference/monkeypox.html",
+      "/publications/conference/phage.html",
       "/publications/conference/core_genome.html",
       "/publications/conference/type_2_diabetic.html",
       "/publications/conference/virustaxo.html"
