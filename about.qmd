@@ -116,6 +116,7 @@ I am a **Bioinformatician** at the [Child Health Research Foundation](https://ch
       videoSource.src = videoList[videoIndex].src;
       mediaTitle.innerText = videoList[videoIndex].title;
       video.load();
+      video.play();
 
       video.onloadedmetadata = () => {
         // Calculate playback rate to fit the video into 3 seconds
@@ -138,6 +139,7 @@ I am a **Bioinformatician** at the [Child Health Research Foundation](https://ch
   function startSlideshow() {
     // Hide the video element
     video.style.display = 'none';
+    slideshow.style.display = 'block';
 
     slideshow.style.display = 'block'; // Show the image container
     showNextImage();
