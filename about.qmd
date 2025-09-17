@@ -20,7 +20,7 @@ about:
       href: mailto:preonath2838@gmail.com
 ---
 
-I am a **Bioinformatician** at the [Child Health Research Foundation](https://chrfbd.org/) working to improve child health through research and advocacy by applying my expertise in biochemistry, molecular biology, genomics, single-cell genomics, and computer science to develop computational methods for understanding disease genomics and fostering collaborations.
+I am a **Bioinformatician** at the [Child Health Research Foundation](https://chrfbd.org/) specializing in genomics and single-cell genomics. I also work to develop deep learning models using pediatric X-Ray samples to advance child health through computational analysis. By combining my expertise in biochemistry, molecular biology, and computer science, I aim to better understand disease genomics.
 
 ::: panel-tabset
 
@@ -157,23 +157,17 @@ I am a **Bioinformatician** at the [Child Health Research Foundation](https://ch
 
 ## Research Experience 
 **National Gene Bank, National Institute of Biotechnology** | Dhaka, Bangladesh |  (5 Sept 2021 ‑ 30 June 2022)
-
-- Thesis Project: Development of a disease detection tool from metagenomic sequence data utilizing k‑mer frequency based algorithms: A gut
-microbiome study
+- Thesis Project: Development of a disease detection tool from metagenomic sequence data utilizing k‑mer frequency based algorithms: A gut microbiome study
 - Revealing the Disease complexity and Population Structure of Human Gut Microbiota from Diverse Cohort of Bangladesh Population
 - Deep learning model based tools development, metagenomic analysis, vaccine trial in the mouse model
 - RNA seq data analysis and molecular dynamic simulation
 - Wet Lab: Sample preparation, and DNA extraction‑related activities
 
 **Child Health Research Foundation ** | Dhaka, Bangladesh \| (01 Aug 2022 ‑ Present)
-
-- Develop and apply bioinformatics tools to process, analyze, and interpret high throughput datasets, including bacterial genome sequencing,
-viral genome sequencing, and unbiased metagenomic sequencing
-- Apply biological and statistical knowledge to draw rigorous, actionable conclusions from complex data sets. Discuss findings with colleagues
-and supervisors
+- Develop and apply bioinformatics tools to process, analyze, and interpret high throughput datasets, including bacterial genome sequencing, viral genome sequencing, and unbiased metagenomic sequencing
+- Apply biological and statistical knowledge to draw rigorous, actionable conclusions from complex data sets. Discuss findings with colleagues and supervisors
 - Collaborate with groups across the institution to support research projects
-- Participate in the preparation of written reports and oral presentations summarizing data analysis results, including a detailed description of
-bioinformatics methods, analysis of results, and synthesis of conclusions from summary tables.
+- Participate in the preparation of written reports and oral presentations summarizing data analysis results, including a detailed description of bioinformatics methods, analysis of results, and synthesis of conclusions from summary tables.
 - Take the initiative to acquire new bioinformatics, statistical, or programming skills as needed.
 
 <!-- **Research Intern** \| Health Systems and Population Health Studies Division |  [International Centre for Diarrhoeal Disease Research, Bangladesh)](https://www.icddrb.org/) \|  Dhaka, Bangladesh \| (February 2022 - June 2022) -->
