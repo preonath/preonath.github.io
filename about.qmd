@@ -78,104 +78,78 @@ I am a **Bioinformatician** at the [Child Health Research Foundation](https://ch
   const slideshow = document.getElementById('slideshow');
   const mediaTitle = document.getElementById('media-title');
 
-  // Video sources and titles
-  const videoList = [
-    { src: "../../files/img/front_page/video_1.mp4", title: "Genome Sequencing at NextSeq-2000" },
-    { src: "../../files/img/front_page/video_2.mp4", title: "Genome Sequencing at NextSeq-2000" },
-    { src: "../../files/img/front_page/video_3.mp4", title: "Genome Sequencing at NextSeq-2000" },
-    { src: "../../files/img/front_page/Nanopore_Seq_Run_5.mp4", title: "Genome Sequencing at Oxford Nanopore Sequencer" },
-    { src: "../../files/img/front_page/honeycomb.mp4", title: "Single-Cell Honeycomb Method" },
-    { src: "../../files/img/front_page/nib_research_1.mp4", title: "Rota Vaccine Trial at Mice Model" },
-    { src: "../../files/img/front_page/nib_research_2.mp4", title: "Rota Vaccine Trial at Mice Model" },
-    { src: "../../files/img/front_page/video_4.mp4", title: "Genome Sequencing at iSeq-100" },
-    { src: "../../files/img/front_page/video_5.mp4", title: "Genome Sequencing at iSeq-100" },
-    { src: "../../files/img/front_page/video_6.mp4", title: "Nucleotide Extraction at Semi-Automated Magbead" }
+  const mediaList = [
+    // --- Images ---
+    { type: "image", src: "../../files/img/front_page/Microscopy.jpg", title: "HIVE " },
+    { type: "image", src: "../../files/img/front_page/HIVE_1.jpg", title: "HIVE " },
+    { type: "image", src: "../../files/img/front_page/HIVE_2.jpg", title: "HIVE Team Discussion" },
+    { type: "image", src: "../../files/img/front_page/HCA_1.jpeg", title: "HCA Workshop with John Randell" },
+    { type: "image", src: "../../files/img/front_page/HCA_2.jpeg", title: "HCA Workshop with Prof. Alex K. Shalek" },
+    { type: "image", src: "../../files/img/front_page/HCA_4.jpeg", title: "HCA Workshop with My Team Member" },
+    { type: "image", src: "../../files/img/front_page/ai_in_public_health_1.jpeg", title: "AI in Public Health Workshop" },
+    { type: "image", src: "../../files/img/front_page/group_presentation.jpeg", title: "Group Presentation at HCA" },
+    { type: "image", src: "../../files/img/front_page/bacterial_genomics_1.jpg", title: "Teaching Bacterial Genomics" },
+    { type: "image", src: "../../files/img/front_page/cat_2.jpeg", title: "CAT Conference, Africa - 1" },
+    { type: "image", src: "../../files/img/front_page/cat_5.jpeg", title: "CAT Conference, Africa - 2" },
+    { type: "image", src: "../../files/img/front_page/ont_1.jpg", title: "Oxford Nanopore Sequencer in Action" },
+    { type: "image", src: "../../files/img/front_page/culture_1.jpeg", title: "Microbes in Culture Plate" },
+    { type: "image", src: "../../files/img/front_page/Awarwed_from_Zafor_Iqbal.jpg", title: "Awarded by Dr. Zafar Iqbal" },
+    { type: "video", src: "../../files/img/front_page/HIVE_3.mp4", title: "HIVE Lab Work" },
+    { type: "video", src: "../../files/img/front_page/Honeycomb_Vacuum_Pump.mp4", title: "Honeycomb Vacuum Pump" },
+    { type: "video", src: "../../files/img/front_page/video_1.mp4", title: "Genome Sequencing at NextSeq-2000 (1)" },
+    { type: "video", src: "../../files/img/front_page/video_2.mp4", title: "Genome Sequencing at NextSeq-2000 (2)" },
+    { type: "video", src: "../../files/img/front_page/video_3.mp4", title: "Genome Sequencing at NextSeq-2000 (3)" },
+    { type: "video", src: "../../files/img/front_page/Nanopore_Seq_Run_5.mp4", title: "Oxford Nanopore Sequencing" },
+    { type: "video", src: "../../files/img/front_page/honeycomb.mp4", title: "Single-Cell Honeycomb Method" },
+    { type: "video", src: "../../files/img/front_page/nib_research_1.mp4", title: "Rota Vaccine Trial - 1" },
+    { type: "video", src: "../../files/img/front_page/nib_research_2.mp4", title: "Rota Vaccine Trial - 2" },
+    { type: "video", src: "../../files/img/front_page/video_4.mp4", title: "Genome Sequencing at iSeq-100 (1)" },
+    { type: "video", src: "../../files/img/front_page/video_5.mp4", title: "Genome Sequencing at iSeq-100 (2)" },
+    { type: "video", src: "../../files/img/front_page/video_6.mp4", title: "Nucleotide Extraction on MagBead" }
   ];
 
-  // Image sources and titles
-  const imageList = [
-    { src: "../../files/img/front_page/HCA_1.jpeg", title: "Poster-Presentation at Human Cell Atlas Workshop, Thailand to John Randell" },
-    { src: "../../files/img/front_page/HCA_2.jpeg", title: "Poster-Presentation at Human Cell Atlas Workshop, Thailand to Professor Alex K. Shalek" },
-    { src: "../../files/img/front_page/HCA_4.jpeg", title: "Poster-Presentation at Human Cell Atlas Workshop, Thailand to My Team Member" },
-    { src: "../../files/img/front_page/ai_in_public_health_1.jpeg", title: "Teaching at AI in Public Health Workshop" },
-    { src: "../../files/img/front_page/group_presentation.jpeg", title: "Group Presentation at Human Cell Atlas Workshop, Thailand" },
-    { src: "../../files/img/front_page/bacterial_genomics_1.jpg", title: "Teaching at Bacterial Genomics & Antimicrobial Resistance Workshop" },
-    { src: "../../files/img/front_page/cat_2.jpeg", title: "Poster-Presentation at CAT Conference, Africa" },
-    { src: "../../files/img/front_page/cat_5.jpeg", title: "Poster-Presentation at CAT Conference, Africa" },
-    { src: "../../files/img/front_page/ont_1.jpg", title: "Genome Sequencing at Oxford Nanopore Sequencer" },
-    { src: "../../files/img/front_page/culture_1.jpeg", title: "Microbes in the Culture Plate" },
-    { src: "../../files/img/front_page/Awarwed_from_Zafor_Iqbal.jpg", title: "Awarwed from Dr. Zafor Iqbal" },
-  ];
+  let mediaIndex = 0;
 
-  let videoIndex = 0;
-  let imageIndex = 0;
+  function playNextMedia() {
+    if (mediaIndex >= mediaList.length) {
+      mediaIndex = 0; // Restart loop
+    }
 
-  function playNextVideo() {
-    if (videoIndex < videoList.length) {
-      // Set the current video source and title
-      videoSource.src = videoList[videoIndex].src;
-      mediaTitle.innerText = videoList[videoIndex].title;
+    const current = mediaList[mediaIndex];
+    mediaTitle.innerText = current.title;
+
+    if (current.type === "image") {
+      video.style.display = "none";
+      slideshow.style.display = "block";
+      slideshow.src = current.src;
+
+      setTimeout(() => {
+        mediaIndex++;
+        playNextMedia();
+      }, 3000); // Image duration
+    } else if (current.type === "video") {
+      slideshow.style.display = "none";
+      video.style.display = "block";
+      videoSource.src = current.src;
       video.load();
-      video.play();
 
       video.onloadedmetadata = () => {
-        // Calculate playback rate to fit the video into 3 seconds
         const playbackSpeed = video.duration / 3;
         video.playbackRate = playbackSpeed;
         video.play();
 
-        // Move to the next video after 3 seconds
         setTimeout(() => {
-          videoIndex++;
-          playNextVideo();
-        }, 3000);
+          mediaIndex++;
+          playNextMedia();
+        }, 3000); // Video duration
       };
-    } else {
-      // Start the image slideshow once videos are done
-      startSlideshow();
     }
   }
 
-  function startSlideshow() {
-    // Hide the video element
-    video.style.display = 'none';
-    slideshow.style.display = 'block';
-
-    slideshow.style.display = 'block'; // Show the image container
-    showNextImage();
-  }
-
-  function showNextImage() {
-    if (imageIndex < imageList.length) {
-      // Set the current image source and title
-      slideshow.src = imageList[imageIndex].src;
-      mediaTitle.innerText = imageList[imageIndex].title;
-      imageIndex++;
-
-      // Show the next image after 3 seconds
-      setTimeout(showNextImage, 3000);
-    } else {
-      // Restart the sequence after the slideshow finishes
-      resetSequence();
-    }
-  }
-
-  function resetSequence() {
-    // Reset video and image indexes
-    videoIndex = 0;
-    imageIndex = 0;
-
-    // Hide slideshow and show video
-    slideshow.style.display = 'none';
-    video.style.display = 'block';
-
-    // Start the video sequence again
-    playNextVideo();
-  }
-
-  // Start the sequence
-  playNextVideo();
+  // Start the media sequence
+  playNextMedia();
 </script>
+
 
 
 
