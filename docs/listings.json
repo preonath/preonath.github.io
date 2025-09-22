@@ -19,15 +19,7 @@
   },
   {
     "listing": "/projects.html",
-    "items": [
-      "/projects/Breast_Cancer/03_Breast Cancer.html",
-      "/projects/Choronic_Kidney/01_Choronic Kidney.html",
-      "/projects/nipah-virus/index.html",
-      "/projects/Calories_Burnt/02_Calories Burnt Prediction.html",
-      "/projects/ESOL/01_ESOL.html",
-      "/projects/Hepatitis/02_Hepatitis.html",
-      "/projects/Heart_Disease/05_Heart Diseases.html"
-    ]
+    "items": []
   },
   {
     "listing": "/blog.html",
@@ -64,8 +56,11 @@
   {
     "listing": "/conference.html",
     "items": [
+      "/conferences/single_cell_atlas_RSV_and_SARS_CoV_2/index.html",
       "/conferences/single_cell_atlas/index.html",
       "/conferences/Paratyphi_B/index.html",
+      "/conferences/CZI_NP_Swab_single_cell/index.html",
+      "/conferences/PCV_single_cell/index.html",
       "/conferences/Paratyphi_A/index.html"
     ]
   }

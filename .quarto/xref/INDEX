@@ -163,5 +163,29 @@
   },
   "skill.qmd": {
     "skill.html": "8d45534d"
+  },
+  "conferences/single_cell_atlas_RSV_and_SARS_CoV_2/index.qmd": {
+    "index.html": "fa4ed803"
+  },
+  "About_Section_of_Website/about_template_not.qmd": {
+    "about_template_not.html": "7caddd25"
+  },
+  "About_Section_of_Website/about_will_not_use_now.qmd": {
+    "about_will_not_use_now.html": "b6f6b117"
+  },
+  "about_template.qmd": {
+    "about_template.html": "842064a9"
+  },
+  "blog/multi-omics-data-integration/index.qmd": {
+    "index.html": "f90ba10e"
+  },
+  "blog/welcome/index.qmd": {
+    "index.html": "512fe8b5"
+  },
+  "conferences/CZI_NP_Swab_single_cell/index.qmd": {
+    "index.html": "56a2abd0"
+  },
+  "conferences/PCV_single_cell/index.qmd": {
+    "index.html": "85bb5886"
   }
 }
