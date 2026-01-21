@@ -190,5 +190,8 @@
   },
   "publications/conference/OmicML.qmd": {
     "OmicML.html": "045c2a8f"
+  },
+  "teaching/Single_cell_RN_Sequencing_Analysis_Workshop/index.qmd": {
+    "index.html": "c4df6579"
   }
 }

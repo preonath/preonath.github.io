@@ -1,0 +1,201 @@
+---
+title: "Single-cell RNA Sequencing Analysis Workshop"
+image: "single_cell_workshop_1.jpg"
+description: "Teaching Instructor"
+event_dates: "6, 11 & 12 January 2026"
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+  <!-- Slideshow Background -->
+  <div class="slideshow-container">
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Single_cell_RN_Sequencing_Analysis_Workshop/single_cell_workshop_1.jpg'); background-size: cover; background-position: left;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Single_cell_RN_Sequencing_Analysis_Workshop/single_cell_workshop_2.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Single_cell_RN_Sequencing_Analysis_Workshop/single_cell_workshop_3.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Single_cell_RN_Sequencing_Analysis_Workshop/single_cell_workshop_4.jpg'); background-size: cover; background-position: center;"></div>
+  </div>
+
+  <!-- Structured Program Details Below the Image -->
+  <div id="program-details" style="padding-left: 0px; margin-left: 0px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; font-size: 2em; font-weight: bold;">Program Outline & Learning Objectives</h2>
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li style="text-align: justify; margin: 0 20px;"><strong></strong> This program will help participants understand the basics of single-cell RNA sequencing, including background concepts and analysis setup using Google Colab for Seurat analysis. It will automate workflows using Bash and R programming for single-cell RNA sequencing data analysis and processing, and cover BeenetPlus, QC, PCA, normalization, scaling, UMAP, coarse annotation, marker gene prediction, and trajectory analysis for healthy and respiratory syncytial virus (RSV) samples at the Child Health Research Foundation.</li>
+    </ul>
+
+
+
+
+  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Training Format and Activities</h3>
+  <ul style="list-style-type: none; padding-left: 0;">
+       <li>Interactive lectures and presentations</li>
+       <li>Hands-on exercises using the R kernel in Google Colab</li>
+       <li>Practical demonstrations using R programming</li>
+       <li>Single-cell RNA sequencing background concepts</li>
+       <li>Discussion of Honeycomb, 10x, and Seq-Well platforms</li>
+
+  </ul>
+
+  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Instructors</h3>
+  <ul style="list-style-type: none; padding-left: 0;">
+      <li>Dr. Yogesh Hooda </li> 
+      <li> and <li>
+      </li> Preonath Chondrow Dev</li>
+  </ul>
+
+
+  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Program Schedule</h3>
+  <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+      <li style="text-align: center;">
+        <strong>Day 1:</strong> Fundamentals of single-cell RNA-sequencing — scRNA-seq concepts and significance, bulk vs single-cell RNA-seq, experimental workflow (cell isolation, barcoding, UMIs, sequencing), major scRNA-seq technologies (droplet-based, plate-based, snRNA-seq), data structure, technical noise, batch effects, dropouts, and overview of analysis tools and data formats.
+      </li>
+  
+      <li style="text-align: center;">
+        <strong>Day 2:</strong> Bioinformatics pipeline and preprocessing — setting up the analysis environment in Google Colab, loading scRNA-seq datasets, quality control metrics (read counts, gene counts, mitochondrial content), cell and gene filtering, normalization and log transformation, highly variable gene selection, data scaling and regression, and theoretical overview of downstream analysis.
+      </li>
+  
+      <li style="text-align: center;">
+        <strong>Day 3:</strong> Downstream analysis and future directions — dimensionality reduction (PCA), non-linear embeddings (UMAP), neighborhood graph construction, clustering strategies, marker gene identification and coarse cell-type annotation, visualization and interpretation, common pitfalls, and future directions including data integration, trajectory analysis, multi-omics, and spatial transcriptomics.
+      </li>
+  </ul>
+
+
+
+
+  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Duration & Location</h3>
+  <p style="text-align: center;">Duration: 3 days <br> Child Health Research Foundation, Dhaka, Bangladesh</p>
+
+  <p style="text-align: center;">
+    <a href="https://nib.gov.bd" class="btn btn-primary rounded-pill me-2" style="padding: 15px 30px; font-size: .6em;">Program Details</a>
+  </p>
+</div>
+`);
+</script>
+
+<style>
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Each slide */
+  .mySlides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  .mySlides:first-child {
+    opacity: 1;
+  }
+
+  section#workshop-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+  }
+
+  h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 auto;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  .mySlides.active {
+    opacity: 1;
+  }
+
+  /* =================================================
+     STOP BACKGROUND BLEED
+     ================================================= */
+
+  #program-details {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* =================================================
+     PROGRAM SCHEDULE — TRUE VISUAL CENTERING
+     ================================================= */
+
+  .program-schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers each item as a block */
+    gap: 8px;
+  }
+
+  .program-schedule li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .program-schedule li span {
+    max-width: 800px;
+    text-align: center;
+    display: block;
+  }
+
+  /* =================================================
+     REMOVE SHADOWS
+     ================================================= */
+
+  h1, h2, h3, p, li, span {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+</style>

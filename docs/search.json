@@ -655,7 +655,7 @@
     "href": "teaching.html",
     "title": "",
     "section": "",
-    "text": "AI in Public Health Workshop\n\n\n\n\n\nTeaching Instructor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBacterial Genomics & Antimicrobial Resistance Workshop\n\n\n\n\n\nTeaching Instructor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics Division, National Institute of Biotechnology (NIB)\n\n\n\n\n\nTeaching Instructor\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "AI in Public Health Workshop\n\n\n\n\n\nTeaching Instructor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBacterial Genomics & Antimicrobial Resistance Workshop\n\n\n\n\n\nTeaching Instructor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatics Division, National Institute of Biotechnology (NIB)\n\n\n\n\n\nTeaching Instructor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSingle-cell RNA Sequencing Analysis Workshop\n\n\n\n\n\nTeaching Instructor\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/state-the-art-of-microbial-genome-analysi/index.html",
@@ -2910,5 +2910,12 @@
     "title": "omicML: An Integrative Bioinformatics and Machine Learning Framework for Transcriptomic Biomarker Identification",
     "section": "Conclusion",
     "text": "Conclusion\nThrough the unified system, omicML (https://omicml.org), integrating data preprocessing, differential gene expression analysis, annotation, heatmap analysis, dataset integration, batch effect correction, machine learning approach, and functional analysis can diminish technical barriers and accelerate the conversion of expression data into diagnostic insights for clinicians and bench scientists.\nKeywords: Machine Learning (ML), Biomarker, Mpox, Differentially Expressed Genes (DEGs), Graphical User Interface (GUI), Transcriptomics, Bioinformatics, Web-based platform"
+  },
+  {
+    "objectID": "teaching/Single_cell_RN_Sequencing_Analysis_Workshop/index.html",
+    "href": "teaching/Single_cell_RN_Sequencing_Analysis_Workshop/index.html",
+    "title": "Single‑cell RNA Sequencing Analysis Workshop",
+    "section": "",
+    "text": "/* Program Schedule – centered correctly */ .program-schedule { list-style: none; padding: 0; margin: 0 auto; text-align: center; }\n.program-schedule li { text-align: center; margin: 8px 0; }"
   }
 ]
