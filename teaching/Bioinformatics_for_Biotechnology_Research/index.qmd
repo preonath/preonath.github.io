@@ -1,7 +1,7 @@
 ---
 title: "Bioinformatics Division, National Institute of Biotechnology (NIB)"
 image: "nib_traning.jpg"
-description: "Teaching Assistant"
+description: "Teaching Instructor"
 format:
   html:
     includes:

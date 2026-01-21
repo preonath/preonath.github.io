@@ -1,6 +1,6 @@
 ---
 title: "Bacterial Genomics & Antimicrobial Resistance Workshop"
-description: "Teaching Assistant"
+description: "Teaching Instructor"
 image: "teaching_ngs.jpeg"
 format:
   html:
