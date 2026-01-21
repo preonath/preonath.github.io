@@ -2,18 +2,20 @@
 title: "Single-cell RNA Sequencing Analysis Workshop"
 image: "single_cell_workshop_1.jpg"
 description: "Teaching Instructor"
-event_dates: "6, 11 & 12 January 2026"
 format:
   html:
     includes:
       in_header: style.css
       before_body: cover.html
 ---
+::: {.text-center style="font-size:1.1em; margin-top:8px;"}
+📅 **6, 11 & 12 January 2026**
+:::
 
 <script type="text/javascript">
 document.write(`
 <!-- Background Image with Gradient Overlay and Slideshow -->
-<div id="intro-section" style="position: relative; text-align: center; color: white;">
+<div id="intro-section" style="position: relative; text-align: center;">
 
   <!-- Slideshow Background -->
   <div class="slideshow-container">
