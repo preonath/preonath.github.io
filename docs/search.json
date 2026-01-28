@@ -2917,5 +2917,19 @@
     "title": "Single-cell RNA Sequencing Analysis Workshop",
     "section": "",
     "text": "📅 6, 11 & 12 January 2026"
+  },
+  {
+    "objectID": "research.html#omicml-an-integrative-bioinformatics-and-machine-learning-framework-for-transcriptomic-biomarker-identification",
+    "href": "research.html#omicml-an-integrative-bioinformatics-and-machine-learning-framework-for-transcriptomic-biomarker-identification",
+    "title": "Research Projects",
+    "section": "omicML: An Integrative Bioinformatics and Machine Learning Framework for Transcriptomic Biomarker Identification",
+    "text": "omicML: An Integrative Bioinformatics and Machine Learning Framework for Transcriptomic Biomarker Identification\n\n\nAbstract\nTranscriptomic biomarker discovery has been a challenge due to variation in datasets and platforms, complexity in statistical and computational methods, integration of multiple programming languages, and intricacy of ML workflow to evaluate biomarkers. Standard workflows necessitate several stages (quality control, normalization, differential expression), typically executed in R or Python, resulting in bottlenecks for non-experts. Existing platforms have alleviated certain challenges by offering graphical interfaces for data loading, normalization, differential gene expression analysis, and functional analysis; nevertheless, they typically do not incorporate integrated machine learning procedures for biomarker selection.\n\nKeywords: GUI, DGE, DEGs, LFC, FDR, Padj, PCA, UMAP, t-SNE, ML, LR, ET, RF, XGB, GB, AB, ACC, BACC, PREC, REC, F1, AUROC, AUPRC, MCC, KAPPA, LOGLOSS, Mpox, MPXV, GEO"
+  },
+  {
+    "objectID": "research.html#virustaxo-taxonomic-classification-of-viruses-from-the-genome-sequence-using-k-mer-enrichment-1",
+    "href": "research.html#virustaxo-taxonomic-classification-of-viruses-from-the-genome-sequence-using-k-mer-enrichment-1",
+    "title": "Research Projects",
+    "section": "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k-mer enrichment",
+    "text": "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k-mer enrichment\n\n\nAbstract\nClassification of viruses into their taxonomic ranks (e.g., order, family, and genus) provides a framework to organize the vast population of viruses. Next-generation metagenomic sequencing technologies have led to a rapid increase in viral sequencing data, necessitating the development of bioinformatics tools to analyze viral taxonomy. While many metagenomic taxonomy classifiers have been created to study microbiomes, classifying the diverse range of virus sequences remains a significant challenge. There is a growing demand for specialized methods optimized for the classification of viral sequences into their respective taxa. To address this, we developed VirusTaxo, a tool for the taxonomic classification of viruses from metagenomic sequences, utilizing a diverse set of viral genera (e.g., 402 DNA and 280 RNA genera). VirusTaxo achieves an average accuracy of 93% at the genus level in predicting DNA and RNA viruses. The tool outperforms existing virus taxonomic classifiers by assigning taxonomy to a larger fraction of metagenomic contigs compared to other methods. Benchmarking VirusTaxo on a collection of SARS-CoV-2 sequencing libraries and metavirome datasets demonstrates that it can accurately characterize viral taxonomy from highly diverse contigs, providing reliable decisions on viral taxonomy.\n\nKeywords: Virus, Taxonomy, Hierarchical classification, k-mer, Genome"
   }
 ]

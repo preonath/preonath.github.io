@@ -60,6 +60,24 @@ p {
 
 # AI for Healthcare  
 
+
+## omicML: An Integrative Bioinformatics and Machine Learning Framework for Transcriptomic Biomarker Identification
+
+<style>
+p {
+    text-align: justify;
+}
+</style>
+### Abstract
+Transcriptomic biomarker discovery has been a challenge due to variation in datasets and platforms, complexity in statistical and computational methods, integration of multiple programming languages, and intricacy of ML workflow to evaluate biomarkers. Standard workflows necessitate several stages (quality control, normalization, differential expression), typically executed in R or Python, resulting in bottlenecks for non-experts. Existing platforms have alleviated certain challenges by offering graphical interfaces for data loading, normalization, differential gene expression analysis, and functional analysis; nevertheless, they typically do not incorporate integrated machine learning procedures for biomarker selection.
+
+###### Keywords: GUI, DGE, DEGs, LFC, FDR, Padj, PCA, UMAP, t-SNE, ML, LR, ET, RF, XGB, GB, AB, ACC, BACC, PREC, REC, F1, AUROC, AUPRC, MCC, KAPPA, LOGLOSS, Mpox, MPXV, GEO
+<div class="static-image">
+  <img src="../../files/img/research/AI_for_Healthcare/omicml/3.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+  <img src="../../files/img/research/AI_for_Healthcare/omicml/2.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;">
+    <!-- <img src="../../files/img/research/AI_for_Healthcare/omicml/1.png" alt="thesis" style="width: 100%; height: auto; height: 300px; width: 500px; margin-top: 10px;"> -->
+</div>
+
 ## Identification of Potential Biomarkers for 2022 Mpox Virus Infection: A Transcriptomic Network Analysis and Machine Learning Approach
 
 <style>
