@@ -2931,5 +2931,12 @@
     "title": "Research Projects",
     "section": "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k-mer enrichment",
     "text": "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k-mer enrichment\n\n\nAbstract\nClassification of viruses into their taxonomic ranks (e.g., order, family, and genus) provides a framework to organize the vast population of viruses. Next-generation metagenomic sequencing technologies have led to a rapid increase in viral sequencing data, necessitating the development of bioinformatics tools to analyze viral taxonomy. While many metagenomic taxonomy classifiers have been created to study microbiomes, classifying the diverse range of virus sequences remains a significant challenge. There is a growing demand for specialized methods optimized for the classification of viral sequences into their respective taxa. To address this, we developed VirusTaxo, a tool for the taxonomic classification of viruses from metagenomic sequences, utilizing a diverse set of viral genera (e.g., 402 DNA and 280 RNA genera). VirusTaxo achieves an average accuracy of 93% at the genus level in predicting DNA and RNA viruses. The tool outperforms existing virus taxonomic classifiers by assigning taxonomy to a larger fraction of metagenomic contigs compared to other methods. Benchmarking VirusTaxo on a collection of SARS-CoV-2 sequencing libraries and metavirome datasets demonstrates that it can accurately characterize viral taxonomy from highly diverse contigs, providing reliable decisions on viral taxonomy.\n\nKeywords: Virus, Taxonomy, Hierarchical classification, k-mer, Genome"
+  },
+  {
+    "objectID": "teaching/Bacterial_Genomics_&_Antimicrobial_Resistance_Workshop/index.html",
+    "href": "teaching/Bacterial_Genomics_&_Antimicrobial_Resistance_Workshop/index.html",
+    "title": "Bacterial Genomics & Antimicrobial Resistance Workshop",
+    "section": "",
+    "text": "📅 30 June – 4 July 2024  |  Application deadline: 22 June 2024"
   }
 ]

@@ -9,84 +9,89 @@ format:
       before_body: cover.html
 ---
 
+::: {.text-center style="font-size:1.1em; margin-top:8px;"}
+📅 **30 June – 4 July 2024** &nbsp;|&nbsp; **Application deadline: 22 June 2024**
+:::
+
 <script type="text/javascript">
 document.write(`
-<!-- Full-Screen Background Image with Gradient Overlay -->
-<div id="intro-section" style="position: relative; text-align: center; color: white; width: 100%; height: 100vh;">
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center;">
 
   <!-- Slideshow Background -->
   <div class="slideshow-container">
-    <!-- Slide 1 -->
-    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/teaching/Bacterial_Genomics_&_Antimicrobial_Resistance_Workshop/bacterial_genomics_1.jpg'); background-size: cover; background-position: center;">
-    </div>
-
-    <!-- Slide 2 -->
-    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/teaching/Bacterial_Genomics_&_Antimicrobial_Resistance_Workshop/bacterial_genomics_2.jpeg'); background-size: cover; background-position: center;">
-    </div>
-
-    <!-- Slide 3 -->
-    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)), url('../../files/img/teaching/Bacterial_Genomics_&_Antimicrobial_Resistance_Workshop/bacterial_genomics_3.jpeg'); background-size: cover; background-position: center;">
-    </div>
-
-    <!-- Add additional slides as necessary -->
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Bacterial_Genomics_&_Antimicrobial_Resistance_Workshop/bacterial_genomics_1.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Bacterial_Genomics_&_Antimicrobial_Resistance_Workshop/bacterial_genomics_2.jpeg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/teaching/Bacterial_Genomics_&_Antimicrobial_Resistance_Workshop/bacterial_genomics_3.jpeg'); background-size: cover; background-position: center;"></div>
   </div>
 
-  <!-- Text Overlay on the Background Image -->
-  <div style="position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); text-align: center; width: 100%;">
-    <h1 style="font-size: 2.5em; font-weight: bold; color: white; margin-bottom: 20px;">Bacterial Genomics & Antimicrobial Resistance Workshop</h1>
-    <p style="font-size: 1.2em; max-width: 1000px; margin: 0 auto; line-height: 1.8; text-align: justify; color: white; padding: 0 20px;">
+  <!-- Structured Program Details Below the Image -->
+  <div id="program-details" style="padding-left: 0px; margin-left: 0px; background-color: #f9f9f9;">
+
+    <h2 style="text-align: center; font-size: 2em; font-weight: bold;">Bacterial Genomics & Antimicrobial Resistance Workshop</h2>
+
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li style="text-align: justify; margin: 0 20px;">
         This five-day workshop provides participants with a comprehensive overview of bacterial genomics and its applications in antimicrobial resistance research. Through lectures and hands-on sessions, participants will learn how to analyze bacterial genomes for antimicrobial resistance and virulence factors, conduct comparative genomic analysis, and apply bacterial genomics to clinical and scientific problems. The workshop will commence on 30th June and run till 4th July 2024. Application deadline: 22nd June 2024.
+      </li>
+    </ul>
+
+    <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Program Outline & Learning Objectives</h3>
+    <ul style="list-style-type: none; padding-left: 0; margin-left: 0;">
+      <li style="text-align: center;">
+        <strong>Day 1:</strong> Introduction to bacterial genomics and bioinformatics
+        <ul style="list-style-type: none; padding-left: 0; margin-top: 8px;">
+          <li><strong>1.1 Jupyter Notebook:</strong> Installation, Keyboard Shortcuts, Formatting, Text Styling</li>
+          <li><strong>1.2 Conda:</strong> Managing environments and packages</li>
+          <li><strong>1.3 Linux Introduction:</strong> Commands, permissions, text processing</li>
+        </ul>
+      </li>
+
+      <li style="text-align: center; margin-top: 12px;">
+        <strong>Day 2:</strong> Bacterial Genome Analysis: From sequence data to genomes
+        <ul style="list-style-type: none; padding-left: 0; margin-top: 8px;">
+          <li><strong>2.1 FastQC:</strong> Data quality check</li>
+          <li><strong>2.2 Trimmomatic:</strong> Adapter trimming for paired and single-end reads</li>
+          <li><strong>2.3 Unicycler:</strong> Genome assembly and results interpretation</li>
+          <li><strong>2.4 Prokka:</strong> Genome annotation and submission to NCBI</li>
+        </ul>
+      </li>
+
+      <li style="text-align: center; margin-top: 12px;">
+        <strong>Day 3:</strong> Bacterial Genome Analysis for Antimicrobial Resistance
+        <ul style="list-style-type: none; padding-left: 0; margin-top: 8px;">
+          <li><strong>3.1 ResFinder:</strong> Identifying AMR genes</li>
+          <li><strong>3.2 VFDB and VirulenceFinder:</strong> Identifying virulence genes</li>
+          <li><strong>3.3 MLST:</strong> Multi-locus sequence typing</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Workshop Schedule</h3>
+    <ul class="program-schedule" style="list-style-type: none; padding-left: 0; margin-left: 0;">
+      <li><span><strong>Day 1:</strong> Introduction to bacterial genomics and bioinformatics</span></li>
+      <li><span><strong>Day 2:</strong> Bacterial genome analysis: from sequence data to genomes</span></li>
+      <li><span><strong>Day 3:</strong> Bacterial genome analysis for antimicrobial resistance</span></li>
+      <li><span><strong>Day 4:</strong> Comparative genomics and phylogenetics</span></li>
+      <li><span><strong>Day 5:</strong> Application of bacterial genomics</span></li>
+    </ul>
+
+    <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Workshop Duration & Location</h3>
+    <p style="text-align: center;">Duration: 4 days <br> Location: CHRF-HQ, Shyamoli, Dhaka, Bangladesh</p>
+
+    <p style="text-align: center;">
+      <a href="https://chrfbd.org/pages/building-scientists-for-bangladesh/program/13c4f00f-6201-42df-885c-dca0e2fb948b"
+         class="btn btn-primary rounded-pill me-2"
+         style="padding: 15px 30px; font-size: .8em; text-decoration: none;">
+         Program Website
+      </a>
     </p>
+
   </div>
-
 </div>
-
-<!-- Structured Program Details Below the Image -->
-<div id="program-details" style="padding: 20px 100px; background-color: #f9f9f9; max-width: 100%; margin: 0 auto;">
-  <h2 style="text-align: center; font-weight: bold; font-size: 2em; margin-bottom: 20px;">Program Outline & Learning Objectives</h2>
-  <ul style="list-style-type: none; padding: 0; font-size: 1em; text-align: justify;">
-    <li><strong>Day 1:</strong> Introduction to bacterial genomics and bioinformatics</li>
-    <ul style="list-style-type: none; padding-left: 40px;">
-      <li><strong>1.1 Jupyter Notebook:</strong> Installation, Keyboard Shortcuts, Formatting, Text Styling</li>
-      <li><strong>1.2 Conda:</strong> Managing environments and packages</li>
-      <li><strong>1.3 Linux Introduction:</strong> Commands, permissions, text processing</li>
-    </ul>
-    <li><strong>Day 2:</strong> Bacterial Genome Analysis: From sequence data to genomes</li>
-    <ul style="list-style-type: none; padding-left: 40px;">
-      <li><strong>2.1 FastQC:</strong> Data quality check</li>
-      <li><strong>2.2 Trimmomatic:</strong> Adapter trimming for paired and single-end reads</li>
-      <li><strong>2.3 Unicycler:</strong> Genome assembly and results interpretation</li>
-      <li><strong>2.4 Prokka:</strong> Genome annotation and submission to NCBI</li>
-    </ul>
-    <li><strong>Day 3:</strong> Bacterial Genome Analysis for Antimicrobial Resistance</li>
-    <ul style="list-style-type: none; padding-left: 40px;">
-      <li><strong>3.1 ResFinder:</strong> Identifying AMR genes</li>
-      <li><strong>3.2 VFDB and VirulenceFinder:</strong> Identifying virulence genes</li>
-      <li><strong>3.3 MLST:</strong> Multi-locus sequence typing</li>
-    </ul>
-    <!-- Add more content as needed -->
-  </ul>
-</div>
-
-  <h3 style="text-align: center; font-weight: bold; font-size: 1.2em; margin-top: 40px;">Workshop Schedule</h3>
-  <ul style="list-style-type: none; padding-left: 100px; font-size: 1em; text-align: justify;">
-    <li><strong>Day 1:</strong> Introduction to bacterial genomics and bioinformatics</li>
-    <li><strong>Day 2:</strong> Bacterial genome analysis: from sequence data to genomes</li>
-    <li><strong>Day 3:</strong> Bacterial genome analysis for antimicrobial resistance</li>
-    <li><strong>Day 4:</strong> Comparative genomics and phylogenetics</li>
-    <li><strong>Day 5:</strong> Application of bacterial genomics</li>
-  </ul>
-
-  <h3 style="text-align: center; font-weight: bold; font-size: 1.2em; margin-top: 40px;">Workshop Duration & Location</h3>
-  <p style="text-align: center; font-size: 1em;">Duration: 4 days <br> Location: CHRF-HQ, Shyamoli, Dhaka, Bangladesh</p>
-
-  <p style="text-align: center;">
-    <a href="https://chrfbd.org/pages/building-scientists-for-bangladesh/program/13c4f00f-6201-42df-885c-dca0e2fb948b" class="btn btn-primary rounded-pill me-2" style="padding: 15px 30px; font-size: .8em; text-decoration: none;">Program Website</a>
-  </p>
 `);
 </script>
 
-<!-- Slideshow CSS and General Styles -->
 <style>
   /* Slideshow container */
   .slideshow-container {
@@ -107,13 +112,7 @@ document.write(`
     transition: opacity 1.5s ease-in-out;
   }
 
-  /* Set the first slide to be visible */
   .mySlides:first-child {
-    opacity: 1;
-  }
-
-  /* Active slide with opacity */
-  .mySlides.active {
     opacity: 1;
   }
 
@@ -126,22 +125,23 @@ document.write(`
   }
 
   h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
   }
 
-  ul {
-    font-size: 1em;
-    text-align: justify;
-    list-style-type: none;
-    padding: 0;
+  .description {
+    text-align: center;
+    font-size: 1.5em;
     margin: 0 auto;
   }
 
-  ul ul {
-    font-size: 1em;
-    text-align: justify;
-    padding-left: 40px;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
   }
 
   p {
@@ -154,34 +154,61 @@ document.write(`
   .btn {
     padding: 10px 20px;
     font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
     background-color: #007BFF;
     color: white;
     border-radius: 5px;
-    text-decoration: none;
+    transition: background-color 0.3s ease;
   }
 
   .btn:hover {
     background-color: #0056b3;
   }
-</style>
 
-<script>
-  let slideIndex = 0;
-  const slides = document.querySelectorAll('.mySlides');
-  
-  function showSlides() {
-    slides.forEach((slide) => {
-      slide.style.opacity = '0';  // Hide all slides
-    });
-    
-    slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1; }  // Loop back to first slide
-    
-    slides[slideIndex - 1].style.opacity = '1';  // Show the current slide
-    setTimeout(showSlides, 3000);  // Change image every 3 seconds
+  .mySlides.active {
+    opacity: 1;
   }
 
-  document.addEventListener("DOMContentLoaded", function() {
-    showSlides();
-  });
-</script>
+  /* =================================================
+     STOP BACKGROUND BLEED
+     ================================================= */
+
+  #program-details {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* =================================================
+     PROGRAM SCHEDULE — TRUE VISUAL CENTERING
+     ================================================= */
+
+  .program-schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .program-schedule li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .program-schedule li span {
+    max-width: 800px;
+    text-align: center;
+    display: block;
+  }
+
+  /* =================================================
+     REMOVE SHADOWS
+     ================================================= */
+
+  h1, h2, h3, p, li, span {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+</style>
