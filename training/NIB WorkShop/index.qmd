@@ -1,8 +1,8 @@
 ---
 title: "Advanced Next Generation Sequencing and Analysis"
 description: "Ministry of Science and Technology, Bangladesh"
-date: "2024-10-15"
-image: "AdNGS_3.jpeg" 
+date: "2022-10-15"
+image: "AdNGS_3.jpeg"
 format:
   html:
     includes:
@@ -10,11 +10,178 @@ format:
       before_body: cover.html
 ---
 
-<!-- ![](featured.png) -->
-Revealing_the_Disease_Complexity_and_Population_Structure_of_Human_Gut_Microbiota_from_a_Diverse_Cohort_of_the_Bangladeshi_Population
-- **Introduction to Bioinformatics**, Exploring Nucleic Acid Databases and Data mining, Proteomics: Biochemical Properties, Structure and Interac‑
-tions of Proteins, Sanger Sequence data analysis: Quality Assurance and Information Mining From DNA Sequence Data, Sequence Data submis‑
-sion to public databases, DNA Amplification and Cloning, Comparative Genomics:Species or Gene identification and sequence determination,
-Evolutionary Relationship Determination
-- **Instructor**: Dr. Abul Bashar Mir Md. Khademul Islam, Dept. of Genetic Engineering and Biotechnology University of Dhaka
-- Center for Next Generation Sequencing and Analytics by Ministry of Science and Technology, Bangladesh
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center;">
+
+  <!-- Slideshow Background -->
+  <div class="slideshow-container">
+    <div class="mySlides fade"
+      style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.30), rgba(0, 128, 128, 0.30)), url('../../files/img/training/NIB_Advanced_Bioinformatics_WorkShop/AdNGS_1.jpeg');
+             background-size: cover; background-position: center;"></div>
+
+    <div class="mySlides fade"
+      style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.30), rgba(0, 128, 128, 0.30)), url('../../files/img/training/NIB_Advanced_Bioinformatics_WorkShop/AdNGS_2.jpeg');
+             background-size: cover; background-position: center;"></div>
+
+    <div class="mySlides fade"
+      style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.30), rgba(0, 128, 128, 0.30)), url('../../files/img/training/NIB_Advanced_Bioinformatics_WorkShop/AdNGS_3.jpeg');
+             background-size: cover; background-position: center;"></div>
+
+    <div class="mySlides fade"
+      style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.30), rgba(0, 128, 128, 0.30)), url('../../files/img/training/NIB_Advanced_Bioinformatics_WorkShop/AdNGS_4.jpeg');
+             background-size: cover; background-position: center;"></div>
+  </div>
+
+  <!-- Structured Program Details Below the Image -->
+  <div id="program-details">
+
+    <h2>Program Outline & Learning Objectives</h2>
+    <ul>
+      <li class="title-line">
+        Revealing the Disease Complexity and Population Structure of Human Gut Microbiota from a Diverse Cohort of the Bangladeshi Population
+      </li>
+
+      <li class="justify">
+        <strong>Topics covered:</strong> Introduction to Bioinformatics; Exploring Nucleic Acid Databases and Data Mining; Proteomics (biochemical properties, structure and interactions of proteins); Sanger sequence data analysis (quality assurance and information mining from DNA sequence data); Sequence data submission to public databases; DNA amplification and cloning; Comparative genomics (species or gene identification and sequence determination); Evolutionary relationship determination.
+      </li>
+    </ul>
+
+    <h3>Instructor</h3>
+    <ul class="center-list">
+      <li>
+        Dr. Abul Bashar Mir Md. Khademul Islam, Dept. of Genetic Engineering and Biotechnology, University of Dhaka
+      </li>
+    </ul>
+
+    <h3>Organized By</h3>
+    <ul class="center-list">
+      <li>
+        Center for Next Generation Sequencing and Analytics, Ministry of Science and Technology, Bangladesh
+      </li>
+    </ul>
+
+    <h3>Date</h3>
+    <p>15 October 2022</p>
+
+  </div>
+</div>
+`);
+</script>
+
+<style>
+  /* Slideshow container */
+  .slideshow-container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Each slide */
+  .mySlides{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  .mySlides:first-child{ opacity: 1; }
+
+  /* Program details */
+  #program-details{
+    font-family: Arial, sans-serif;
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    font-size: 1.1em;
+    line-height: 1.7;
+  }
+
+  #program-details h2, #program-details h3{
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  #program-details ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #program-details li{
+    margin: 6px 0;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  #program-details li.justify{
+    text-align: justify;
+    margin: 0 20px;
+    line-height: 1.45;
+  }
+
+  #program-details li.title-line{
+    font-weight: 700;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto 10px auto;
+    line-height: 1.2;
+  }
+
+  /* Instructor + Organized By centered */
+  .center-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .center-list li{
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.15;
+    margin: 0;
+    padding: 0;
+  }
+
+  #program-details p{
+    font-size: 1.05em;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('#intro-section .mySlides');
+    if (!slides || slides.length === 0) return;
+
+    function showSlides() {
+      slides.forEach((s) => (s.style.opacity = '0'));
+      slideIndex = (slideIndex + 1) > slides.length ? 1 : (slideIndex + 1);
+      slides[slideIndex - 1].style.opacity = '1';
+      setTimeout(showSlides, 3000);
+    }
+
+    showSlides();
+  });
+</script>

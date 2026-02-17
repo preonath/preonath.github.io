@@ -2,15 +2,13 @@
 title: "Single-cell RNA Sequencing Analysis Workshop"
 image: "single_cell_workshop_1.jpg"
 description: "Teaching Instructor"
+date: "2026-01-06"
 format:
   html:
     includes:
       in_header: style.css
       before_body: cover.html
 ---
-::: {.text-center style="font-size:1.1em; margin-top:8px;"}
-📅 **6, 11 & 12 January 2026**
-:::
 
 <script type="text/javascript">
 document.write(`

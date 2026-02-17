@@ -2,6 +2,7 @@
 title: "AI in Public Health Workshop"
 image: "ai_teaching.jpeg"
 description: "Teaching Instructor"
+date: "2023-09-06"
 text-align: center;
 format:
   html:
