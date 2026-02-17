@@ -1,6 +1,7 @@
 ---
 title: "Bioinformatics Division, National Institute of Biotechnology (NIB)"
 image: "nib_traning.jpg"
+date: "2022-06-11"
 description: "Teaching Instructor"
 format:
   html:
@@ -11,7 +12,7 @@ format:
 <script type="text/javascript">
 document.write(`
 <!-- Background Image with Gradient Overlay and Slideshow -->
-<div id="intro-section" style="position: relative; text-align: center; color: white;">
+<div id="intro-section" style="position: relative; text-align: center;">
 
   <!-- Slideshow Background -->
   <div class="slideshow-container">
@@ -22,79 +23,55 @@ document.write(`
   </div>
 
   <!-- Structured Program Details Below the Image -->
-  <div id="program-details" style="padding-left: 0px; margin-left: 0px; background-color: #f9f9f9;">
-    <h2 style="text-align: center; font-size: 2em; font-weight: bold;">Program Outline & Learning Objectives</h2>
-    <ul style="list-style-type: none; padding-left: 0;">
-      <li style="text-align: justify; margin: 0 20px;"><strong></strong> This program will help participants understand the basics of Linux OS and its applications in bioinformatics workflows, learn Bash scripting for automating NGS workflows, use Biopython and R programming for NGS data analysis and processing, perform Next Generation Sequencing (NGS) data analysis techniques, and apply bioinformatics tools for sequence alignment and variant calling.</li>
+  <div id="program-details">
+
+    <h2>Program Outline & Learning Objectives</h2>
+    <ul>
+      <li class="justify">
+        This program will help participants understand the basics of Linux OS and its applications in bioinformatics workflows, learn Bash scripting for automating NGS workflows, use Biopython and R programming for NGS data analysis and processing, perform Next Generation Sequencing (NGS) data analysis techniques, and apply bioinformatics tools for sequence alignment and variant calling.
+      </li>
     </ul>
 
+    <h3>Training Format and Activities</h3>
+    <ul>
+      <li>Interactive lectures and presentations</li>
+      <li>Hands-on exercises for Linux OS and scripting</li>
+      <li>Practical demonstrations using Biopython</li>
+      <li>NGS data analysis workflow discussions</li>
+      <li>Assignments for participants</li>
+    </ul>
 
+    <h3>Instructors</h3>
+    <ul>
+      <li>All Team members</li>
+      <li>Bioinformatics Division, National Institute of Biotechnology (NIB)</li>
+    </ul>
 
+    <h3>Program Schedule</h3>
+    <ul class="program-schedule">
+      <li><span>Day 1: Introduction to Linux OS and its role in bioinformatics</span></li>
+      <li><span>Day 2: Bash scripting for automation and task management</span></li>
+      <li><span>Day 3: Python and Biopython for NGS data analysis</span></li>
+      <li><span>Day 4: NGS workflows and data interpretation</span></li>
+      <li><span>Day 5: Final project and hands-on NGS data analysis</span></li>
+    </ul>
 
-  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Training Format and Activities</h3>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li>Interactive lectures and presentations</li>
-    <li>Hands-on exercises for Linux OS and scripting</li>
-    <li>Practical demonstrations using Biopython</li>
-    <li>NGS data analysis workflow discussions</li>
-    <li>Assignments for participants</li>
-  </ul>
+    <h3>Duration & Location</h3>
+    <p>Duration: 5 days <br> National Institute of Biotechnology (NIB), Dhaka, Bangladesh</p>
 
-  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Instructors</h3>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li>Bioinformatics Division, National Institute of Biotechnology (NIB)</li>
-  </ul>
+    <p>
+      <a href="https://nib.gov.bd" class="btn btn-primary rounded-pill me-2"
+         style="padding: 15px 30px; font-size: .8em; text-decoration: none;">
+         Program Details
+      </a>
+    </p>
 
-
-  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Program Schedule</h3>
-  <ul style="list-style-type: none; padding-left: 80px; margin-left: 80px;">
-      <li style="text-align: left;">Day 1: Introduction to Linux OS and its role in bioinformatics</li>
-      <li style="text-align: left;">Day 2: Bash scripting for automation and task management</li>
-      <li style="text-align: left;">Day 3: Python and Biopython for NGS data analysis</li>
-      <li style="text-align: left;">Day 4: NGS workflows and data interpretation</li>
-      <li style="text-align: left;">Day 5: Final project and hands-on NGS data analysis</li>
-  </ul>
-
-
-  <h3 style="text-align: center; font-size: 2em; font-weight: bold;">Duration & Location</h3>
-  <p style="text-align: center;">Duration: 5 days <br> National Institute of Biotechnology (NIB), Dhaka, Bangladesh</p>
-
-  <p style="text-align: center;">
-    <a href="https://nib.gov.bd" class="btn btn-primary rounded-pill me-2" style="padding: 15px 30px; font-size: .6em;">Program Details</a>
-  </p>
+  </div>
 </div>
 `);
 </script>
 
-<!-- Add additional details if required -->
 <style>
-  #program-details {
-    font-family: Arial, sans-serif;
-    color: #333;
-    line-height: 1.8;
-    padding: 100px; /* Added more padding on the left */
-    background-color: #f9f9f9;
-    max-width: 1200px;
-    margin: 0 auto;
-    font-size: 1.2em;
-  }
-  
-  h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  ul ul {
-    margin-left: 60px; /* Increased indentation */
-  }
-
-  p {
-    font-size: 1.2em;
-    margin: 0 auto;
-  }
-
   /* Slideshow container */
   .slideshow-container {
     position: relative;
@@ -114,26 +91,114 @@ document.write(`
     transition: opacity 1.5s ease-in-out;
   }
 
-  .mySlides:first-child {
-    opacity: 1;
+  .mySlides:first-child { opacity: 1; }
+
+  /* PROGRAM DETAILS */
+  #program-details {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #ffffff !important;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    font-size: 1.1em;
+    line-height: 1.7;
   }
+
+  #program-details h2, #program-details h3 {
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  #program-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #program-details li {
+    margin: 6px 0;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  #program-details li.justify {
+    text-align: justify;
+    margin: 0 20px;
+  }
+
+  #program-details p {
+    font-size: 1.05em;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  /* PROGRAM SCHEDULE — EXTRA TIGHT */
+  .program-schedule{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:2px;                 /* was 6px */
+    padding:0;
+    margin:0 auto;
+  }
+
+  .program-schedule li{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin:0;                /* keep zero */
+    padding:0;               /* keep zero */
+  }
+
+  .program-schedule li span{
+    max-width:900px;
+    width:100%;
+    display:block;
+    text-align:center;
+    line-height:1.05;        /* was 1.25 */
+    margin:0;
+    padding:0;
+  }
+
+  /* BUTTON */
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 999px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover { background-color: #0056b3; }
 </style>
 
 <script>
-  let slideIndex = 0;
-  const slides = document.querySelectorAll('.mySlides');
-  
-  function showSlides() {
-    slides.forEach((slide) => {
-      slide.style.opacity = '0';  // Hide all slides
-    });
-    slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1; }  // Loop back to first slide
-    slides[slideIndex - 1].style.opacity = '1';  // Show the current slide
-    setTimeout(showSlides, 3000);  // Change image every 3 seconds
-  }
+  document.addEventListener("DOMContentLoaded", function () {
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('#intro-section .mySlides');
+    if (!slides || slides.length === 0) return;
 
-  document.addEventListener("DOMContentLoaded", function() {
-    showSlides();  // Initialize the slideshow
+    function showSlides() {
+      slides.forEach((s) => (s.style.opacity = '0'));
+      slideIndex = (slideIndex + 1) > slides.length ? 1 : (slideIndex + 1);
+      slides[slideIndex - 1].style.opacity = '1';
+      setTimeout(showSlides, 3000);
+    }
+
+    showSlides();
   });
 </script>

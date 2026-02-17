@@ -2,6 +2,7 @@
 title: "Bacterial Genomics & Antimicrobial Resistance Workshop"
 description: "Teaching Instructor"
 image: "teaching_ngs.jpeg"
+date: "2024-06-30"
 format:
   html:
     includes:
