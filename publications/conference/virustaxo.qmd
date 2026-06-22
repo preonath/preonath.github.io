@@ -1,0 +1,39 @@
+---
+title: "VirusTaxo: Taxonomic classification of viruses from the genome sequence using k‑mer enrichment"
+type: "Journal Article"
+author: "Rajan Saha Raju, Abdullah Al Nahid, Preonath Chondrow Dev, Rashedul Islam"
+year: "2022"
+publication: "Genomics"
+volume: "114"
+issue: "4"
+article_number: "110414"
+doi: "https://doi.org/10.1016/j.ygeno.2022.110414"
+materials: "publications/conference/virustaxo.pdf"
+toc: false
+categories:
+  - Research
+  - Virology
+  - Bioinformatics
+---
+
+## Abstract
+Classification of viruses into their taxonomic ranks (e.g., order, family, genus) provides a framework to organize an abundant population of viruses. Next-generation metagenomic sequencing technologies lead to a rapid increase in generating sequencing data of viruses which require bioinformatics tools to analyze the taxonomy. Many metagenomic taxonomy classifiers have been developed to study microbiomes, but it is particularly challenging to assign the taxonomy of diverse virus sequences and there is a growing need for dedicated methods to be developed that are optimized to classify virus sequences into their taxa. VirusTaxo, developed using diverse (e.g., 402 DNA and 280 RNA) genera of viruses, has an average accuracy of 93% at genus level prediction in DNA and RNA viruses. VirusTaxo outperformed existing taxonomic classifiers by assigning taxonomy to a larger fraction of metagenomic contigs compared to other methods. Benchmarking of VirusTaxo on a collection of SARS-CoV-2 sequencing libraries and metavirome datasets suggests that VirusTaxo can characterize virus taxonomy from highly diverse contigs and provide a reliable decision on the taxonomy of viruses.
+
+**Keywords**: Virus Taxonomy, Hierarchical Classification, k-mer, Genome
+
+## Results:
+### Classification of taxonomic ranks of viruses using VirusTaxo
+
+
+![](/files/img/publication/virustaxo/1-s2.0-S0888754322001598-gr1.jpg "Multi-class hierarchical classification model. Example of a hierarchical structure of virus taxonomic ranks. Classifier(s) are added at each level of taxonomic ranks. To build the VirusTaxo models, k-mers are extracted from the genomes of each class. Unique k-mers are then indexed and stored in a database to find the k-mer overlap with the query sequence. To measure the confidence of prediction, VirusTaxo provides a ranking of genus prediction using softmax probability and entropy scores")
+<br>
+
+### Accuracy of VirusTaxo for order, family, and genus level classification in the pilot dataset.
+![](/files/img/publication/virustaxo/1-s2.0-S0888754322001598-gr2.jpg "Accuracy of VirusTaxo for order, family, and genus level classification in the pilot dataset. a) Changes of accuracies at
+different k-mers. For DNA and RNA datasets, 21 and 17 k-mer lengths provided the highest accuracy which are highlighted in gray dotted lines. b) Accuracies with different minimum frequency thresholds (MFT) at k-mer length of 21 bp and 17 bp in DNA and RNA viruses respectively. c) Accuracies of VirusTaxo for 10 rounds of testing of DNA and RNA models. For each iteration of hierarchical testing, one species genome per genus was randomly selected from the DNA and RNA datasets.")
+<br>
+
+### Benchmarking of VirusTaxo for SARS-CoV-2 genomes
+![](/files/img/publication/virustaxo/1-s2.0-S0888754322001598-gr3.jpg "Benchmarking of VirusTaxo for SARS-CoV-2 genomes includes: a) Schematic representation of hierarchical prediction of taxonomic ranks of SARS-CoV-2 genome using VirusTaxo, classifying the order, family, and genus, highlighted in red; b) Ranking by Softmax probability at genus level for the SRR10971381 assembly; c) Distribution of the fraction of genome assembled in 5793 assemblies of SARS-CoV-2 genome; d) Screenshot of the VirusTaxo web interface (https://omics-lab.com/virustaxo). (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)")
+
+

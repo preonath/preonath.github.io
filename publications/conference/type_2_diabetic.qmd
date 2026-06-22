@@ -1,0 +1,39 @@
+---
+title: "Prevalence of hyperlipidemia in controlled and uncontrolled type‑2 diabetic patients"
+type: "Journal Article"
+author: "Mohammad Abul Hasnat, Farhan Rahman Niloy, Arafat Islam Ashik, Mahedi Hasan, Preonath Chondrow Dev, Sharmin Sultana Panna, Md. Waseque Mia, Zafrul Hasan"
+year: "2022"
+publication: "Journal of Advanced Biotechnology and Experimental Therapeutics"
+volume: "5"
+issue: "1"
+pages: "247-256"
+doi: "10.5455/jabet.2022.d112"
+materials: "publications/conference/type_2_diabetic.pdf"
+toc: false
+categories:
+  - Research
+  - Endocrinology
+  - Public Health
+---
+
+## Abstract
+Patients with type-2 diabetes mellitus (T2DM) are known to suffer from hyperlipidemia. How hyperlipidemia is associated with controlled and uncontrolled T2DM patients in Bangladesh remained to be addressed. In this cross-sectional study, 211 participants were enrolled who have been suffering from T2DM for more than 4 years from the northeastern part of Bangladesh. Controlled and uncontrolled patients were defined with their plasma glycated hemoglobin (HbA1c) levels. Among them, 39% and 61% were in the diabetic-controlled and uncontrolled groups, respectively. Indeed, the diabetic uncontrolled group showed a higher frequency of hypercholesterolemia, hypertriglyceridemia, hyper LDL-cholesterolemia, and hypo HDL-cholesterolemia compared to the diabetic controlled group. Lipid profiling analysis revealed significantly elevated (p<0.0001) levels of cholesterol, triglyceride, and low-density lipoprotein (LDL) in uncontrolled than the controlled group, while high-density lipoprotein (HDL) was significantly (p<0.0001) lower in uncontrolled diabetic patients. Interestingly, significantly (p<0.05) higher dyslipidemia was also observed in individuals with a controlled diabetic population, who have been suffering from T2DM for more than 7 years. Therefore, these results highlight that not only the diabetic uncontrolled but also the controlled group patients have a high risk of developing hyperlipidemia after a certain period of diabetes.
+
+**Keywords**: Uncontrolled, Duration, Controlled, Hyperlipidemia, Diabetes
+
+## Results:
+### Classification of taxonomic ranks of viruses using VirusTaxo
+
+
+![](/files/img/publication/type_2_diabetic/1.png "(A) The score of HbA1c between controlled and uncontrolled diabetic patients, which is significant using student t-test, p<0.0001. (B) Appearance of diabetes mellitus in several age groups.")
+<br>
+
+### Accuracy of VirusTaxo for order, family, and genus level classification in the pilot dataset.
+![](/files/img/publication/type_2_diabetic/2.png "Accuracy of VirusTaxo for order, family, and genus level classification in the pilot dataset. a) Changes of accuracies at
+different k-mers. For DNA and RNA datasets, 21 and 17 k-mer lengths provided the highest accuracy which are highlighted in gray dotted lines. b) Accuracies with different minimum frequency thresholds (MFT) at k-mer length of 21 bp and 17 bp in DNA and RNA viruses respectively. c) Accuracies of VirusTaxo for 10 rounds of testing of DNA and RNA models. For each iteration of hierarchical testing, one species genome per genus was randomly selected from the DNA and RNA datasets.")
+<br>
+
+### Benchmarking of VirusTaxo for SARS-CoV-2 genomes
+![](/files/img/publication/type_2_diabetic/3.png "Benchmarking of VirusTaxo for SARS-CoV-2 genomes includes: a) Schematic representation of hierarchical prediction of taxonomic ranks of SARS-CoV-2 genome using VirusTaxo, classifying the order, family, and genus, highlighted in red; b) Ranking by Softmax probability at genus level for the SRR10971381 assembly; c) Distribution of the fraction of genome assembled in 5793 assemblies of SARS-CoV-2 genome; d) Screenshot of the VirusTaxo web interface (https://omics-lab.com/virustaxo). (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)")
+
+

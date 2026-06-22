@@ -1,0 +1,19 @@
+---
+pagetitle: "Projects | Preonath"
+listing:
+  contents: projects
+  sort: "title"
+  type: grid
+  grid-columns: 2
+  grid-item-border: true 
+  grid-item-align: left
+  image-height: 260px
+  categories: true
+  sort-ui: true 
+  filter-ui: true  
+page-layout: full
+title-block-banner: false
+comments: false
+---
+
+

@@ -1,0 +1,225 @@
+---
+title: "HCA Thailand 2024 Workshop"
+description: "Computational and Experimental Design Workshop"
+# date: "2024-06-24"
+image: "HSCOpCEDW.jpg"
+format:
+  html:
+    includes:
+      in_header: style.css
+      before_body: cover.html
+---
+
+<script type="text/javascript">
+document.write(`
+<!-- Background Image with Gradient Overlay and Slideshow -->
+<div id="intro-section" style="position: relative; text-align: center; color: white;">
+
+   <!-- Slideshow Background -->
+  <div class="slideshow-container">
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_0.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_1.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_2.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_3.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_4.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_5.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_6.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_7.jpg'); background-size: cover; background-position: center;"></div>
+     <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_8.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_9.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_10.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_11.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_12.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_13.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_14.jpg'); background-size: cover; background-position: center;"></div>
+     <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_15.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_16.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_16.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_17.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_18.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_19.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="mySlides fade" style="background-image: linear-gradient(to bottom right, rgba(0, 128, 128, 0.3), rgba(0, 128, 128, 0.3)), url('../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/HSCOpCEDW_20.jpg'); background-size: cover; background-position: center;"></div>
+  </div>
+
+  <!-- Text Overlay on the Background Image -->
+  <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); text-align: center; width: 100%;">
+    <h1 style="font-size: 3em; font-weight: bold; text-align: center;">HCA Thailand 2024 Workshop</h1>
+    <p style="font-size: 1.5em; text-align: center; max-width: 800px; margin: 0 auto;">Hands-on computational and experimental design workshop on single-cell sequencing technologies, bioinformatics, and omics integration.</p>
+  </div>
+</div>
+
+<!-- Workshop Details Section -->
+<section id="workshop-details" style="padding: 40px 20px; text-align: center;">
+  <h2>About the Workshop</h2>
+  <p>Single-cell sequencing technologies are powerful tools used to assess genomic, transcriptomic, and proteomic information at the single-cell level. 
+  In recent years, the application of techniques that use single-cell sequencing has become increasingly common in several areas of research: including medicine, 
+  agriculture, and other life sciences disciplines. The workshop focuses on providing hands-on experience and in-depth bioinformatics training to ensure participants 
+  gain a strong foundation in single-cell methodologies.</p>
+
+  <h3>Learning Outcomes</h3>
+  <ul style="list-style-type: none; padding: 0; text-align: central; max-width: 800px; margin: 0 auto;">
+    <li><strong>Module 1:</strong> Preprocessing of raw scRNA-seq data using various methods (10X Genomics, CEL-seq2, etc.).</li>
+    <li><strong>Module 2:</strong> Quality control, exploratory analysis, normalization, clustering, and differential expression analysis.</li>
+    <li><strong>Module 3:</strong> Data integration and batch-effect correction using Seurat and Harmony.</li>
+    <li><strong>Module 4:</strong> Deciphering cell-cell communication using LIANA.</li>
+    <li><strong>Module 5:</strong> BCR/TCR profiling and CITE-Seq in single-cell analysis.</li>
+    <li><strong>Module 6:</strong> Trajectory inference and pseudotemporal ordering using Monocle3.</li>
+  </ul>
+
+  <h3>Funding and Collaborators</h3>
+  <ul style="list-style-type: none; padding: 0; text-align: central; max-width: 800px; margin: 0 auto;">
+    <li>Shalek Lab - MIT, Harvard Stem Cell Institute, and Mahidol University.</li>
+    <li>Supported by the Human Cell Atlas and Wellcome Connecting Science.</li>
+    <li>Collaborators include:</li>
+    <ul>
+      <li>Nuo "Ivy" Liu, MIT/Broad Institute/Ragon Institute, US</li>
+      <li>Sergio Triana, MIT/Broad Institute/Ragon Institute, US</li>
+      <li>Son Ngoc Nguyen, MIT/Broad Institute/Ragon Institute, US</li>
+      <li>Constantine N Tzouanas, MIT/Broad Institute/Ragon Institute, US</li>
+    </ul>
+  </ul>
+
+
+  <h3 style="text-align: center; font-weight: bold;">Acknowledgements</h3>
+  <p style="text-align: center; font-size: 2em;">
+    <img src="../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/shalek_lab.png" alt="Shalek Lab Partner" style="max-width: 2000px; margin: 10px;">
+    <img src="../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/Wellcome_Connecting_Science.png" alt="Wellcome Connecting Science Partner" style="max-width: 200px; margin: 10px;">
+    <img src="../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/human_cell_atlas.png" alt="human cell atlas  Partner" style="max-width: 160px; margin: 10px;">
+    
+  <h3 style="text-align: center; font-weight: bold;">Founding & Hosting</h3>
+  <p style="text-align: center; font-size: 2em;">
+    <img src="../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/czi.jpg" alt="czi Partner" style="max-width: 150px; margin: 10px;">
+    <img src="../../files/img//training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/mahidol_university.png" lt="Mahidol University Partner" style="max-width: 150px; margin: 10px;">
+  <h3 style="text-align: center; font-weight: bold;">Donating kits</h3>
+  <p style="text-align: center; font-size: 2em;">
+    <img src="../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/10x_genomics.png" alt="10x_genomics Partner" style="max-width: 100px; margin: 10px;">
+    <img src="../../files/img/training/HCA_Single_Cell_Omics_in_person_Computational_and_Experimental_Design_Workshop/parsebio.png" alt="10x_genomics Partner" style="max-width: 150px; margin: 10px;">
+
+
+
+
+<!-- Workshop Dates and Location Section (moved to the bottom) -->
+<h3 style="text-align: center; font-weight: bold;">Location and Schedule</h3>
+<p style="text-align: center; font-size: 1em;">
+  <p>Mahidol University, Bangkok, Thailand</p>
+  <p>24th - 28th June, 2024</p>
+
+</section>
+<p style="text-align: center;">
+<a href="https://events.humancellatlas.org/hca_asiaws2024/home" class="btn btn-primary rounded-pill me-2">More Details</a>
+`);
+</script>
+
+<!-- Slideshow CSS and General Styles -->
+<style>
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Each slide */
+  .mySlides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+
+  /* Make the first slide visible initially */
+  .mySlides:first-child {
+    opacity: 1;
+  }
+
+  section#workshop-details {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+  }
+
+  /* Heading styling for consistency */
+  h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center; /* Center the headings */
+  }
+  /* Specific class for description */
+  .description {
+    text-align: center;  /* Ensure the description is centered */
+    font-size: 1.5em;    /* Optional: Adjust font size for emphasis */
+    margin: 0 auto;      /* Ensure centered alignment */
+  }
+
+  ul {
+    font-size: 1em; /* Set font size for outer list */
+    text-align: center; /* Corrected from central to center */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0 auto; /* Center the list itself */
+  }
+
+  ul ul {
+    font-size: 1em; /* Ensure nested list has the same font size */
+    text-align: center; /* Corrected from central to center */
+    padding-left: 20px; /* Optional: Indent the nested list slightly */
+  }
+
+
+  p {
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  /* Set the currently visible slide */
+  .mySlides.active {
+    opacity: 1;
+  }
+</style>
+
+<!-- Slideshow JavaScript -->
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.mySlides');
+  
+  function showSlides() {
+    slides.forEach((slide) => {
+      slide.style.opacity = '0';  // Hide all slides
+    });
+    
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }  // Loop back to first slide
+    
+    slides[slideIndex - 1].style.opacity = '1';  // Show the current slide
+    setTimeout(showSlides, 3000);  // Change image every 3 seconds
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    showSlides();  // Initialize the slideshow once the DOM is ready
+  });
+</script>

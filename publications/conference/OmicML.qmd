@@ -1,0 +1,34 @@
+---
+title: "omicML: An Integrative Bioinformatics and Machine Learning Framework for Transcriptomic Biomarker Identification"
+type: "Journal Article"
+author: "Joy Prokash Debnath, Kabir Hossen, Md. Sayeam Khandaker, Shawon Majid, Md Mehrajul Islam, Siam Arefin, Preonath Chondrow Dev, Saifuddin Sarker, Tanvir Hossain"
+year: "2025"
+publication: "bioRxiv"
+# volume: "114"
+# issue: "4"
+# article_number: "110414"
+doi: " https://doi.org/10.1101/2025.10.25.684517"
+materials: "publications/conference/OmicML.pdf"
+toc: false
+categories:
+  - Research
+  # - Virology
+  - Bioinformatics
+---
+
+## Abstract
+Transcriptomic biomarker discovery has been a challenge due to variation in datasets and platforms, complexity in statistical and computational methods, integration of multiple programming languages, and intricacy of ML workflow to evaluate biomarkers. Standard workflows necessitate several stages (quality control, normalization, differential expression), typically executed in R or Python, resulting in bottlenecks for non-experts. Existing platforms have alleviated certain challenges by offering graphical interfaces for data loading, normalization, differential gene expression analysis, and functional analysis; nevertheless, they typically do not incorporate integrated machine learning procedures for biomarker selection.
+
+## Method:
+In this regard, we present omicML, an intuitive graphical user interface (GUI) that combines transcriptomic data analysis with machine learning (ML)-based classification via integrating R and Python packages/libraries. It supports both RNA-Seq and microarray data, automating preprocessing (data import, quality control, and normalization) and differential expression analysis. The tool annotates differentially expressed genes (DEGs) with descriptions, gene ontology, and pathway information and incorporates comparative analysis. Our extensive ML pipeline enables both supervised and unsupervised learning, integrates various datasets based on candidate gene signatures, standardizes and eliminates less significant features, benchmarks multiple ML classifiers with robust performance metrics (e.g., AUROC, AUPRC), assesses feature importance, develops single-gene and multi-gene predictive models, and systematically finalizes the biomarker algorithm. All functionalities are available in omicML, hence reducing the barrier for biologists without computational proficiency. 
+
+## Result
+In a case study, omicML identified a six-gene diagnostic model that distinguishes Mpox (monkeypox virus) infections from those caused by other viruses, including SARS-CoV-2, HIV, Ebola, and varicella-zoster. These results illustrate omicML's capacity to discern clinically relevant biomarkers from complex transcriptome data.
+
+## Conclusion
+Through the unified system, omicML (https://omicml.org), integrating data preprocessing, differential gene expression analysis, annotation, heatmap analysis, dataset integration, batch effect correction, machine learning approach, and functional analysis can diminish technical barriers and accelerate the conversion of expression data into diagnostic insights for clinicians and bench scientists.
+
+**Keywords**: Machine Learning (ML), Biomarker, Mpox, Differentially Expressed Genes (DEGs), Graphical User Interface (GUI), Transcriptomics, Bioinformatics, Web-based platform
+
+
+
